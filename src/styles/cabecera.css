@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
+
+.cabecera{
+    position:sticky;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110px;
+    background-color: white;
+    font-family: 'Roboto Flex', sans-serif;
+}
+.contCabecera{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    background-color: white;
+}
+#logoCabecera{
+    display:block;
+    padding: 10px 8px 8px;
+    width: 580px;
+    min-width: 550px;
+}
+#navCabecera{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 450px;
+    /*min-width: 490px;*/
+    height: 30px;
+
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#navCabecera ul{
+    margin: 0;
+    padding: 0;
+}
+.subnavCabecera{
+    display: block;
+    position: fixed;
+    background-color: white;
+    top: 100px;
+    left: 20%;
+    width: calc(80% - 20px);
+    height: auto;
+    min-height: 65px;
+    padding-top: 10px;
+    border-radius: 0 0 7px 7px;
+}
+.contSubnav{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: auto;
+    padding-bottom: 20px;
+}
+.contSubnav p{
+    border-bottom: 1px solid red;
+    margin: 20px 20px 15px 20px;
+    color: darkgrey;
+}
+.contSubnav>p:first-of-type{
+    border-bottom: 1px solid red;
+    margin-right: 70px;
+}
+#liCorto{
+    margin: .75em 75px 0 0;
+
+}
+.contSubnav>ul>li{
+    margin: 2px 20px 2px 0;
+    list-style: none;
+    height: 1.5em;
+    line-height: 1.7em;
+    border-radius: 7px;
+    padding: 5px 0 5px 8px;
+}
+.cerrar {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    margin: 10px 15px;
+}
+.cerrar:hover{
+    cursor: pointer;
+}
+#navCabecera li {
+    display: inline-block;
+    padding: 4px 6px;
+    margin: 0;
+    transition: color 100ms;
+    border-radius: 7px;
+}
+#navCabecera li:hover,.contSubnav>ul>li:hover{
+    background-color: red;
+    transition: 100ms;
+    color: white;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
