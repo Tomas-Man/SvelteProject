@@ -9,6 +9,7 @@
     height: 110px;
     background-color: white;
     font-family: 'Roboto Flex', sans-serif;
+    z-index: 20;
 }
 .contCabecera{
     position: relative;
@@ -34,7 +35,6 @@
     width: 450px;
     /*min-width: 490px;*/
     height: 30px;
-
     font-size: 20px;
     text-transform: uppercase;
 }
