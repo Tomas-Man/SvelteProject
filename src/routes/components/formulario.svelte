@@ -5,10 +5,10 @@
 <div class="form">
     <form action="https://api.staticforms.xyz/submit" method="post">
         <input type="hidden" name="accessKey" value="{clave}">
-        <label for="email">Email del remitente</label>
-        <input type="text" name="email" id="email" required>
-        <label for="mensaje">Texto de consulta</label>
-        <textarea name="message" id="mensaje" required></textarea>
+        <label for="email">Email del remitente</label> <br>
+        <input type="text" name="email" id="email" required> <br>
+        <label for="message">Texto de consulta</label> <br>
+        <textarea name="message" id="message" cols="30" rows="1" required="required"></textarea> <br>
         <input type="hidden" name="redirectTo" value="https://svelte-project-tomas-man.vercel.app/">
         <button value="Submit">ENVIAR CONSULTA</button>
     </form>
