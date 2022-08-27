@@ -53,6 +53,7 @@
     }
     .carrusel:hover{
         opacity: 1;
+        cursor: pointer;
     }
     .fotoC{
         position: relative;
@@ -110,16 +111,6 @@
         opacity: 0.5;
         transition: opacity 1s;
     }
-    .flechaIzq{
-        position: relative;
-        top: 0;
-        left: -100px;
-        width: 70px;
-        display: inline-block;
-        margin-top: 0;
-        opacity: 0.5;
-        transition: opacity 1s;
-    }
     .flechaDcha{
         position: relative;
         top: 0;
@@ -132,11 +123,13 @@
     }
     .flechaIzq:hover,.flechaDcha:hover{
         opacity: 1;
+        cursor: pointer;
     }
     .flechaIzq>img{
         width: 100%;
         fill: #dc001b;
     }
+    /*a partir de 1690px hay que hacer mediaquery*/
 </style>
 
 
