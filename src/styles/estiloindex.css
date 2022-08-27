@@ -2,6 +2,9 @@
     font-family: "Decima Nova Pro";
     src: url("/fonts/DecimaNovaPro.otf");
 }
+*{
+    font-family: "Decima Nova Pro", sans-serif;
+}
 #fondo{
     position: fixed;
     top: 0;

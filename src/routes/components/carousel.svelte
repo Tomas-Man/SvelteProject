@@ -127,7 +127,8 @@
 <style>
     .carousel {
         position: relative;
-        width: 100%;
+        left: 10%;
+        width: 80%;
         justify-content: center;
         align-items: center;
     }

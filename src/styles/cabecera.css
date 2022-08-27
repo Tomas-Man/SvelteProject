@@ -35,10 +35,9 @@
     right: 0;
     display: block;
     width: 450px;
-    /*min-width: 490px;*/
     height: 30px;
     font-size: 20px;
-    text-transform: uppercase;
+
 }
 #navCabecera ul{
     margin: 0;
@@ -48,9 +47,9 @@
     display: block;
     position: fixed;
     background-color: white;
-    top: 100px;
-    left: 20%;
-    width: calc(80% - 20px);
+    top: 110px;
+    left: 50%;
+    width: calc(50% - 20px);
     height: auto;
     min-height: 65px;
     padding-top: 10px;
