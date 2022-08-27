@@ -1,7 +1,7 @@
 <script>
     //import Carousel from 'svelte-carousel';
     import '../styles/estiloindex.css';
-    import Carrusel from './components/CarruselNoticias.svelte'
+    import Carrusel from './components/carruselNoticias.svelte'
 </script>
 <div id="fondo"></div>
 <main>

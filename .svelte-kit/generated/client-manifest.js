@@ -3,7 +3,7 @@ export { matchers } from './client-matchers.js';
 export const components = [
 	() => import("..\\..\\src\\routes\\__layout.svelte"),
 	() => import("..\\runtime\\components\\error.svelte"),
-	() => import("..\\..\\src\\routes\\components\\CarruselNoticias.svelte"),
+	() => import("..\\..\\src\\routes\\components\\carruselNoticias.svelte"),
 	() => import("..\\..\\src\\routes\\components\\background.svelte"),
 	() => import("..\\..\\src\\routes\\components\\cabecera.svelte"),
 	() => import("..\\..\\src\\routes\\components\\carousel.svelte"),
