@@ -1,6 +1,7 @@
 <script>
     //import Carousel from 'svelte-carousel';
     import '../styles/estiloindex.css';
+    import Carrusel from './components/CarruselNoticias.svelte'
 </script>
 <div id="fondo"></div>
 <main>
@@ -16,7 +17,7 @@
     <section>
     <div id="noticias">
         <h1>NOTICIAS</h1>
-
+        <Carrusel />
     </div>
         <p>Aspernatur, quos, sit. Corporis delectus deserunt dolor error ex hic, impedit in ipsum minima, quod quos
             similique, sit vel? At, culpa, cupiditate ducimus, earum et itaque iure minus nesciunt pariatur quisquam sint
