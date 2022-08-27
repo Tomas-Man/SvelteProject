@@ -14,5 +14,8 @@
 		"svelte": "^3.44.0",
 		"svelte-carousel": "^1.0.19"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"siema": "^1.5.1"
+	}
 }
