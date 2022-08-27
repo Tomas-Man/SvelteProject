@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Decima Nova Pro";
+    font-family: "Decima Nova Pro", sans-serif;
     src: url('/fonts/DecimaNovaPro.otf');
 }
 .contMain{
