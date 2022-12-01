@@ -1,5 +1,5 @@
 <script>
-    import '../../styles/noticiafoto.css'
+    import '../../../src/styles/noticiafoto.css'
 </script>
 <section class="contMain">
     <div class="contTitulo">

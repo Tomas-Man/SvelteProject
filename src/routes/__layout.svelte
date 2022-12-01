@@ -1,6 +1,6 @@
 <script>
-    import Cabecera from './components/cabecera.svelte'
-    import Footer from './components/footer.svelte'
+    import Cabecera from '../lib/cabecera.svelte'
+    import Footer from '../lib/footer.svelte'
 </script>
 <Cabecera />
 <main>

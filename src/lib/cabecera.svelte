@@ -1,7 +1,7 @@
 <script>
     //importar estilos
-    import '../../styles/global.css';
-    import '../../styles/cabecera.css';
+    import '../styles/global.css';
+    import '../styles/cabecera.css';
     //creación de variables para la barra de navegación
     let eShow=false;
     let cShow=false;

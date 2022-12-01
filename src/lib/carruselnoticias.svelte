@@ -2,17 +2,17 @@
 <script>
     import Carousel from './carousel.svelte';
     const imgN = [
-        {path: "/img/noticias/admision.jpg", alt: "admision.jpg", id: "imageN1", ruta: "../estudios/eso",
+        {path: "/img/noticias/admision.jpg", alt: "admision.jpg", id: "imageN1", ruta: "../estudios/eso", titulo: "",
         resumen: ''},
-        {path: "/img/noticias/admisiones-ESO.jpeg", alt: "admisiones-ESO.jpeg", id: "imageN2", ruta: "../privacidad",
+        {path: "/img/noticias/admisiones-ESO.jpeg", alt: "admisiones-ESO.jpeg", id: "imageN2", ruta: "../privacidad", titulo: "Periodo de amisiones ESO",
         resumen: 'Abierto el periodo de admisiones para la ESO. Del 18 de marzo al 6 de abril, en la secretaría del Centro Don Bosco de 9:30h a 13:30h. Teléfono: 979777270'},
-        {path: "/img/noticias/cartel-1-mayo.jpeg", alt: "noticiaImg3", id: "imageN3", ruta: "../noticias/2022/1-de-mayo",
+        {path: "/img/noticias/cartel-1-mayo.jpeg", alt: "noticiaImg3", id: "imageN3", ruta: "../noticias/2022/1-de-mayo", titulo: "",
         resumen: ''},
-        {path: "/img/noticias/cartel-jornadas-innovacion.jpg", alt: "noticiaImg4", id: "imageN4", ruta: "",
+        {path: "/img/noticias/cartel-jornadas-innovacion.jpg", alt: "noticiaImg4", id: "imageN4", ruta: "", titulo: "",
         resumen: ''},
-        {path: "/img/noticias/graduacion-22-00.jpg", alt: "noticiaImg5", id: "imageN5", ruta: "",
+        {path: "/img/noticias/graduacion-22-00.jpg", alt: "noticiaImg5", id: "imageN5", ruta: "", titulo: "",
         resumen: ''},
-        {path: "/img/noticias/info-solicitudes-fp.jpg", alt: "noticiaImg6", id: "imageN6", ruta: "",
+        {path: "/img/noticias/info-solicitudes-fp.jpg", alt: "noticiaImg6", id: "imageN6", ruta: "", titulo: "",
         resumen: ''}
     ];
 </script>
@@ -24,6 +24,9 @@
                 <img src={imageN.path} alt={imageN.alt}>
             </div>
             <div class="contResumen">
+                <div class="tituloN">
+                    <h2>{imageN.titulo}</h2>
+                </div>
                 <div class="noticiaResumen">
                     <p>{imageN.resumen}</p>
                 </div>
@@ -75,12 +78,16 @@
         width: 100%;
         height: 100%;
     }
+    .tituloN{
+        position: relative;
+        top: 10px;
+    }
     .noticiaResumen{
         position: relative;
         top: 20px;
         left: 5%;
         width: 90%;
-        height: 30%;
+        height: 20%;
         text-align: left;
     }
     .noticiaResumen>p{

@@ -1,9 +1,11 @@
 <script>
     import '../styles/estiloindex.css';
-    import Carrusel from './components/carruselnoticias.svelte'
+    import Carrusel from '../lib/carruselnoticias.svelte'
+    import FichaOferta from '../lib/fichaoferta.svelte'
+    import FichaSeccionServicios from '../lib/fichaservicio.svelte'
+    import FichaMeritos from '../lib/fichamerito.svelte'
 </script>
 <div id="fondo"></div>
-<main>
     <section id="portada">
         <div id="tabNews">
             <h2>ÚLTIMAS NOTICIAS</h2>
@@ -46,4 +48,19 @@
                 <p>VER MÁS SOBRE NUESTRO MÉTODO EDUCATIVO</p>
         </div>
     </section>
-</main>
+    <section id="ofertaedu">
+        <h1>OFERTA EDUCATIVA</h1>
+        <div class="contOferta">
+                <FichaOferta />
+        </div>
+    </section>
+    <section id="servicios">
+        <h1>SERVICIOS</h1>
+        <FichaSeccionServicios />
+    </section>
+    <section id="meritos">
+        <h1>NUESTROS MÉRITOS</h1>
+        <FichaMeritos />
+    </section>
+<style>
+</style>

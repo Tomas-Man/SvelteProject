@@ -1,0 +1,198 @@
+@font-face {
+    font-family: "Decima Nova Pro";
+    src: url("/fonts/DecimaNovaPro.otf");
+}
+*{
+    font-family: "Decima Nova Pro", sans-serif;
+}
+h2{
+    font-size: 2em;
+    font-weight: lighter;
+}
+p{
+    color: #2E2E2E;
+}
+.fondo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url("/img/ciclos/eso/fondo-eso.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.titulo{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60vh;
+    color: white;
+}
+.tituloeso{
+    position: relative;
+    top: 15vh;
+    text-align: center;
+    line-height: 15vh;
+}
+.tituloeso h1{
+    font-size: 5em;
+}
+.tituloeso h2{
+    font-size: 3em;
+}
+.resumenESO{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 620px;
+    display: inline-flex;
+    background-color: #d9d9d9;
+    color: #2E2E2E;
+}
+.imgresESO{
+    position: relative;
+    top: 40px;
+    left: 40px;
+    width: 100%;
+    height: 100%;
+}
+.textresESO{
+    position: relative;
+    top: 40px;
+    left: 0;
+    height: 100%;
+    font-size: 1.5em;
+    padding: 0 20px 0 60px;
+    text-align: justify;
+}
+.imgresESO img{
+    width: 100%;
+    max-width: 800px;
+    min-width: 645px;
+}
+.claves{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60vh;
+    color: white;
+}
+.claves h1{
+    position: relative;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 5em;
+    font-weight: lighter;
+}
+.iconosclaves{
+    position: relative;
+    top: 30%;
+    left: calc(50% - 825px);
+    height: 100%;
+    display: inline-flex;
+}
+.iconoESO{
+    position: relative;
+    top: 30px;
+    left: 0;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 30px;
+    background-color: rgba(46, 46, 46, 0.7);
+}
+.iconoESO p{
+    position: relative;
+    top: 30px;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+.iconoESO img{
+    position: relative;
+    top: 18px;
+    left: 90px;
+    width: 120px;
+}
+.valores{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 211vh;
+    background-color: #d9d9d9;
+}
+.fotoIzq{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: inline-flex;
+}
+.imagenValIzq{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+.imagenValIzq img{
+    width: calc(50vw - 50px);
+}
+.txtDcha{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    width: calc(50vw - 100px);
+    margin-left: 50px;
+    color: #2E2E2E;
+}
+.txtDcha h2{
+    font-size: 3em;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.txtDcha p{
+    font-size: 1.7em;
+    margin-right: 50px;
+}
+.fotoDcha{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: inline-flex;
+    margin: 50px 0;
+}
+.txtIzq{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    width: calc(50vw - 100px);
+    margin-left: 50px;
+    color: #2E2E2E;
+}
+.txtIzq h2{
+    font-size: 3em;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.txtIzq p{
+    font-size: 1.7em;
+    margin-right: 50px;
+}
+.imagenValDcha{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+.imagenValDcha img{
+    width: calc(50vw - 75px);
+}

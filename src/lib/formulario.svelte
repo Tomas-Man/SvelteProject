@@ -1,5 +1,5 @@
 <script>
-    import '../../styles/form.css'
+    import '../styles/form.css'
     let clave = "6aab494f-e54d-4505-bcd9-feec7675787b"
 </script>
 <div class="form">

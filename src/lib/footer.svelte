@@ -1,7 +1,7 @@
 <script>
     //importar estilos
-    import '../../styles/global.css';
-    import '../../styles/footer.css';
+    import '../styles/global.css';
+    import '../styles/footer.css';
     import Form from './formulario.svelte';
 </script>
 <footer>
@@ -29,7 +29,7 @@
             <h1>PEDIR INFORMACIÓN</h1>
             <br>
             <p id="lineaForm">Si deseas información o nos quieres consultar algo, puedes utilizar este formulario.
-            Por favor, indica un email válido para que la respuesta se envíe correctamente (<a href="../privacidad/">leer nuestra política de privacidad</a>)</p>
+            Por favor, indica un email válido para que la respuesta se envíe correctamente (<a href="/privacidad">leer nuestra política de privacidad</a>)</p>
             <br>
             <Form />
         </div>
