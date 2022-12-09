@@ -28,7 +28,7 @@
     //--------------------------------------------------------------------
     const matriClckd = () => {irASIR = (location='/centro/matriculacion')};
     const secreClckd = () => {irASIR = (location='/centro/documentos-secretaria')};
-    //const fpdualClckd = () => {irASIR = (location='/escuela/fp-dual')};
+    const fpdualClckd = () => {irASIR = (location='/escuela/fp-dual')};
     //const erasmusClckd = () => {irASIR = (location='/escuela/erasmus')};
     //const excelClckd = () => {irASIR = (location='/escuela/excelencia')};
     //const ticClckd = () => {irASIR = (location='/escuela/tic5')};
@@ -93,7 +93,7 @@
                     </ul>
                     <p>PROGRAMAS</p>
                     <ul>
-                        <li>FP DUAL</li>
+                        <li on:click={fpdualClckd}>FP DUAL</li>
                         <li>PROGRAMA ERASMUS</li>
                         <li>CENTRO DE EXCELENCIA DE ALTO NIVEL</li>
                     </ul>
