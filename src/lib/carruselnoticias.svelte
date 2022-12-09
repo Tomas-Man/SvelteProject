@@ -51,8 +51,10 @@
         background-color: rgb(255,255,255);
         opacity: 0.7;
         border-radius: 10px;
-        margin-left: 10%;
+
         transition: opacity 1s;
+        display: grid;
+        gap: 10%;
     }
     .carrusel:hover{
         opacity: 1;
