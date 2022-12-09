@@ -46,15 +46,13 @@
         src: url('/fonts/DecimaNovaPro.otf');
     }
     .carrusel{
-        width: 300px;
+        width: 280px;
         height: 70vh;
         background-color: rgb(255,255,255);
         opacity: 0.7;
         border-radius: 10px;
-
+        margin-left: 10%;
         transition: opacity 1s;
-        display: grid;
-        gap: 10%;
     }
     .carrusel:hover{
         opacity: 1;
@@ -86,9 +84,13 @@
         margin: 0 10px;
         height: 100px;
     }
+    .tituloN h2{
+        font-size: 1.5em;
+        font-weight: bolder;
+    }
     .noticiaResumen{
         position: relative;
-        top: 0;
+        top: 20px;
         left: 5%;
         width: 90%;
         height: 20%;
@@ -96,7 +98,6 @@
     }
     .noticiaResumen>p{
         color: black;
-        font-size: 1.2em;
     }
     .irNoticia{
         position: relative;
