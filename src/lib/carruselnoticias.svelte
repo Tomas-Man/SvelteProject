@@ -46,7 +46,7 @@
         src: url('/fonts/DecimaNovaPro.otf');
     }
     .carrusel{
-        width: 350px;
+        width: 300px;
         height: 70vh;
         background-color: rgb(255,255,255);
         opacity: 0.7;
