@@ -29,11 +29,14 @@
     const matriClckd = () => {irASIR = (location='/centro/matriculacion')};
     const secreClckd = () => {irASIR = (location='/centro/documentos-secretaria')};
     const fpdualClckd = () => {irASIR = (location='/escuela/fp-dual')};
-    //const erasmusClckd = () => {irASIR = (location='/escuela/erasmus')};
-    //const excelClckd = () => {irASIR = (location='/escuela/excelencia')};
-    //const ticClckd = () => {irASIR = (location='/escuela/tic5')};
-    //const metodoClckd = () => {irASIR = (location='/escuela/metodo')};
-    //const docuClckd = () => {irASIR = (location='/escuela/doumentos')};
+    const erasmusClckd = () => {irASIR = (location='/escuela/erasmus')};
+    const excelClckd = () => {irASIR = (location='/escuela/excelencia')};
+    const metodoClckd = () => {irASIR = (location='/escuela/metodo')};
+    const docuClckd = () => {irASIR = (location='/escuela/doumentos')};
+    const lemaClckd = () => {irASIR = (location='/pastoral/lema-curso')};
+    const misionClckd = () => {irASIR = (location='/pastoral/mision')};
+    const pastoralClckd = () => {irASIR = (location='/pastoral/pastoral')};
+    //--------------------------------------------------------------------
     //Creación de la función que cerrará los submenús
     const xClickd = () => {eShow=false, cShow=false, nShow=false, sShow=false};
 </script>
@@ -94,19 +97,19 @@
                     <p>PROGRAMAS</p>
                     <ul>
                         <li on:click={fpdualClckd}>FP DUAL</li>
-                        <li>PROGRAMA ERASMUS</li>
-                        <li>CENTRO DE EXCELENCIA DE ALTO NIVEL</li>
+                        <li on:click={erasmusClckd}>PROGRAMA ERASMUS</li>
+                        <li on:click={excelClckd}>CENTRO DE EXCELENCIA DE ALTO NIVEL</li>
                     </ul>
                     <p>NUESTRA ESCUELA</p>
                     <ul>
-                        <li>NUESTRO MÉTODO EDUCATIVO</li>
-                        <li>DOCUMENTOS</li>
+                        <li on:click={metodoClckd}>NUESTRO MÉTODO EDUCATIVO</li>
+                        <li on:click={docuClckd}>DOCUMENTOS</li>
                     </ul>
                     <p>NUESTROS VALORES</p>
                     <ul>
-                        <li>LEMA DEL CURSO</li>
-                        <li>MISIÓN, VISIÓN Y VALORES</li>
-                        <li>PASTORAL</li>
+                        <li on:click={lemaClckd}>LEMA DEL CURSO</li>
+                        <li on:click={misionClckd}>MISIÓN, VISIÓN Y VALORES</li>
+                        <li on:click={pastoralClckd}>PASTORAL</li>
                     </ul>
                 </div>
                 <img on:click="{xClickd}" src="/img/markx.png" alt="Cerrar" class="cerrar">

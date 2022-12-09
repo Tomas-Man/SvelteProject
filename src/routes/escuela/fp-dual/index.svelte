@@ -16,7 +16,7 @@
         </div>
         <div class="logoFP">
             <figure>
-                <img src="/img/escuela/dual.svg" alt="FP Dual">
+                <img src="/img/escuela/fpdual/dual.svg" alt="FP Dual">
             </figure>
         </div>
     </div>
@@ -25,13 +25,13 @@
         <div class="contDocu">
             <div class="docu">
                 <a href="https://drive.google.com/file/d/1cnSGiogY1lzZgC2Lfhbc2x2PwEht-0cA/view?usp=drive_web" target="_blank">
-                    <img src="/img/escuela/informacionalumnado.jpg" alt="Documento pdf">
+                    <img src="/img/escuela/fpdual/informacionalumnado.jpg" alt="Documento pdf">
                     <p>informacion-alumna...</p>
                 </a>
             </div>
             <div class="docu">
                 <a href="https://drive.google.com/file/d/125ihz8I6OYerXUqfZvaiP8ttWf_6HJos/view?usp=drive_web" target="_blank">
-                    <img src="/img/escuela/solicitudfp.jpg" alt="Documento pdf">
+                    <img src="/img/escuela/fpdual/solicitudfp.jpg" alt="Documento pdf">
                     <p>solicitud-fp-dual.pdf</p>
                 </a>
             </div>
@@ -40,7 +40,7 @@
     <div class="banner">
         <div class="entidad">
             <figure>
-                <img src="/img/escuela/logo-junta.png" alt="Junta de Castilla y León">
+                <img src="/img/escuela/fpdual/logo-junta.png" alt="Junta de Castilla y León">
             </figure>
         </div>
         <div class="entidad">
@@ -50,7 +50,7 @@
         </div>
         <div class="entidad">
             <figure>
-                <img src="/img/escuela/europa-impulsa.png" alt="Europa impulsa nuestro crecimiento">
+                <img src="/img/escuela/fpdual/europa-impulsa.png" alt="Europa impulsa nuestro crecimiento">
             </figure>
         </div>
     </div>

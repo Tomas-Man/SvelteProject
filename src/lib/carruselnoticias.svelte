@@ -2,18 +2,18 @@
 <script>
     import Carousel from './carousel.svelte';
     const imgN = [
-        {path: "/img/noticias/admision.jpg", alt: "admision.jpg", id: "imageN1", ruta: "../estudios/eso", titulo: "",
-        resumen: ''},
-        {path: "/img/noticias/admisiones-ESO.jpeg", alt: "admisiones-ESO.jpeg", id: "imageN2", ruta: "../privacidad", titulo: "Periodo de amisiones ESO",
+        {path: "/img/noticias/admision.jpg", alt: "admision.jpg", id: "imageN1", ruta: "../estudios/eso", titulo: "Listados con las admisiones en ciclos de FP",
+        resumen: 'Acceso a las admisiones (a fecha de 21 de julio) en los Ciclos Formativos de Formación Profesional'},
+        {path: "/img/noticias/admisiones-ESO.jpeg", alt: "admisiones-ESO.jpeg", id: "imageN2", ruta: "../privacidad", titulo: "Periodo de admisiones ESO",
         resumen: 'Abierto el periodo de admisiones para la ESO. Del 18 de marzo al 6 de abril, en la secretaría del Centro Don Bosco de 9:30h a 13:30h. Teléfono: 979777270'},
-        {path: "/img/noticias/cartel-1-mayo.jpeg", alt: "noticiaImg3", id: "imageN3", ruta: "../noticias/2022/1-de-mayo", titulo: "",
-        resumen: ''},
-        {path: "/img/noticias/cartel-jornadas-innovacion.jpg", alt: "noticiaImg4", id: "imageN4", ruta: "", titulo: "",
-        resumen: ''},
-        {path: "/img/noticias/graduacion-22-00.jpg", alt: "noticiaImg5", id: "imageN5", ruta: "", titulo: "",
-        resumen: ''},
-        {path: "/img/noticias/info-solicitudes-fp.jpg", alt: "noticiaImg6", id: "imageN6", ruta: "", titulo: "",
-        resumen: ''}
+        {path: "/img/noticias/cartel-1-mayo.jpeg", alt: "noticiaImg3", id: "imageN3", ruta: "../noticias/2022/1-de-mayo", titulo: "XXXIX Peregrinación de Palencia a Villamuriel",
+        resumen: 'Después de estos dos años de pandemia retomamos con muchocariño el Homenaje a María Auxiliadora el sábado 30 de abril y laXXXIX Fiesta-peregrinación el 1 de mayo'},
+        {path: "/img/noticias/cartel-jornadas-innovacion.jpg", alt: "noticiaImg4", id: "imageN4", ruta: "", titulo: "Jornadas de Innovación empresarial",
+        resumen: 'Los días 25 y 26 de mayo hemos celebrado unas Jornadas Formativas de Innovación Empresarial para nuestros alumnos de Formación Profesional'},
+        {path: "/img/noticias/graduacion-22-00.jpg", alt: "noticiaImg5", id: "imageN5", ruta: "", titulo: "Graduación, curso 2021/22",
+        resumen: 'El pasado 3 de Junio celebramos la graduación de nuestro alumnado tanto de secundaria como de ciclos formativos'},
+        {path: "/img/noticias/info-solicitudes-fp.jpg", alt: "noticiaImg6", id: "imageN6", ruta: "", titulo: "Solicitudes para ciclos de FP",
+        resumen: 'Te explicamos como realizar la solicitud para estudiar un ciclo formativo de FP con nosotros y el material que se necesita para estudiar'}
     ];
 </script>
 <!-- Con esto creamos el carrusel y sus componentes -->
@@ -46,7 +46,7 @@
         src: url('/fonts/DecimaNovaPro.otf');
     }
     .carrusel{
-        width: 250px;
+        width: 350px;
         height: 70vh;
         background-color: rgb(255,255,255);
         opacity: 0.7;
@@ -81,6 +81,8 @@
     .tituloN{
         position: relative;
         top: 10px;
+        margin: 0 10px;
+        height: 100px;
     }
     .noticiaResumen{
         position: relative;
@@ -92,21 +94,23 @@
     }
     .noticiaResumen>p{
         color: black;
+        font-size: 1.2em;
     }
     .irNoticia{
         position: relative;
-        top: 40px;
+        top: 30px;
         left: 15%;
         text-align: center;
         width: 70%;
         height: 10%;
         background-color: #51626f;
         border-radius: 10px;
-        color: white;
         line-height: 1em;
     }
     .irNoticia>p{
+        font-size: 1.3em;
         line-height: 3em;
+        color: white;
     }
     .flechaIzq{
         position: relative;
