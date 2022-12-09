@@ -5,24 +5,24 @@
     import FichaSeccionServicios from '../lib/fichaservicio.svelte'
     import FichaMeritos from '../lib/fichamerito.svelte'
 </script>
-<div id="fondo"></div>
-    <section id="portada">
-        <div id="tabNews">
+<div class="fondo"></div>
+    <section class="portada">
+        <div class="tabNews">
             <h2>ÚLTIMAS NOTICIAS</h2>
         </div>
-        <div id="lema">
+        <div class="lema">
             <h1>Excelencia adaptada <br>a cada estudiante</h1>
             <h2>En búsqueda permanente de nuevos caminos que permitan el éxito educativo</h2>
         </div>
     </section>
-    <section id="noticias">
+    <section class="noticias">
         <h1>NOTICIAS</h1>
         <Carrusel />
         <div class="vertodasnoticias">
             <p>VER TODAS LAS NOTICIAS</p>
         </div>
     </section>
-    <section id="metodo">
+    <section class="metodo">
         <h1>¿QUIÉNES SOMOS?</h1>
         <div class="filaMetodo">
             <div class="metodoIzq">
@@ -48,17 +48,17 @@
                 <p>VER MÁS SOBRE NUESTRO MÉTODO EDUCATIVO</p>
         </div>
     </section>
-    <section id="ofertaedu">
+    <section class="ofertaedu">
         <h1>OFERTA EDUCATIVA</h1>
         <div class="contOferta">
         <FichaOferta />
         </div>
     </section>
-    <section id="servicios">
+    <section class="servicios">
         <h1>SERVICIOS</h1>
         <FichaSeccionServicios />
     </section>
-    <section id="meritos">
+    <section class="meritos">
         <h1>NUESTROS MÉRITOS</h1>
         <FichaMeritos />
     </section>
