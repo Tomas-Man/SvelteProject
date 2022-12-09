@@ -86,7 +86,7 @@
     }
     .noticiaResumen{
         position: relative;
-        top: 20px;
+        top: 0;
         left: 5%;
         width: 90%;
         height: 20%;
