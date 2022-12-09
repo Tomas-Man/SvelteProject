@@ -49,28 +49,35 @@ p{
     left: 0;
     width: 100%;
     height: 100%;
-    min-height: 620px;
+    min-height: 570px;
     display: inline-flex;
     background-color: #d9d9d9;
     color: #2E2E2E;
 }
-.imgresESO{
+.imgResESO{
     position: relative;
-    top: 40px;
-    left: 40px;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
+    margin: 40px 0 0 40px;
 }
-.textresESO{
+.textResESO{
     position: relative;
-    top: 40px;
+    top: 0;
     left: 0;
     height: 100%;
-    font-size: 1.5em;
-    padding: 0 20px 0 60px;
-    text-align: justify;
+    width: 100%;
+    margin: 40px 40px 0 40px;
 }
-.imgresESO img{
+.textResESO h2{
+    font-size: 2.5em;
+    text-align: center;
+}
+.textResESO p{
+    font-size: 1.3em;
+}
+.imgResESO img{
     width: 100%;
     max-width: 800px;
     min-width: 645px;
@@ -80,47 +87,47 @@ p{
     top: 0;
     left: 0;
     width: 100%;
-    height: 60vh;
+    height: 80vh;
     color: white;
 }
 .claves h1{
     position: relative;
     top: 80px;
     left: 0;
-    width: 100%;
     text-align: center;
     font-size: 5em;
     font-weight: lighter;
+    margin: 0 30px;
 }
 .iconosclaves{
     position: relative;
-    top: 30%;
-    left: calc(50% - 825px);
+    top: 20%;
+    left: 0;
     height: 100%;
-    display: inline-flex;
+    display: flex;
 }
 .iconoESO{
     position: relative;
     top: 30px;
     left: 0;
-    width: 300px;
-    height: 250px;
+    width: 20%;
+    height: 40%;
     border-radius: 10px;
-    margin-left: 30px;
+    margin: 30px;
     background-color: #2E2E2EB2;
+    display: grid;
+    place-items: center;
 }
 .iconoESO p{
     position: relative;
-    top: 30px;
+    top: 0;
     text-align: center;
     font-size: 2em;
     color: white;
 }
 .iconoESO img{
     position: relative;
-    top: 18px;
-    left: 90px;
-    width: 120px;
+    width: 100px;
 }
 .valores{
     position: relative;
@@ -130,17 +137,20 @@ p{
     height: 100%;
     min-height: 211vh;
     background-color: #d9d9d9;
+    padding: 40px 0 20px;
 }
 .fotoIzq{
     position: relative;
     top: 0;
     left: 0;
     width: 100%;
+    height: 100%;
     display: inline-flex;
+    margin: 15px 0;
 }
 .imagenValIzq{
     position: relative;
-    top: 50px;
+    top: 0;
     left: 50px;
 }
 .imagenValIzq img{
@@ -148,49 +158,52 @@ p{
 }
 .txtDcha{
     position: relative;
-    top: 50px;
+    top: 0;
     left: 50px;
     width: calc(50vw - 100px);
     margin-left: 50px;
     color: #2E2E2E;
 }
 .txtDcha h2{
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: center;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 .txtDcha p{
-    font-size: 1.7em;
-    margin-right: 50px;
+    font-size: 1.4em;
+    margin-right: 25px;
 }
 .fotoDcha{
     position: relative;
     top: 0;
     left: 0;
     width: 100%;
+    height: 100%;
     display: inline-flex;
-    margin: 50px 0;
+    margin: 15px 0;
 }
 .txtIzq{
     position: relative;
-    top: 50px;
+    top: 0;
     left: 50px;
     width: calc(50vw - 100px);
     margin-left: 50px;
     color: #2E2E2E;
 }
 .txtIzq h2{
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: center;
     padding-bottom: 30px;
+    margin-right: 50px;
+    color: black;
 }
 .txtIzq p{
-    font-size: 1.7em;
+    font-size: 1.4em;
     margin-right: 50px;
 }
 .imagenValDcha{
     position: relative;
-    top: 50px;
+    top: 0;
     left: 50px;
 }
 .imagenValDcha img{

@@ -10,10 +10,10 @@
         </div>
     </section>
     <section class="resumenESO">
-        <div class="imgresESO">
+        <div class="imgResESO">
             <img src="/img/estudios/eso.jpg" alt="ESO">
         </div>
-        <div class="textresESO">
+        <div class="textResESO">
             <h2>Los Estudios de Educación Secundaria</h2>
             <br>
             <p>Desde el centro Don Bosco entendemos la importancia que tiene esta etapa en la formación de la persona a todos los niveles. Por ello trabajamos en esta etapa desde la consciencia de la importancia de la motivación personal y la implicación del alumnado en su propio conocimiento.</p>
