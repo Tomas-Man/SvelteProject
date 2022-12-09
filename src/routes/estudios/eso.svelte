@@ -88,11 +88,15 @@
         </div>
     </section>
     <section class="galeriaFotos">
-        <div class="galSup">
-
+        <div class="galFotos">
+            <figure><img src="/img/ciclos/eso/eso01.jpg" alt="foto1"></figure>
+            <figure><img src="/img/ciclos/eso/eso02.jpg" alt="foto2"></figure>
+            <figure><img src="/img/ciclos/eso/eso03.jpg" alt="foto3"></figure>
+            <figure><img src="/img/ciclos/eso/eso04.jpg" alt="foto4"></figure>
+            <figure><img src="/img/ciclos/eso/eso05.jpg" alt="foto5"></figure>
+            <figure><img src="/img/ciclos/eso/eso06.jpg" alt="foto6"></figure>
+            <figure><img src="/img/ciclos/eso/eso07.jpg" alt="foto7"></figure>
+            <figure><img src="/img/ciclos/eso/eso08.jpg" alt="foto8"></figure>
         </div>
-        <section class="galInf">
-
-        </section>
     </section>
 </main>

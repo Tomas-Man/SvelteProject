@@ -1,0 +1,179 @@
+<script>
+    import '../../styles/ciclos.css';
+</script>
+<main>
+    <slot name="slotFondo">
+        <div class="fondo"></div>
+    </slot>
+    <section class="titulo">
+        <div class="tituloFP">
+            <!-- con estos "slots" podremos hacer que éste código funcione como plantilla, y sólo cambiaremos el contenido que hay en el slot -->
+            <slot name="slotNombreFP">
+                <h1>Instalaciones de Telecomunicaciones</h1>
+            </slot>
+            <slot name="slotTipoFP">
+                <h2>FP de Grado Medio</h2>
+            </slot>
+        </div>
+    </section>
+    <section class="porque">
+        <div class="imagenPq">
+            <figure>
+                <slot name="slotImagenPorq">
+                    <img src="/img/ciclos/teleco/teleco00.jpg" alt="Telecomunicaciones">
+                </slot>
+            </figure>
+        </div>
+        <div class="textoPq">
+            <h2>¿Por qué estudiar este ciclo?</h2>
+            <slot name="slotTextoPorq">
+                <div>
+                    <p>Los estudios de telecomunicaciones permiten formarse en un área de alta demanda laboral. Se trata de una formación para personal muy polifacético capaz de cubrir las necesidades de un gran número de puestos de trabajo relacionados con la tecnología.</p>
+                    <br>
+                    <p>El ciclo permite conseguir las capacidades y habilidades que se requieren a un técnico en instalaciones de telecomunicaciones.</p>
+                    <br>
+                    <p>En los dos años de duración del ciclo aprenderás lo relativo a:</p>
+                </div>
+            </slot>
+        </div>
+    </section>
+    <section class="ramasProf">
+        <div class="textoRamas">
+            <h1>RAMAS PROFESIONALES</h1>
+            <slot name="slotIconosRamas">
+                <div class="iconosRamas">
+                    <div class="iconoRama">
+                        <img src="/img/ciclos/teleco/sistemasinformaticos.png" alt="Sistemas y Equipos Informáticos">
+                        <p>Sistemas y Equipos Informáticos</p>
+                    </div>
+                    <div class="iconoRama">
+                        <img src="/img/ciclos/teleco/domotica.png" alt="Domótica">
+                        <p>Domótica</p>
+                    </div>
+                    <div class="iconoRama">
+                        <img src="/img/ciclos/teleco/sistemasaudio.png" alt="Sistemas de audio y video">
+                        <p>Sistemas de audio y video</p>
+                    </div>
+                    <div class="iconoRama">
+                        <img src="/img/ciclos/teleco/infraestructurastelco.png" alt="Infraestructuras de telecomunicaciones">
+                        <p>Infraestructuras de telecomunicaciones</p>
+                    </div>
+                </div>
+            </slot>
+        </div>
+    </section>
+    <section class="aspectosDest">
+        <div class="tituloAspectos">
+            <h1>ASPECTOS DESTACABLES</h1>
+        </div>
+        <div class="listasAspectos">
+            <div class="listasAspectosDest">
+                <ul class="tituloLista">
+                    <li>Requisitos de acceso</li>
+                </ul >
+                <p>Hay que cumplir uno de estos requisitos:</p>
+                <slot name="slotListaRequisitos">
+                    <ul class="lista">
+                        <li>Título de Educación Secundaria obligatoria</li>
+                        <li>Título de Formación Profesional Básica</li>
+                        <li>Título de Técnico o de Técnico Auxiliar o equivalente a efectos académicos</li>
+                        <li>Haber superado el segundo curso de Bachillerato Unificado y Polivalente (BUP)</li>
+                        <li>Haber superado la prueba de acceso a la Universidad para mayores de 25 años</li>
+                        <li>Haber superado la prueba de acceso a ciclos formativos de grado medio (se requerirá tener, al menos, diecisiete años, cumplidos en el año de realización de la prueba)</li>
+                    </ul>
+                </slot>
+            </div>
+            <div class="listasAspectosDest">
+                <ul class="tituloLista">
+                    <li>Salidas Académicas</li>
+                </ul>
+                <slot name="slotSalidasAcademicas">
+                    <ul class="lista">
+                        <li>Acceso a otros ciclos de FP (incluido grado superior) con posibilidad de convalidar algunas materias</li>
+                        <li>Acceso a cursos de especialización profesional</li>
+                        <li>Acceso a cualquier modalidad de Bachillerato</li>
+                    </ul>
+                </slot>
+            </div>
+            <div class="listasAspectosDest">
+                <ul class="tituloLista">
+                    <li>Salidas Profesionales</li>
+                </ul>
+                <slot name="slotSalidasProf">
+                    <ul class="lista">
+                        <li>Instalación de seguridad</li>
+                        <li>Instalación y mantenimiento de sistemas informáticos</li>
+                        <li>Instalación de telecomunicaciones en en edificios de viviendas</li>
+                        <li>Instalación de antenas</li>
+                        <li>Instalación de telefonía</li>
+                        <li>Mantenimiento en instalaciones de sonido</li>
+                        <li>Instalación de sistemas de megafonía</li>
+                        <li>Mantenimiento de sistemas domóticos</li>
+                        <li>Instalación y mantenimiento de sistemas de radio difusión</li>
+                    </ul>
+                </slot>
+            </div>
+        </div>
+    </section>
+    <section class="galFotos">
+        <slot name="slotFotos">
+            <div class="fotos">
+                <figure><img src="/img/ciclos/teleco/teleco01.jpg" alt="foto1"></figure>
+                <figure><img src="/img/ciclos/teleco/teleco02.jpg" alt="foto2"></figure>
+                <figure><img src="/img/ciclos/teleco/teleco03.jpg" alt="foto3"></figure>
+                <figure><img src="/img/ciclos/teleco/teleco04.jpg" alt="foto4"></figure>
+            </div>
+        </slot>
+    </section>
+    <section class="modulos">
+        <div class="tituloModulos">
+            <h1>MÓDULOS DEL CICLO</h1>
+        </div>
+        <div class="cursosListas">
+            <div class="materias">
+            <h2>Primer Curso</h2>
+            <slot name="slotModulosPrimero">
+                <div class="materiasLista">
+                    <ul>
+                        <li>Electrónica aplicada</li>
+                        <li>Equipos microinformáticos</li>
+                        <li>Infraestructuras de redes de datos y sistemas de telefonía</li>
+                        <li>Instalaciones eléctricas básicas</li>
+                        <li>Instalaciones de radiocomunicaciones</li>
+                        <li>Formación y orientación laboral</li>
+                    </ul>
+                </div>
+            </slot>
+        </div>
+            <div class="materias">
+            <h2>Segundo Curso</h2>
+            <slot name="slotModulosSegundo">
+                <div class="materiasLista">
+                    <ul>
+                        <li>Infraestructuras comunes de telecomunicación en viviendas y edificios</li>
+                        <li>Instalaciones domóticas</li>
+                        <li>Instalaciones de megafonía y sonorización</li>
+                        <li>Circuito cerrado de televisión y seguridad electrónica</li>
+                        <li>Empresa e iniciativa emprendedora</li>
+                        <li>Formación en Centros de Trabajo</li>
+                    </ul>
+                </div>
+            </slot>
+        </div>
+        </div>
+    </section>
+</main>
+<style>
+    .fondo{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-image: url("/img/ciclos/teleco/fondo-teleco.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+</style>

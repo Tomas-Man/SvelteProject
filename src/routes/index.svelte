@@ -51,7 +51,7 @@
     <section id="ofertaedu">
         <h1>OFERTA EDUCATIVA</h1>
         <div class="contOferta">
-                <FichaOferta />
+        <FichaOferta />
         </div>
     </section>
     <section id="servicios">

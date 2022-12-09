@@ -25,6 +25,15 @@
     const telClickd = () => {irTEL = (location='/estudios/telecomunicaciones')};
     const eleClickd = () => {irELE = (location='/estudios/electromecanica')};
     const asirClickd = () => {irASIR = (location='/estudios/asir')};
+    //--------------------------------------------------------------------
+    const matriClckd = () => {irASIR = (location='/centro/matriculacion')};
+    const secreClckd = () => {irASIR = (location='/centro/documentos-secretaria')};
+    //const fpdualClckd = () => {irASIR = (location='/escuela/fp-dual')};
+    //const erasmusClckd = () => {irASIR = (location='/escuela/erasmus')};
+    //const excelClckd = () => {irASIR = (location='/escuela/excelencia')};
+    //const ticClckd = () => {irASIR = (location='/escuela/tic5')};
+    //const metodoClckd = () => {irASIR = (location='/escuela/metodo')};
+    //const docuClckd = () => {irASIR = (location='/escuela/doumentos')};
     //Creación de la función que cerrará los submenús
     const xClickd = () => {eShow=false, cShow=false, nShow=false, sShow=false};
 </script>
@@ -79,8 +88,8 @@
                 <div class="contSubnav">
                     <p>SECRETARÍA</p>
                     <ul>
-                        <li>INFORMACIÓN SOBRE MATRICULACIÓN</li>
-                        <li>DOCUMENTOS DE SECRETARÍA</li>
+                        <li on:click={matriClckd}>INFORMACIÓN SOBRE MATRICULACIÓN</li>
+                        <li on:click={secreClckd}>DOCUMENTOS DE SECRETARÍA</li>
                     </ul>
                     <p>PROGRAMAS</p>
                     <ul>
