@@ -85,16 +85,18 @@
     margin: 120px 40px 40px;
     min-width: 210px;
     width: 13%;
-    height: 35vh;
+    height: 30vh;
     background-color: #2E2E2EB2;
     border-radius: 10px;
     text-align: center;
     font-size: 1.5em;
+    display: grid;
+    place-items: center;
 }
 .iconoRama img{
     position: relative;
     width: 40%;
-    margin: 20px;
+    margin: 20px 20px 0;
 }
 .iconoRama p {
     margin: 0 10px
@@ -126,6 +128,7 @@
 .tituloAspectos h1{
     font-size: 5em;
     font-weight: lighter;
+    color: #51626f;
 }
 .listasAspectosDest{
     width: 32%;
@@ -198,6 +201,7 @@ figure img{
 .tituloModulos h1 {
     font-size: 5em;
     font-weight: lighter;
+    color: #51626f;
 }
 .cursosListas{
     display: flex;
