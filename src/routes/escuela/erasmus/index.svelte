@@ -1,18 +1,23 @@
 <script>
     import '../../../styles/escuela.css';
+    import Titulo from '../../../lib/titulo.svelte';
 </script>
 <main>
     <slot name="slotFondo">
         <div class="fondo"></div>
     </slot>
-    <section class="tituloEscuela">
+    <Titulo>
+        <h1>Servicio de Erasmus +</h1>
+        <h2>Fomento de la educación Europea</h2>
+    </Titulo>
+    <!--<section class="tituloEscuela">
         <slot name="slotTituloEsc">
             <div class="tituloEsc">
                 <h1>Servicio Erasmus+</h1>
                 <h2>Fomento de la educación en Europa</h2>
             </div>
         </slot>
-    </section>
+    </section> -->
     <section class="contenidoEscuela">
         <slot name="slotContenidoIzq">
             <div class="contIzq">
