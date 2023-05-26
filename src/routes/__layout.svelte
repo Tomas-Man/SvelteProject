@@ -1,6 +1,7 @@
 <script>
     import Cabecera from '../lib/cabecera.svelte'
     import Footer from '../lib/footer.svelte'
+    window.document.title = 'Salesianos Villamuriel';
 </script>
 <Cabecera />
 <main>
