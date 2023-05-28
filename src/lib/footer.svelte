@@ -1,14 +1,11 @@
 <script>
     //importar estilos
     import '../styles/global.css';
-    import Contacto from './contacto.svelte';
     import Form from './formulario.svelte';
 </script>
 <footer>
     <div class="contentFooter">
-
-        <Contacto />
-        <!--<div class="contFooter">
+        <div class="contFooter">
             <h1>CONTACTO</h1>
             <br>
             <p>
@@ -26,7 +23,7 @@
                 </div></a>
                 <img src="/img/mapa.jpg" alt="Mapa">
             </div>
-        </div>-->
+        </div>
         <div class="contFooter">
             <h1>PEDIR INFORMACIÓN</h1>
             <br>
@@ -76,7 +73,7 @@
         display: inline-flex;
         justify-content: center;
     }
-    /*.contFooter{
+    .contFooter{
         display: inline-block;
         text-align: left;
         min-width: 400px;
@@ -121,7 +118,7 @@
         transition: 2s;
         background-color: #d9d9d9;
         border-radius: 5px;
-    }*/
+    }
     #lineaForm{
         padding-bottom: 1em;
         border-bottom: 1px solid white;
