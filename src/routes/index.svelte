@@ -1,5 +1,6 @@
 <script>
-    import Carrusel from '../lib/carruselnoticias.svelte'
+    import Portada from '../lib/portada.svelte'
+
     import Metodo from '../lib/componentemetodo.svelte'
     import FichaOferta from '../lib/fichaoferta.svelte'
     import FichaSeccionServicios from '../lib/fichaservicio.svelte'
@@ -7,6 +8,8 @@
 </script>
 <div class="fondo"></div>
     <section class="portada">
+        <Portada />
+        <!--
         <div class="tabNews">
             <h2>ÚLTIMAS NOTICIAS</h2>
         </div>
@@ -14,13 +17,16 @@
             <h1>Excelencia adaptada <br>a cada estudiante</h1>
             <h2>En búsqueda permanente de nuevos caminos que permitan el éxito educativo</h2>
         </div>
+        -->
     </section>
     <section class="noticias">
+        <!--
         <h1>NOTICIAS</h1>
         <Carrusel />
         <div class="vertodasnoticias">
             <p>VER TODAS LAS NOTICIAS</p>
         </div>
+        -->
     </section>
     <section class="metodo">
         <Metodo />
@@ -67,39 +73,6 @@
         height: calc(100vh - 110px);
         background-color: rgba(0,0,0,.5);
     }
-    .tabNews{
-        position: absolute;
-        top: 30px;
-        right: 50px;
-        width: 500px;
-        height: 200px;
-        border: 1px solid white;
-    }
-    .tabNews h2{
-        background-color: white;
-        color: rgba(0,0,0,0.5);
-        text-align: center;
-        height: 1.5em;
-        line-height: 1.5em;
-        font-family: 'Decima Nova Pro', sans-serif;
-    }
-    .lema{
-        position: absolute;
-        top: 320px;
-        left: 75px;
-        font-family: 'Decima Nova Pro', sans-serif;
-        color: #FFF;
-        letter-spacing: 1px;
-    }
-    .lema h1{
-        padding: 0 0 30px;
-        font-size: 4em;
-        font-weight: 300;
-    }
-    .lema h2{
-        font-size: 2em;
-        font-weight: 300;
-    }
     .noticias{
         position: relative;
         top:0;
@@ -107,30 +80,6 @@
         width: 100%;
         height: 100%;
         text-align: center;
-    }
-    .noticias>h1{
-        padding: 50px;
-        font-size: 4em;
-        font-family: 'Decima Nova Pro', sans-serif;
-        font-weight: 300;
-        color: white;
-    }
-    .vertodasnoticias{
-        position: relative;
-        top: 75px;
-        left: calc(50% - 150px);
-        width: 300px;
-        height: 70px;
-        background-color: #51626f;
-        border-radius: 10px;
-        line-height: 70px;
-        font-size: 1.3em;
-        color: white;
-        letter-spacing: 2px;
-    }
-    .vertodasnoticias:hover{
-        background-color: #6d819a;
-        cursor: pointer;
     }
     .metodo{
         position: relative;
