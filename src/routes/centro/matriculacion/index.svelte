@@ -1,6 +1,3 @@
-<script>
-    import '../../../styles/centro.css';
-</script>
 <main>
     <slot name="slotFondo">
         <div class="fondo"></div>
@@ -19,3 +16,58 @@
         </div>
     </slot>
 </main>
+<style>
+    @font-face {
+        font-family: "Decima Nova Pro";
+        src: url("/fonts/DecimaNovaPro.otf");
+    }
+    *{
+        font-family: "Decima Nova Pro", sans-serif;
+    }
+    .titulo{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 25vh;
+        display: grid;
+        place-items: center;
+        color: white;
+    }
+    .titulo h1{
+        font-size: 4em;
+    }
+    .content{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        place-items: center;
+        background-color: #d9d9d9;
+    }
+    .content h2{
+        height: 100px;
+        text-align: center;
+        font-size: 3em;
+        font-weight: lighter;
+        line-height: 3em;
+        color: #51626f;
+    }
+    .frame{
+        padding: 40px;
+    }
+    .fondo{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-image: url("/img/centro/documentos-fondo.jpg");
+        background-size: cover;
+        background-position: left;
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+</style>

@@ -1,6 +1,3 @@
-<script>
-    import '../../../styles/metodo.css';
-</script>
 <main>
     <div class="container">
     <section class="tituloPrincipal" style="background-image: url('/img/escuela/metodo/idea.jpg')">
@@ -89,3 +86,77 @@
     </div>
     </div>
 </main>
+<style>
+    @font-face {
+        font-family: "Decima Nova Pro";
+        src: url("/fonts/DecimaNovaPro.otf");
+    }
+    *{
+        font-family: "Decima Nova Pro", sans-serif;
+    }
+    main{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0);
+        z-index: 10;
+    }
+    .tituloPrincipal{
+        position: relative;
+        top: 110px;
+        left: 0;
+        width: 100%;
+        height: 70vh;
+        background: rgba(0,0,0,0) center center no-repeat fixed;
+        background-size: cover;
+        text-align: center;
+    }
+    .tituloPrincipal h1{
+        font-size: 4em;
+        color: white;
+        padding-top: 20vh;
+    }
+    .scrollFondo{
+        position: sticky;
+        top: 40px;
+        background: #2e2e2e no-repeat center center;
+        background-size: cover;
+        height: 100vh;
+        padding: .5em 0 0 0;
+    }
+    .scrollTitulo{
+        position: sticky;
+        top: 40px;
+        background: rgba(0, 0, 0, 0.4) no-repeat center center;
+        background-size: cover;
+        height: 100vh;
+        padding: 2em 0 0 0;
+    }
+    .scrollTxt{
+        position: sticky;
+        top: 40vh;
+        background: rgba(0, 0, 0, 0) no-repeat center center;
+        background-size: cover;
+        height: 100vh;
+        margin-top: 20vh;
+    }
+    .scrollTxt p{
+        color: white;
+        text-align: right;
+        width: 30%;
+        margin-left: 60%;
+        font-size: 2.5em;
+        font-style: italic;
+        background-color: rgba(81, 98, 111, 0.5);
+    }
+    .scrollTitulo h1{
+        margin-top: 10vh;
+        font-size: 5em;
+        font-weight: lighter;
+        text-align: center;
+        color: white;
+    }
+</style>

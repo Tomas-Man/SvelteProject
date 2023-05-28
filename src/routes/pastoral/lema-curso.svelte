@@ -1,6 +1,3 @@
-<script>
-    import '../../styles/lema.css'
-</script>
 <main>
     <div class="titulo">
         <h1>Apasionados por la vida</h1>
@@ -47,3 +44,50 @@
         </div>
     </div>
 </main>
+<style>
+    @font-face {
+        font-family: "Decima Nova Pro";
+        src: url("/fonts/DecimaNovaPro.otf");
+    }
+    *{
+        font-family: "Decima Nova Pro", sans-serif;
+    }
+    .titulo{
+        text-align: center;
+        color: white;
+        height: 300px;
+        background-color: #51626f;
+    }
+    .titulo h1{
+        font-size: 4em;
+        line-height: 3em;
+    }
+    .titulo h2{
+        font-size: 2em;
+        font-weight: lighter;
+    }
+    .contenido{
+        position: relative;
+        top: 0;
+        left: 0;
+        background-color: #d9d9d9;
+        width: 100%;
+        height: 100%;
+    }
+    .conjunto{
+        display: flex;
+        justify-content: center;
+    }
+    .contenedor{
+        width: 50%;
+        margin: 60px;
+    }
+    .contenedor figure{
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 1.5em;
+    }
+    .contenedor p{
+        font-size: 2em;
+    }
+</style>

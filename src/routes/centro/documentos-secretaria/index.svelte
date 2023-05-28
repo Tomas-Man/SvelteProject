@@ -1,5 +1,4 @@
 <script>
-    import '../../../styles/centro.css';
     import Centro from '../matriculacion/index.svelte';
 </script>
 <Centro>
@@ -36,3 +35,74 @@
         </div>
     </div>
 </Centro>
+<style>
+    @font-face {
+        font-family: "Decima Nova Pro";
+        src: url("/fonts/DecimaNovaPro.otf");
+    }
+    *{
+        font-family: "Decima Nova Pro", sans-serif;
+    }
+    .titulo{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 25vh;
+        display: grid;
+        place-items: center;
+        color: white;
+    }
+    .titulo h1{
+        font-size: 4em;
+    }
+    .content{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        place-items: center;
+        background-color: #d9d9d9;
+    }
+    .content h2{
+        height: 100px;
+        text-align: center;
+        font-size: 3em;
+        font-weight: lighter;
+        line-height: 3em;
+        color: #51626f;
+    }
+    .documentos{
+        position: relative;
+        top: 0;
+        left: 0;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        margin: 0 50px;
+    }
+    .docu{
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 100px 50px;
+        text-align: center;
+        font-size: 1.1em;
+    }
+    .docu img{
+        width: 160px;
+        height: 220px;
+        border-radius: 5px;
+    }
+    .docu p{
+        color: #616161;
+    }
+    .docu:hover p{
+        color: blue;
+    }
+    .docu>a:hover{
+        text-decoration: none;
+    }
+</style>
