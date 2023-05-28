@@ -123,7 +123,6 @@
         </ul>
     {/if}
 </div>
-
 <style>
     .carousel {
         position: relative;
@@ -132,7 +131,6 @@
         justify-content: center;
         align-items: center;
     }
-
     button {
         position: absolute;
         width: 40px;
@@ -146,11 +144,9 @@
     button:focus {
         outline: none;
     }
-
     .left {
         left: 2vw;
     }
-
     .right {
         right: 2vw;
     }

@@ -1,6 +1,3 @@
-<script>
-    import '../../styles/privacidad.css'
-</script>
 <main>
     <h1>Política de Privacidad</h1>
     <br><br><br>
@@ -82,3 +79,53 @@
     <br>
     <p id="legislacion">El presente Aviso Legal se regirá por lo dispuesto en la legislación española sometiéndose a la jurisdicción de los Juzgados y Tribunales del domicilio del titular de la web.</p>
 </main>
+<style>
+    @font-face {
+        font-family: "Decima Nova Pro";
+        src: url("/fonts/DecimaNovaPro.otf");
+    }
+    main{
+        background-color: #d9d9d9;
+        padding: .7em .6em 4em .7em;
+    }
+    main p>a{
+        color: #4a8089;
+    }
+    main p{
+        text-align: justify;
+        font-family: "Decima Nova Pro", sans-serif;
+        font-size: 1.2em;
+        color: black;
+        margin-left: 1em;
+
+    }
+    main strong{
+        margin-left: -1em;
+    }
+    main h1,h2,h3{
+        color: #51626f;
+        font-family: "Decima Nova Pro", sans-serif;
+        font-weight: lighter;
+    }
+    main h1{
+        font-size: 4em;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    main h2{
+        font-size: 2.5em;
+        text-align: center;
+    }
+    main h3{
+        font-family: "Decima Nova Pro", sans-serif;
+        font-size: 1.5em;
+        letter-spacing: 0.5px;
+        font-weight: 700;
+    }
+    .datosPriv{
+        margin-left: 2em;
+    }
+    #legislacion{
+        margin-left: 0;
+    }
+</style>

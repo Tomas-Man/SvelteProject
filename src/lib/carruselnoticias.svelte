@@ -39,7 +39,6 @@
     <div class="flechaIzq" slot="left-control"><img src="/img/left-arrow-svgrepo-com-white.svg" alt="noticia anterior"></div>
     <div class="flechaDcha" slot="right-control"><img src="/img/right-arrow-svgrepo-com-white.svg" alt="noticia siguiente"></div>
 </Carousel>
-
 <style>
     @font-face {
         font-family: "Decima Nova Pro", sans-serif;
