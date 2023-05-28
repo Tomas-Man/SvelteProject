@@ -28,7 +28,7 @@
         background-color: #6d819a;
         cursor: pointer;
     }
-    .metodo>h1{
+    h1{
         text-align: center;
         position: relative;
         color: #51626f;
