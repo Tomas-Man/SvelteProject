@@ -1,6 +1,6 @@
 <script>
     import Portada from '../lib/portada.svelte'
-
+    import Noticias from '../lib/noticias.svelte'
     import Metodo from '../lib/componentemetodo.svelte'
     import FichaOferta from '../lib/fichaoferta.svelte'
     import FichaSeccionServicios from '../lib/fichaservicio.svelte'
@@ -20,6 +20,7 @@
         -->
     </section>
     <section class="noticias">
+        <Noticias />
         <!--
         <h1>NOTICIAS</h1>
         <Carrusel />
