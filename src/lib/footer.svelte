@@ -1,12 +1,14 @@
 <script>
     //importar estilos
     import '../styles/global.css';
-    import '../styles/footer.css';
+    import Contacto from './contacto.svelte';
     import Form from './formulario.svelte';
 </script>
 <footer>
     <div class="contentFooter">
-        <div class="contFooter">
+
+        <Contacto />
+        <!--<div class="contFooter">
             <h1>CONTACTO</h1>
             <br>
             <p>
@@ -24,7 +26,7 @@
                 </div></a>
                 <img src="/img/mapa.jpg" alt="Mapa">
             </div>
-        </div>
+        </div>-->
         <div class="contFooter">
             <h1>PEDIR INFORMACIÓN</h1>
             <br>
@@ -35,3 +37,93 @@
         </div>
     </div>
 </footer>
+<style>
+    @font-face {
+        font-family: "Decima Nova Pro";
+        src: url("/fonts/DecimaNovaPro.otf");
+    }
+    @font-face {
+        font-family: "Decima Nova Pro Light";
+        src: url("/fonts/DecimaNovaProLight.otf");
+    }
+    footer{
+        font-family: "Decima Nova Pro", sans-serif;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 120vh;
+        background-color: #2E2E2E;
+        font-size: 1.3em;
+    }
+    footer h1{
+        font-family: "Decima Nova Pro Light", sans-serif;
+        color: white;
+    }
+    footer p{
+        color: #dad4cb;
+    }
+    a{
+        color: white;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    .contentFooter{
+        position: relative;
+        width: calc(100% - 2em);
+        padding-top: 2em;
+        display: inline-flex;
+        justify-content: center;
+    }
+    /*.contFooter{
+        display: inline-block;
+        text-align: left;
+        min-width: 400px;
+        max-width: 700px;
+        margin-left: 2.5em;
+    }
+    .googlemaps{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #d9d9d9;
+        z-index: 2;
+        opacity: 0;
+        text-align: center;
+        border-radius: 5px;
+        transition: opacity 1s;
+    }
+    .googlemaps>p{
+        margin-top: 100px;
+        color: #2E2E2E;
+        line-height: 2em;
+        font-size: 1.2em;
+    }
+    .googlemaps:hover{
+        transition: 1s;
+        opacity: .7;
+    }
+    .mapa{
+        display: block;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 400px;
+        height: 285px;
+        transition: 1s;
+    }
+    .mapa>img{
+        width: 400px;
+        z-index: -1;
+        transition: 2s;
+        background-color: #d9d9d9;
+        border-radius: 5px;
+    }*/
+    #lineaForm{
+        padding-bottom: 1em;
+        border-bottom: 1px solid white;
+    }
+</style>
