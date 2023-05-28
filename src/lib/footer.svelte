@@ -1,5 +1,5 @@
 <script>
-    //importar estilos
+    //importar estilos y componente
     import '../styles/global.css';
     import Form from './formulario.svelte';
 </script>
