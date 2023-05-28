@@ -9,25 +9,9 @@
 <div class="fondo"></div>
     <section class="portada">
         <Portada />
-        <!--
-        <div class="tabNews">
-            <h2>ÚLTIMAS NOTICIAS</h2>
-        </div>
-        <div class="lema">
-            <h1>Excelencia adaptada <br>a cada estudiante</h1>
-            <h2>En búsqueda permanente de nuevos caminos que permitan el éxito educativo</h2>
-        </div>
-        -->
     </section>
     <section class="noticias">
         <Noticias />
-        <!--
-        <h1>NOTICIAS</h1>
-        <Carrusel />
-        <div class="vertodasnoticias">
-            <p>VER TODAS LAS NOTICIAS</p>
-        </div>
-        -->
     </section>
     <section class="metodo">
         <Metodo />

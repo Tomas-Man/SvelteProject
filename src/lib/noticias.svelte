@@ -12,7 +12,7 @@
         font-size: 4em;
         font-family: 'Decima Nova Pro', sans-serif;
         font-weight: 300;
-        color: pink;
+        color: white;
     }
     .vertodasnoticias{
         position: relative;
