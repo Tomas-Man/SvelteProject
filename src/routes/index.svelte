@@ -1,5 +1,4 @@
 <script>
-    // import '../styles/estiloindex.css';
     import Carrusel from '../lib/carruselnoticias.svelte'
     import Metodo from '../lib/componentemetodo.svelte'
     import FichaOferta from '../lib/fichaoferta.svelte'
