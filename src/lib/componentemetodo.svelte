@@ -19,7 +19,7 @@
         <p>Creemos en lo que hacemos<br>Comprometidos a todos los niveles<br>Educamos en valores</p>
     </div>
 </div>
-<div class="vermasmetodo" on:click={() => {(location='/esccuela/metodo')}}>
+<div class="vermasmetodo" on:click={() => {(location='/escuela/metodo')}}>
     <p>VER MÁS SOBRE NUESTRO MÉTODO EDUCATIVO</p>
 </div>
 
