@@ -1,10 +1,15 @@
 <script>
     import Ciclos from './telecomunicaciones.svelte';
+    import Titulo from '../../lib/titulo.svelte';
 </script>
 <Ciclos>
     <div slot="slotFondo" class="fondo"></div>
-    <h1 slot="slotNombreFP" class="nombreFP">Administración de Sistemas Informáticos en Red</h1>
-    <h2 slot="slotTipoFP" class="tipoFP">FP de Grado Superior</h2>
+    <!--<h1 slot="slotNombreFP" class="nombreFP">Administración de Sistemas Informáticos en Red</h1>
+    <h2 slot="slotTipoFP" class="tipoFP">FP de Grado Superior</h2>-->
+    <Titulo>
+        <h1>Administración de Sistemas Informáticos en Red</h1>
+        <h2>FP de Grado Superior</h2>
+    </Titulo>
     <img slot="slotImagenPorq" src="/img/ciclos/asir/asir00.jpg" alt="Administración de Sistemas Informáticos en Red">
     <div slot="slotTextoPorq" class="textoPorq">
         <p>La alta demanda de profesionales en las tecnologías relacionadas con la gestión de computadoras, redes, bases de datos y sistemas operativos, así como el desarrollo y administración de aplicaciones de todo tipo, hace de estos estudios, unos de los más solicitados a nivel laboral.</p>
@@ -96,7 +101,7 @@
         background-position: center;
         background-repeat: no-repeat;
         z-index: -1;
-    }
+    }/*
     .nombreFP{
         font-size: 6em;
         letter-spacing: .05em;
@@ -105,7 +110,7 @@
         font-size: 3em;
         font-weight: lighter;
         line-height: 4em;
-    }
+    }*/
     .textoPorq {
         font-size: 1.4em;
     }
