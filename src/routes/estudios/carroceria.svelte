@@ -6,7 +6,7 @@
             <h1 class="NombreFP" slot="slotNombreFP">Formación Profesional en Carrocería</h1>
             <h2 class="TipoFP" slot="slotTipoFP">FP de Grado Medio</h2>
         <img slot="slotImagenPorq" src="/img/ciclos/carroceria/carroceria00.jpg" alt="Carrocería">
-            <div slot="slotTextoPorq">
+            <div class="textoPorq" slot="slotTextoPorq">
                 <p>Estos estudios te permitirán desarrollar una carrera como especialista en el mantenimiento de vehículos.</p>
                 <br>
                 <p>Aprenderás los fundamentos de una profesión muy práctica con alta demanda que te permitirá adquirir las destrezas y técnicas que permitan una salida como profesional en trabajos de chapa, transformaciones de carrocerías, vehículos pesados, construcción y reparación de elementos de fibra y pintura.</p>
@@ -96,8 +96,9 @@
         margin-bottom: 30px;
         text-align: center;
     }
-    .slotTextoPorq p{
+    .textoPorq {
         font-size: 1.4em;
+        color: pink;
     }
     .textoRamas h1{
         margin-top: 100px;
