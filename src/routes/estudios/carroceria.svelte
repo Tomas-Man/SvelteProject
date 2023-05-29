@@ -4,10 +4,10 @@
 <Ciclos>
     <div slot="slotFondo" class="fondo"></div>
     <section class="titulo">
-        <div class="tituloFP">
+
             <h1 slot="slotNombreFP">Formación Profesional en Carrocería</h1>
             <h2 slot="slotTipoFP">FP de Grado Medio</h2>
-        </div>
+
     </section>
     <section class="porque">
         <img slot="slotImagenPorq" src="/img/ciclos/carroceria/carroceria00.jpg" alt="Carrocería">
