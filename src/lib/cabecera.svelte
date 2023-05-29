@@ -18,6 +18,7 @@
     const notClickd = () => {nShow= !nShow, cShow=false, eShow=false, sShow=false};
     const servClickd = () => {sShow = !sShow, cShow=false, nShow=false, eShow=false};
     //Creación de función para que redireccione el <li> entero y no sólo el texto que contiene
+
     const esoClickd = () => {irESO = (location='/estudios/eso')};
     const fpbClickd = () => {irFPB = (location='/estudios/mantenimiento')};
     const carClickd = () => {irCAR = (location='/estudios/carroceria')};
@@ -119,7 +120,7 @@
                 <div class="contSubnav">
                     <p>SERVICIOS EDUCATIVOS</p>
                     <ul>
-                        <li>EDUCAMOS</li>
+                        <li on:click={(location='/centro/matriculacion')};}>EDUCAMOS</li>
                         <li>GOOGLE CLASSROOM</li>
                         <li>MICROSOFT OFFICE 365</li>
                         <li>MICROSOFT TEAMS</li>
