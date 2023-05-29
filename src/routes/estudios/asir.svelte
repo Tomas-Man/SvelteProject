@@ -2,7 +2,7 @@
     import Ciclos from './telecomunicaciones.svelte';
     import Titulo from '../../lib/titulo.svelte';
 </script>
-<div slot="slotFondo" class="fondo"></div>
+<div class="fondo"></div>
 <Titulo>
     <div class="tiuloSlot" slot="tituloText">
         <h1>Administración de Sistemas Informáticos en Red</h1>
