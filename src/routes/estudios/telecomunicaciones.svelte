@@ -1,4 +1,3 @@
-<main>
     <!--<div class="fondo"></div>-->
     <!--
     <section class="titulo">
@@ -158,7 +157,6 @@
         </div>
         </div>
     </section>
-</main>
 <style>
     @font-face {
         font-family: "Decima Nova Pro";
