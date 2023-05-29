@@ -3,10 +3,10 @@
 </script>
 <Ciclos>
     <div slot="slotFondo" class="fondo"></div>
-    <h1 slot="slotNombreFP">Electromecánica de Vehículos</h1>
-    <h2 slot="slotTipoFP">FP de Grado Medio</h2>
+    <h1 slot="slotNombreFP" class="nombreFP">Electromecánica de Vehículos</h1>
+    <h2 slot="slotTipoFP" class="tipoFP">FP de Grado Medio</h2>
     <img slot="slotImagenPorq" src="/img/ciclos/electromecanica/electromecanica00.jpg" alt="Electromecánica">
-    <div slot="slotTextoPorq">
+    <div slot="slotTextoPorq" class="textoPorq">
         <p>Estos estudios te permitirán desarrollar una carrera como especialista en el mantenimiento de vehículos.</p>
         <br>
         <p>Se trata de un área muy práctica con alta demanda que te permitirá adquirir las destrezas y técnicas que permitan localizar y arreglar averías mecánicas, hidraúlicas, eléctricas y electrónicas.</p>
@@ -77,5 +77,90 @@
         background-position: center;
         background-repeat: no-repeat;
         z-index: -1;
+    }
+    .nombreFP{
+        font-size: 6em;
+        letter-spacing: .05em;
+    }
+    .tipoFP{
+        font-size: 3em;
+        font-weight: lighter;
+        line-height: 4em;
+    }
+    .textoPorq{
+        font-size: 1.4em;
+    }
+    .iconosRamas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .iconoRama{
+        position: relative;
+        margin: 120px 40px 40px;
+        min-width: 210px;
+        width: 13%;
+        height: 30vh;
+        background-color: #2E2E2EB2;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 1.5em;
+        display: grid;
+        place-items: center;
+    }
+    .iconoRama img{
+        position: relative;
+        width: 40%;
+        margin: 20px 20px 0;
+    }
+    .iconoRama p {
+        margin: 0 10px
+    }
+    .lista{
+        font-size: 1.5em;
+        line-height: 1.5em;
+        list-style: none;
+    }
+    .lista li{
+        text-indent: -1.5em;
+        margin-right: 1.5em;
+    }
+    .lista li::before{
+        content: "";
+        display: inline-block;
+        height: 1em;
+        width: 1em;
+        margin-right: 0.5em;
+        background-repeat: no-repeat;
+        background-image: url(/img/ciclos/puntolista.svg);
+        background-size: contain;
+    }
+    figure{
+        display: inline-block;
+        width: 23.5%;
+        margin: 0.5em;
+    }
+    figure img{
+        width: 100%;
+    }
+    .materiasLista{
+        font-size: 1.5em;
+        line-height: 1.7em;
+        height: 100%;
+    }
+    .materiasLista li{
+        text-indent: -1.5em;
+        margin-right: 1.5em;
+        list-style: none;
+    }
+    .materiasLista li::before{
+        content: "";
+        display: inline-block;
+        height: 1em;
+        width: 1em;
+        margin-right: 0.5em;
+        background-repeat: no-repeat;
+        background-image: url(/img/ciclos/puntolista.svg);
+        background-size: contain;
     }
 </style>
