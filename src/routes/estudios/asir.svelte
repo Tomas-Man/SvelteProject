@@ -146,6 +146,7 @@
         font-size: 1.5em;
         line-height: 1.5em;
         list-style: none;
+        color: pink;
     }
     .lista li{
         text-indent: -1.5em;
