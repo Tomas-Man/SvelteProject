@@ -1,7 +1,5 @@
 <main>
-    <slot name="slotFondo">
         <div class="fondo"></div>
-    </slot>
     <!--
     <section class="titulo">
         <div class="tituloFP">-->
