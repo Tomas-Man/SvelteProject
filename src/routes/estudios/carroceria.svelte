@@ -5,16 +5,12 @@
     <div slot="slotFondo" class="fondo"></div>
             <h1 slot="slotNombreFP">Formación Profesional en Carrocería</h1>
             <h2 slot="slotTipoFP">FP de Grado Medio</h2>
-    <section class="porque">
         <img slot="slotImagenPorq" src="/img/ciclos/carroceria/carroceria00.jpg" alt="Carrocería">
-        <div class="textoPq">
             <div slot="slotTextoPorq">
                 <p>Estos estudios te permitirán desarrollar una carrera como especialista en el mantenimiento de vehículos.</p>
                 <br>
                 <p>Aprenderás los fundamentos de una profesión muy práctica con alta demanda que te permitirá adquirir las destrezas y técnicas que permitan una salida como profesional en trabajos de chapa, transformaciones de carrocerías, vehículos pesados, construcción y reparación de elementos de fibra y pintura.</p>
             </div>
-        </div>
-    </section>
     <div slot="slotIconosRamas" class="iconosRamas">
         <div class="iconoRama">
             <img src="/img/ciclos/carroceria/reparacion.svg" alt="Reparación de vehículos">
@@ -82,11 +78,11 @@
         background-repeat: no-repeat;
         z-index: -1;
     }
-    .titulo h1{
+    .slotNombreFP h1{
         font-size: 6em;
         letter-spacing: .05em;
     }
-    .titulo h2{
+    .slotTipoFP h2{
         font-size: 3em;
         font-weight: lighter;
         line-height: 4em;
@@ -94,13 +90,13 @@
     .imagenPq img{
         width: calc(50vw - 40px);
     }
-    .textoPq h2{
+    .slotTextoPorq h2{
         font-size: 3em;
         font-weight: lighter;
         margin-bottom: 30px;
         text-align: center;
     }
-    .textoPq p{
+    .slotTextoPorq p{
         font-size: 1.4em;
     }
     .textoRamas h1{
