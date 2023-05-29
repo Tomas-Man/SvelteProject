@@ -16,11 +16,12 @@
         align-items: center;
         color: white;
     }
-    .titulo h1{
+    h1{
         font-size: 6em;
         letter-spacing: .05em;
+        color: pink;
     }
-    .titulo h2{
+    h2{
         font-size: 3em;
         font-weight: lighter;
         line-height: 4em;
