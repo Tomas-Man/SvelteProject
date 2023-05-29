@@ -2,9 +2,10 @@
     <slot name="slotFondo">
         <div class="fondo"></div>
     </slot>
+    <!--
     <section class="titulo">
-        <div class="tituloFP">
-            <!-- con estos "slots" podremos hacer que éste código funcione como plantilla, y sólo cambiaremos el contenido que hay en el slot -->
+        <div class="tituloFP">-->
+            <!-- con estos "slots" podremos hacer que éste código funcione como plantilla, y sólo cambiaremos el contenido que hay en el slot
             <slot name="slotNombreFP">
                 <h1>Instalaciones de Telecomunicaciones</h1>
             </slot>
@@ -12,7 +13,7 @@
                 <h2>FP de Grado Medio</h2>
             </slot>
         </div>
-    </section>
+    </section>-->
     <section class="porque">
         <div class="imagenPq">
             <figure>
@@ -180,7 +181,7 @@
     *{
         font-family: "Decima Nova Pro", sans-serif;
     }
-    .titulo{
+    /*.titulo{
         position: relative;
         top: 0;
         left: 0;
@@ -199,7 +200,7 @@
         font-size: 3em;
         font-weight: lighter;
         line-height: 4em;
-    }
+    }*/
     .porque{
         position: relative;
         top: 0;
