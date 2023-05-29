@@ -3,8 +3,8 @@
 </script>
 <Ciclos>
     <div slot="slotFondo" class="fondo"></div>
-            <h1 slot="slotNombreFP" class="NombreFP">Formación Profesional en Carrocería</h1>
-            <h2 slot="slotTipoFP" class="TipoFP">FP de Grado Medio</h2>
+            <h1 slot="slotNombreFP" class="nombreFP">Formación Profesional en Carrocería</h1>
+            <h2 slot="slotTipoFP" class="tipoFP">FP de Grado Medio</h2>
         <img slot="slotImagenPorq" src="/img/ciclos/carroceria/carroceria00.jpg" alt="Carrocería">
             <div slot="slotTextoPorq" class="textoPorq">
                 <p>Estos estudios te permitirán desarrollar una carrera como especialista en el mantenimiento de vehículos.</p>
@@ -78,33 +78,18 @@
         background-repeat: no-repeat;
         z-index: -1;
     }
-    .NombreFP{
+    .nombreFP{
         font-size: 6em;
         letter-spacing: .05em;
     }
-    .TipoFP{
+    .tipoFP{
         font-size: 3em;
         font-weight: lighter;
         line-height: 4em;
     }
-    /*.imagenPq img{
-        width: calc(50vw - 40px);
-    }
-    .slotTextoPorq h2{
-        font-size: 3em;
-        font-weight: lighter;
-        margin-bottom: 30px;
-        text-align: center;
-    }*/
     .textoPorq {
         font-size: 1.4em;
-    }/*
-    .textoRamas h1{
-        margin-top: 100px;
-        font-size: 5em;
-        text-align: center;
-        font-weight: lighter;
-    }*/
+    }
     .iconosRamas{
         display: flex;
         justify-content: center;
@@ -130,16 +115,7 @@
     }
     .iconoRama p {
         margin: 0 10px
-    }/*
-    .tituloAspectos h1{
-        font-size: 5em;
-        font-weight: lighter;
-        color: #51626f;
     }
-    .listasAspectosDest p{
-        font-size: 1.7em;
-        margin-bottom: 1em;
-    }*/
     .lista{
         font-size: 1.5em;
         line-height: 1.5em;
@@ -166,18 +142,7 @@
     }
     figure img{
         width: 100%;
-    }/*
-    .tituloModulos h1 {
-        font-size: 5em;
-        font-weight: lighter;
-        color: #51626f;
     }
-    .cursosListas h2{
-        text-align: center;
-        font-size: 3em;
-        font-weight: lighter;
-        margin-bottom: 30px;
-    }*/
     .materiasLista{
         font-size: 1.5em;
         line-height: 1.7em;
@@ -187,7 +152,6 @@
         text-indent: -1.5em;
         margin-right: 1.5em;
         list-style: none;
-        color: #dc001b;
     }
     .materiasLista li::before{
         content: "";

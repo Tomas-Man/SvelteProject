@@ -3,10 +3,10 @@
 </script>
 <Ciclos>
     <div slot="slotFondo" class="fondo"></div>
-    <h1 slot="slotNombreFP">Administración de Sistemas Informáticos en Red</h1>
-    <h2 slot="slotTipoFP">FP de Grado Superior</h2>
+    <h1 slot="slotNombreFP" class="nombreFP">Administración de Sistemas Informáticos en Red</h1>
+    <h2 slot="slotTipoFP" class="tipoFP">FP de Grado Superior</h2>
     <img slot="slotImagenPorq" src="/img/ciclos/asir/asir00.jpg" alt="Administración de Sistemas Informáticos en Red">
-    <div slot="slotTextoPorq">
+    <div slot="slotTextoPorq" class="textoPorq">
         <p>La alta demanda de profesionales en las tecnologías relacionadas con la gestión de computadoras, redes, bases de datos y sistemas operativos, así como el desarrollo y administración de aplicaciones de todo tipo, hace de estos estudios, unos de los más solicitados a nivel laboral.</p>
         <br>
         <p>El ciclo permite conseguir las capacidades y habilidades que se requieren a un técnico superior en administración de sistemas, redes y tecnologías relacionadas con Internet.</p>
@@ -96,5 +96,90 @@
         background-position: center;
         background-repeat: no-repeat;
         z-index: -1;
+    }
+    .nombreFP{
+        font-size: 6em;
+        letter-spacing: .05em;
+    }
+    .tipoFP{
+        font-size: 3em;
+        font-weight: lighter;
+        line-height: 4em;
+    }
+    .textoPorq {
+        font-size: 1.4em;
+    }
+    .iconosRamas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .iconoRama{
+        position: relative;
+        margin: 120px 40px 40px;
+        min-width: 210px;
+        width: 13%;
+        height: 30vh;
+        background-color: #2E2E2EB2;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 1.5em;
+        display: grid;
+        place-items: center;
+    }
+    .iconoRama img{
+        position: relative;
+        width: 40%;
+        margin: 20px 20px 0;
+    }
+    .iconoRama p {
+        margin: 0 10px
+    }
+    .lista{
+        font-size: 1.5em;
+        line-height: 1.5em;
+        list-style: none;
+    }
+    .lista li{
+        text-indent: -1.5em;
+        margin-right: 1.5em;
+    }
+    .lista li::before{
+        content: "";
+        display: inline-block;
+        height: 1em;
+        width: 1em;
+        margin-right: 0.5em;
+        background-repeat: no-repeat;
+        background-image: url(/img/ciclos/puntolista.svg);
+        background-size: contain;
+    }
+    figure{
+        display: inline-block;
+        width: 23.5%;
+        margin: 0.5em;
+    }
+    figure img{
+        width: 100%;
+    }
+    .materiasLista{
+        font-size: 1.5em;
+        line-height: 1.7em;
+        height: 100%;
+    }
+    .materiasLista li{
+        text-indent: -1.5em;
+        margin-right: 1.5em;
+        list-style: none;
+    }
+    .materiasLista li::before{
+        content: "";
+        display: inline-block;
+        height: 1em;
+        width: 1em;
+        margin-right: 0.5em;
+        background-repeat: no-repeat;
+        background-image: url(/img/ciclos/puntolista.svg);
+        background-size: contain;
     }
 </style>
