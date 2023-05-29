@@ -1,5 +1,5 @@
 <main>
-        <div class="fondo"></div>
+    <!--<div class="fondo"></div>-->
     <!--
     <section class="titulo">
         <div class="tituloFP">-->
@@ -164,7 +164,7 @@
         font-family: "Decima Nova Pro";
         src: url("/fonts/DecimaNovaPro.otf");
     }
-    .fondo{
+    /*.fondo{
          position: fixed;
          top: 0;
          left: 0;
@@ -175,7 +175,7 @@
          background-position: center;
          background-repeat: no-repeat;
          z-index: -1;
-    }
+    }*/
     *{
         font-family: "Decima Nova Pro", sans-serif;
     }
