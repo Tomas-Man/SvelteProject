@@ -3,8 +3,8 @@
 </script>
 <Ciclos>
     <div slot="slotFondo" class="fondo"></div>
-            <h1 slot="slotNombreFP">Formación Profesional en Carrocería</h1>
-            <h2 slot="slotTipoFP">FP de Grado Medio</h2>
+            <h1 class="NombreFP" slot="slotNombreFP">Formación Profesional en Carrocería</h1>
+            <h2 class="TipoFP" slot="slotTipoFP">FP de Grado Medio</h2>
         <img slot="slotImagenPorq" src="/img/ciclos/carroceria/carroceria00.jpg" alt="Carrocería">
             <div slot="slotTextoPorq">
                 <p>Estos estudios te permitirán desarrollar una carrera como especialista en el mantenimiento de vehículos.</p>
@@ -78,11 +78,11 @@
         background-repeat: no-repeat;
         z-index: -1;
     }
-    .slotNombreFP h1{
+    .NombreFP{
         font-size: 6em;
         letter-spacing: .05em;
     }
-    .slotTipoFP h2{
+    .TipoFP{
         font-size: 3em;
         font-weight: lighter;
         line-height: 4em;
