@@ -59,6 +59,13 @@
     </div>
 </Ciclos>
 <style>
+    @font-face {
+        font-family: "Decima Nova Pro";
+        src: url("/fonts/DecimaNovaPro.otf");
+    }
+    *{
+        font-family: "Decima Nova Pro", sans-serif;
+    }
     .fondo{
         position: fixed;
         top: 0;
@@ -70,5 +77,125 @@
         background-position: center;
         background-repeat: no-repeat;
         z-index: -1;
+    }
+    .titulo h1{
+        font-size: 6em;
+        letter-spacing: .05em;
+    }
+    .titulo h2{
+        font-size: 3em;
+        font-weight: lighter;
+        line-height: 4em;
+    }
+    .imagenPq img{
+        width: calc(50vw - 40px);
+    }
+    .textoPq h2{
+        font-size: 3em;
+        font-weight: lighter;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .textoPq p{
+        font-size: 1.4em;
+    }
+    .textoRamas h1{
+        margin-top: 100px;
+        font-size: 5em;
+        text-align: center;
+        font-weight: lighter;
+    }
+    .iconosRamas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .iconoRama{
+        position: relative;
+        margin: 120px 40px 40px;
+        min-width: 210px;
+        width: 13%;
+        height: 30vh;
+        background-color: #2E2E2EB2;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 1.5em;
+        display: grid;
+        place-items: center;
+    }
+    .iconoRama img{
+        position: relative;
+        width: 40%;
+        margin: 20px 20px 0;
+    }
+    .iconoRama p {
+        margin: 0 10px
+    }
+    .tituloAspectos h1{
+        font-size: 5em;
+        font-weight: lighter;
+        color: #51626f;
+    }
+    .listasAspectosDest p{
+        font-size: 1.7em;
+        margin-bottom: 1em;
+    }
+    .lista{
+        font-size: 1.5em;
+        line-height: 1.5em;
+        list-style: none;
+    }
+    .lista li{
+        text-indent: -1.5em;
+        margin-right: 1.5em;
+    }
+    .lista li::before{
+        content: "";
+        display: inline-block;
+        height: 1em;
+        width: 1em;
+        margin-right: 0.5em;
+        background-repeat: no-repeat;
+        background-image: url(/img/ciclos/puntolista.svg);
+        background-size: contain;
+    }
+    figure{
+        display: inline-block;
+        width: 23.5%;
+        margin: 0.5em;
+    }
+    figure img{
+        width: 100%;
+    }
+    .tituloModulos h1 {
+        font-size: 5em;
+        font-weight: lighter;
+        color: #51626f;
+    }
+    .cursosListas h2{
+        text-align: center;
+        font-size: 3em;
+        font-weight: lighter;
+        margin-bottom: 30px;
+    }
+    .materiasLista{
+        font-size: 1.5em;
+        line-height: 1.7em;
+        height: 100%;
+    }
+    .materiasLista li{
+        text-indent: -1.5em;
+        margin-right: 1.5em;
+        list-style: none;
+    }
+    .materiasLista li::before{
+        content: "";
+        display: inline-block;
+        height: 1em;
+        width: 1em;
+        margin-right: 0.5em;
+        background-repeat: no-repeat;
+        background-image: url(/img/ciclos/puntolista.svg);
+        background-size: contain;
     }
 </style>
