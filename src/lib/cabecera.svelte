@@ -120,7 +120,7 @@
                 <div class="contSubnav">
                     <p>SERVICIOS EDUCATIVOS</p>
                     <ul>
-                        <li on:click={(location='/centro/matriculacion')};}>EDUCAMOS</li>
+                        <li on:click={(location='/centro/matriculacion')}>EDUCAMOS</li>
                         <li>GOOGLE CLASSROOM</li>
                         <li>MICROSOFT OFFICE 365</li>
                         <li>MICROSOFT TEAMS</li>
