@@ -3,8 +3,10 @@
 </script>
 <Ciclos>
     <div slot="slotFondo" class="fondo"></div>
-    <h1 slot="slotNombreFP">Formación Profesional en Carrocería</h1>
-    <h2 slot="slotTipoFP">FP de Grado Medio</h2>
+    <div class="titulo">
+        <h1 slot="slotNombreFP">Formación Profesional en Carrocería</h1>
+        <h2 slot="slotTipoFP">FP de Grado Medio</h2>
+    </div>
     <img slot="slotImagenPorq" src="/img/ciclos/carroceria/carroceria00.jpg" alt="Carrocería">
     <div slot="slotTextoPorq">
         <p>Estos estudios te permitirán desarrollar una carrera como especialista en el mantenimiento de vehículos.</p>
