@@ -9,16 +9,16 @@
             <h2 slot="slotTipoFP">FP de Grado Medio</h2>
         </div>
     </section>
-    <div class="titulo">
-        <h1 slot="slotNombreFP"></h1>
-        <h2 slot="slotTipoFP">FP de Grado Medio</h2>
-    </div>
-    <img slot="slotImagenPorq" src="/img/ciclos/carroceria/carroceria00.jpg" alt="Carrocería">
-    <div slot="slotTextoPorq">
-        <p>Estos estudios te permitirán desarrollar una carrera como especialista en el mantenimiento de vehículos.</p>
-        <br>
-        <p>Aprenderás los fundamentos de una profesión muy práctica con alta demanda que te permitirá adquirir las destrezas y técnicas que permitan una salida como profesional en trabajos de chapa, transformaciones de carrocerías, vehículos pesados, construcción y reparación de elementos de fibra y pintura.</p>
-    </div>
+    <section class="porque">
+        <img slot="slotImagenPorq" src="/img/ciclos/carroceria/carroceria00.jpg" alt="Carrocería">
+        <div class="textoPq">
+            <div slot="slotTextoPorq">
+                <p>Estos estudios te permitirán desarrollar una carrera como especialista en el mantenimiento de vehículos.</p>
+                <br>
+                <p>Aprenderás los fundamentos de una profesión muy práctica con alta demanda que te permitirá adquirir las destrezas y técnicas que permitan una salida como profesional en trabajos de chapa, transformaciones de carrocerías, vehículos pesados, construcción y reparación de elementos de fibra y pintura.</p>
+            </div>
+        </div>
+    </section>
     <div slot="slotIconosRamas" class="iconosRamas">
         <div class="iconoRama">
             <img src="/img/ciclos/carroceria/reparacion.svg" alt="Reparación de vehículos">
