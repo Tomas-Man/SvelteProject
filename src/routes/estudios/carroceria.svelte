@@ -158,7 +158,7 @@
         background-repeat: no-repeat;
         background-image: url(/img/ciclos/puntolista.svg);
         background-size: contain;
-    } /*
+    }
     figure{
         display: inline-block;
         width: 23.5%;
@@ -166,7 +166,7 @@
     }
     figure img{
         width: 100%;
-    }
+    }/*
     .tituloModulos h1 {
         font-size: 5em;
         font-weight: lighter;
