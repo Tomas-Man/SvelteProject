@@ -1,11 +1,11 @@
-<section class="titulo">
+<section class="tituloSlot">
     <slot name="tituloText">
         <h1></h1>
         <h2></h2>
     </slot>
 </section>
 <style>
-    .titulo{
+    .tituloSlot{
         position: relative;
         top: 0;
         left: 0;
