@@ -4,7 +4,7 @@ import { respond } from '/Users/20txz/Desktop/rec/SvelteProject/.svelte-kit/runt
 import { set_paths, assets, base } from '/Users/20txz/Desktop/rec/SvelteProject/.svelte-kit/runtime/paths.js';
 import { set_prerendering } from '/Users/20txz/Desktop/rec/SvelteProject/.svelte-kit/runtime/env.js';
 
-const template = ({ head, body, assets, nonce }) => "<!DOCTYPE html>\r\n<html lang=\"es\">\r\n\t<head>\r\n\t\t<meta charset=\"utf-8\" />\r\n\t\t<link rel=\"icon\" href=\"" + assets + "/favicon.png\" />\r\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\r\n\t\t" + head + "\r\n\t</head>\r\n\t<body>\r\n\t\t" + body + "\r\n\t</body>\r\n</html>";
+const template = ({ head, body, assets, nonce }) => "<!DOCTYPE html>\r\n<html lang=\"es\">\r\n\t<head>\r\n\t\t<meta charset=\"utf-8\" />\r\n\t\t<link rel=\"icon\" href=\"" + assets + "/favicon.png\" />\r\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\r\n\t\t" + head + "\r\n\t\t<title>Salesianos Villamuriel</title>\r\n\t</head>\r\n\t<body>\r\n\t\t" + body + "\r\n\t</body>\r\n</html>";
 
 let read = null;
 

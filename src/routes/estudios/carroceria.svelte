@@ -98,7 +98,6 @@
     }
     .textoPorq {
         font-size: 1.4em;
-        color: pink;
     }
     .textoRamas h1{
         margin-top: 100px;
