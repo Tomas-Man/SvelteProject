@@ -3,10 +3,10 @@
 </script>
 <Ciclos>
     <div slot="slotFondo" class="fondo"></div>
-            <h1 class="NombreFP" slot="slotNombreFP">Formación Profesional en Carrocería</h1>
-            <h2 class="TipoFP" slot="slotTipoFP">FP de Grado Medio</h2>
+            <h1 slot="slotNombreFP" class="NombreFP">Formación Profesional en Carrocería</h1>
+            <h2 slot="slotTipoFP" class="TipoFP">FP de Grado Medio</h2>
         <img slot="slotImagenPorq" src="/img/ciclos/carroceria/carroceria00.jpg" alt="Carrocería">
-            <div class="textoPorq" slot="slotTextoPorq">
+            <div slot="slotTextoPorq" class="textoPorq">
                 <p>Estos estudios te permitirán desarrollar una carrera como especialista en el mantenimiento de vehículos.</p>
                 <br>
                 <p>Aprenderás los fundamentos de una profesión muy práctica con alta demanda que te permitirá adquirir las destrezas y técnicas que permitan una salida como profesional en trabajos de chapa, transformaciones de carrocerías, vehículos pesados, construcción y reparación de elementos de fibra y pintura.</p>
@@ -87,7 +87,7 @@
         font-weight: lighter;
         line-height: 4em;
     }
-    .imagenPq img{
+    /*.imagenPq img{
         width: calc(50vw - 40px);
     }
     .slotTextoPorq h2{
@@ -95,16 +95,16 @@
         font-weight: lighter;
         margin-bottom: 30px;
         text-align: center;
-    }
+    }*/
     .textoPorq {
         font-size: 1.4em;
-    }
+    }/*
     .textoRamas h1{
         margin-top: 100px;
         font-size: 5em;
         text-align: center;
         font-weight: lighter;
-    }
+    }*/
     .iconosRamas{
         display: flex;
         justify-content: center;
@@ -130,7 +130,7 @@
     }
     .iconoRama p {
         margin: 0 10px
-    }
+    }/*
     .tituloAspectos h1{
         font-size: 5em;
         font-weight: lighter;
@@ -139,7 +139,7 @@
     .listasAspectosDest p{
         font-size: 1.7em;
         margin-bottom: 1em;
-    }
+    }*/
     .lista{
         font-size: 1.5em;
         line-height: 1.5em;
@@ -158,7 +158,7 @@
         background-repeat: no-repeat;
         background-image: url(/img/ciclos/puntolista.svg);
         background-size: contain;
-    }
+    } /*
     figure{
         display: inline-block;
         width: 23.5%;
@@ -177,7 +177,7 @@
         font-size: 3em;
         font-weight: lighter;
         margin-bottom: 30px;
-    }
+    }*/
     .materiasLista{
         font-size: 1.5em;
         line-height: 1.7em;
@@ -187,6 +187,7 @@
         text-indent: -1.5em;
         margin-right: 1.5em;
         list-style: none;
+        color: #dc001b;
     }
     .materiasLista li::before{
         content: "";
