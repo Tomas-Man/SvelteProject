@@ -1,15 +1,13 @@
 <script>
     import Titulo from '../../../lib/titulo.svelte';
-    import Escuela from '../../../lib/escuela.svelte';
-    import '../../../styles/escuela.css'
+    //import Escuela from '../../../lib/escuela.svelte';
 </script>
 <div class="fondo"></div>
 <Titulo>
-    <div class="tituloSlot" slot="tituloText">
-        <h1>Servicio de Erasmus +</h1>
-        <h2>Fomento de la educación Europea</h2>
-    </div>
+    <h1>Servicio de Erasmus +</h1>
+    <h2>Fomento de la educación Europea</h2>
 </Titulo>
+<!--
 <Escuela>
     <div class="contIzq" slot="slotContenidoIzq">
         <h2>¿Qué es Erasmus+?</h2>
@@ -18,11 +16,12 @@
     </div>
     <div class="contDcha" slot="slotContDcha">
         <div class="contImg">
-                <img src="/img/escuela/erasmus/erasmus_SEPIe.jpeg" alt="Erasmus">
+            <figure></figure>
+            <img src="/img/escuela/erasmus/erasmus_SEPIe.jpeg" alt="Erasmus">
         </div>
     </div>
 </Escuela>
-<!--
+-->
     <section class="contenidoEscuela">
         <slot name="slotContenidoIzq">
             <div class="contIzq">
@@ -40,8 +39,8 @@
                 </div>
             </div>
         </slot>
-    </section>-->
-<!--
+    </section>
+
 <style>
     @font-face {
         font-family: "Decima Nova Pro";
@@ -96,8 +95,7 @@
         position: relative;
         top: 0;
     }
-    img{
+    .contImg img{
         width: calc(50vw - 80px);
     }
 </style>
--->
