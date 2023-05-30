@@ -121,8 +121,8 @@
     .contImg{
         position: relative;
         top: 0;
-    }
+    }*/
     .contImg img{
         width: calc(50vw - 80px);
-    }*/
+    }
 </style>
