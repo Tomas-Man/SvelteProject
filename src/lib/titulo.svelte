@@ -21,10 +21,11 @@
         text-align: center;
         display: grid;
         align-items: center;
-        color: blue;
+        color: white;
     }
     h1{
-        font-size: 6em;
+        line-height: 3em;
+        font-size: 3em;
         letter-spacing: .05em;
     }
     h2{
