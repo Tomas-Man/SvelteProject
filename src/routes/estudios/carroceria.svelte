@@ -2,12 +2,12 @@
     import Ciclos from './telecomunicaciones.svelte';
     import Titulo from '../../lib/titulo.svelte';
 </script>
+<div class="fondo"></div>
 <Titulo>
     <h1 slot="tituloH1">Formación Profesional en Carrocería</h1>
     <h2 slot="tituloH2">FP de Grado Medio</h2>
 </Titulo>
 <Ciclos>
-    <div class="fondo"></div>
         <img slot="slotImagenPorq" src="/img/ciclos/carroceria/carroceria00.jpg" alt="Carrocería">
             <div slot="slotTextoPorq" class="textoPorq">
                 <p>Estos estudios te permitirán desarrollar una carrera como especialista en el mantenimiento de vehículos.</p>

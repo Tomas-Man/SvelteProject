@@ -2,12 +2,12 @@
     import Ciclos from './telecomunicaciones.svelte';
     import Titulo from '../../lib/titulo.svelte';
 </script>
+<div class="fondo"></div>
 <Titulo>
     <h1 slot="tituloH1">Electromecánica de Vehículos</h1>
     <h2 slot="tituloH2">FP de Grado Medio</h2>
 </Titulo>
 <Ciclos>
-    <div class="fondo"></div>
     <img slot="slotImagenPorq" src="/img/ciclos/electromecanica/electromecanica00.jpg" alt="Electromecánica">
     <div slot="slotTextoPorq" class="textoPorq">
         <p>Estos estudios te permitirán desarrollar una carrera como especialista en el mantenimiento de vehículos.</p>
