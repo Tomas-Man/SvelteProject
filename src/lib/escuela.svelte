@@ -101,11 +101,9 @@
 -->
 <section class="contEscuela">
         <div class="contIzq">
-            <slot name="contIzq">
-                <h2>Pruba</h2>
+                <h2><slot name="slotH2">Pruba</slot></h2>
                 <br>
-                <p>Prueba</p>
-            </slot>
+                <p><slot name="slotp">Prueba</slot></p>
         </div>
         <div class="contDcha">
             <slot class="contDcha">
@@ -159,8 +157,9 @@
         color: green;
     }
     p{
-        font-size: 1.5em;
+        font-size: 2em;
         margin-top: 20px;
+        color: green;
     }
     .contDcha{
         position: relative;
