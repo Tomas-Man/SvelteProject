@@ -25,6 +25,7 @@
     const telClickd = () => {irTEL = (location='/estudios/telecomunicaciones')};
     const eleClickd = () => {irELE = (location='/estudios/electromecanica')};
     const asirClickd = () => {irASIR = (location='/estudios/asir')};
+    const msTeams = () => {(location='https://sso2.educamos.com/Autenticacion/Acceder?ReturnUrl=%2fissue%2fwsfed%3fwa%3dwsignin1.0%26wtrealm%3dhttps%253a%252f%252fdonbosco-salesianos-villamurieldecerrato.educamos.com%252f%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252f%26wct%3d2017-03-16T07%253a36%253a30Z&wa=wsignin1.0&wtrealm=https%3a%2f%2fdonbosco-salesianos-villamurieldecerrato.educamos.com%2f&wctx=rm%3d0%26id%3dpassive%26ru%3d%252f&wct=2017-03-16T07%3a36%3a30Z')};
     //--------------------------------------------------------------------
     const matriClckd = () => {irASIR = (location='/centro/matriculacion')};
     const secreClckd = () => {irASIR = (location='/centro/documentos-secretaria')};
@@ -120,7 +121,7 @@
                 <div class="contSubnav">
                     <p>SERVICIOS EDUCATIVOS</p>
                     <ul>
-                        <li on:click={(location='/centro/matriculacion')}>EDUCAMOS</li>
+                        <li on:click ={msTeams}>EDUCAMOS</li>
                         <li>GOOGLE CLASSROOM</li>
                         <li>MICROSOFT OFFICE 365</li>
                         <li>MICROSOFT TEAMS</li>
