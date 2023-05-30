@@ -1,8 +1,8 @@
 <section class="titulo">
-    <slot name="titulo">
-        <h1></h1>
-        <h2></h2>
-    </slot>
+
+        <h1><slot name="tituloH1"></slot></h1>
+        <h2><slot name="tituloH2"></slot></h2>
+
 </section>
 <style>
     .titulo{
