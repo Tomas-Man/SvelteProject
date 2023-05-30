@@ -100,20 +100,18 @@
 </style>
 -->
 <section class="contEscuela">
-        <div class="contIzq">
-                <h2><slot name="slotH2">Pruba</slot></h2>
-                <br>
-                <p><slot name="slotp">Prueba</slot></p>
+    <div class="contIzq">
+        <h2><slot name="slotH2">Pruba</slot></h2>
+        <br>
+        <p><slot name="slotp">Prueba</slot></p>
+    </div>
+    <div class="contDcha">
+        <div class="contImg">
+            <slot name="contDcha">
+                <figure><slot name="contImg"><img src="" alt=""></slot></figure>
+            </slot>
         </div>
-        <div class="contDcha">
-
-                <div class="contImg">
-                    <slot name="contDcha">
-                        <figure><slot name="contImg"><img src="" alt=""></slot></figure>
-                    </slot>
-                </div>
-
-        </div>
+    </div>
 </section>
 <style>
     @font-face {
@@ -122,19 +120,7 @@
     }
     *{
         font-family: "Decima Nova Pro", sans-serif;
-    }/*
-    .fondo{
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        background-image: url("/img/escuela/erasmus/europa.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        z-index: -1;
-    }*/
+    }
     .contEscuela{
         position: relative;
         top: 0;
