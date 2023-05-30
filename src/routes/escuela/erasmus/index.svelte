@@ -27,9 +27,9 @@
     <section class="contenidoEscuela">
         <Escuela>
             <div class="contIzq" slot="slotContenidoIzq">
-                <h2></h2>
+                <h2>¿Qué es Erasmus+?</h2>
                 <br>
-                <p></p>
+                <p>El <a href="http://sepie.es/">Servicio Español para la Internacionalización de la Educación</a> nos concede para este curso el programa <a href="https://erasmus-plus.ec.europa.eu/es">ErasmusPlus</a>, el programa de la Unión Europea para apoyar la educación, la formación, la juventud y el deporte en Europa.</p>
             </div>
             <div class="contDcha" slot="slotContenidoDcha">
                 <div class="contImg">
@@ -87,7 +87,7 @@
         height: 100%;
         background-color: #d9d9d9;
         display: flex;
-    }
+    }/*
     .contIzq{
         position: relative;
         top: 0;
@@ -104,10 +104,10 @@
     .contIzq p{
         font-size: 1.5em;
         margin-top: 20px;
-    }
+    }*/
     .contIzq a{
         color: #4a8089;
-    }
+    }/*
     .contIzq a:hover{
         text-decoration: none;
         color: #75b3b7;
@@ -121,7 +121,7 @@
     .contImg{
         position: relative;
         top: 0;
-    }
+    }*/
     .contImg img{
         width: calc(50vw - 80px);
     }
