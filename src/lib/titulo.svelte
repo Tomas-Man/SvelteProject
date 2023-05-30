@@ -11,18 +11,7 @@
     }
     *{
         font-family: "Decima Nova Pro", sans-serif;
-    }/*
-    .titulo{
-        position: relative;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 60vh;
-        text-align: center;
-        display: grid;
-        align-items: center;
-        color: white;
-    }*/
+    }
     .titulo{
             position: relative;
             top: 0;
@@ -40,6 +29,7 @@
     h1{
         font-size: 3em;
         letter-spacing: .05em;
+            color: deeppink;
     }
     h2{
         font-size: 1.5em;
