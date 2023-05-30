@@ -1,13 +1,11 @@
-
-    <slot name="tituloText">
-        <section class="tituloSlot">
+<section class="titulo">
+    <slot name="titulo">
         <h1></h1>
         <h2></h2>
-        </section>
     </slot>
-
+</section>
 <style>
-    .tituloSlot{
+    .titulo{
         position: relative;
         top: 0;
         left: 0;

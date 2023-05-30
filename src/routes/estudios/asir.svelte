@@ -4,7 +4,7 @@
 </script>
 <div class="fondo"></div>
 <Titulo>
-    <div class="tiuloSlot" slot="tituloText">
+    <div slot="titulo">
         <h1>Administración de Sistemas Informáticos en Red</h1>
         <h2>FP de Grado Superior</h2>
     </div>
