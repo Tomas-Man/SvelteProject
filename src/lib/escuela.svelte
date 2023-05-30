@@ -101,9 +101,10 @@
 -->
 <section class="contEscuela">
     <div class="contIzq">
-        <h2><slot name="slotH2">Pruba</slot></h2>
+        <h2><slot name="slotH2"></slot></h2>
         <br>
-        <p><slot name="slotp">Prueba</slot></p>
+        <p><slot name="slotp"></slot></p>
+        <p><slot name="slotp2"></slot></p>
     </div>
     <div class="contDcha">
         <div class="contImg">

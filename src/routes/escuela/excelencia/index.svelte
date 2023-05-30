@@ -11,7 +11,7 @@
     <Escuela>
         <p slot="slotp">La Junta de Castilla y León nos ha reconocido como centro de excelencia de alto nivel en su orden de 13 de Octubre de 2020.</p>
         <br>
-        <p slot="slotp">Este reconocimiento supone un espaldarazo a nuerstra labor por intentar hacer de nuestro centro un centro especial y nos motiva a continuar en los años venideros por este camino.</p>
+        <p slot="slotp2">Este reconocimiento supone un espaldarazo a nuerstra labor por intentar hacer de nuestro centro un centro especial y nos motiva a continuar en los años venideros por este camino.</p>
         <div slot="contDcha">
             <figure>
                 <img src="/img/escuela/excelencia/fp-excelencia.jpg" alt="Excelencia">
