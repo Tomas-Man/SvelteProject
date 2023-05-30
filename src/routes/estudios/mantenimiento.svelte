@@ -1,5 +1,5 @@
 <script>
-    import Ciclos from './telecomunicaciones.svelte';
+    import Ciclos from '../../lib/estudios.svelte';
     import Titulo from '../../lib/titulo.svelte';
 </script>
 <div class="fondo"></div>
