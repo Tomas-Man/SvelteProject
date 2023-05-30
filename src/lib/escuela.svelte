@@ -104,6 +104,7 @@
         <h2><slot name="slotH2"></slot></h2>
         <br>
         <p><slot name="slotp"></slot></p>
+        <p><slot name="slotp2"></slot></p>
     </div>
     <div class="contDcha">
         <div class="contImg">
