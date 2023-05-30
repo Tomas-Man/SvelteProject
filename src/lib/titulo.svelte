@@ -24,7 +24,6 @@
         color: white;
     }
     h1{
-        line-height: 1.5em;
         font-size: 3em;
         letter-spacing: .05em;
     }
