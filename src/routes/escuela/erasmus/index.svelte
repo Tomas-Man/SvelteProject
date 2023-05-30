@@ -28,11 +28,9 @@
                 <br>
                 <p slot="slotp">El <a href="http://sepie.es/">Servicio Español para la Internacionalización de la Educación</a> nos concede para este curso el programa <a href="https://erasmus-plus.ec.europa.eu/es">ErasmusPlus</a>, el programa de la Unión Europea para apoyar la educación, la formación, la juventud y el deporte en Europa.</p>
             <div slot="contDcha">
-                <div>
                     <figure>
                         <img src="/img/escuela/erasmus/erasmus_SEPIe.jpeg" alt="Erasmus">
                     </figure>
-                </div>
             </div>
         </Escuela>
         <!--
@@ -116,8 +114,8 @@
     .contImg{
         position: relative;
         top: 0;
-    }*/
+    }
     .contImg img{
         width: calc(50vw - 80px);
-    }
+    }*/
 </style>

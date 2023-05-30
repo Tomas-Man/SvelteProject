@@ -108,7 +108,7 @@
         <div class="contDcha">
 
                 <div class="contImg">
-                    <slot class="contDcha">
+                    <slot name="contDcha">
                         <figure><slot name="contImg"><img src="" alt=""></slot></figure>
                     </slot>
                 </div>
@@ -172,8 +172,8 @@
     .contDcha>div{
         position: relative;
         top: 0;
-    }/*
+    }
     .contImg img{
         width: calc(50vw - 80px);
-    }*/
+    }
 </style>
