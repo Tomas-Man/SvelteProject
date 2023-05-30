@@ -19,25 +19,28 @@
     const servClickd = () => {sShow = !sShow, cShow=false, nShow=false, eShow=false};
     //Creación de función para que redireccione el <li> entero y no sólo el texto que contiene
 
-    const esoClickd = () => {irESO = (location='/estudios/eso')};
-    const fpbClickd = () => {irFPB = (location='/estudios/mantenimiento')};
-    const carClickd = () => {irCAR = (location='/estudios/carroceria')};
-    const telClickd = () => {irTEL = (location='/estudios/telecomunicaciones')};
-    const eleClickd = () => {irELE = (location='/estudios/electromecanica')};
-    const asirClickd = () => {irASIR = (location='/estudios/asir')};
-    const msTeams = () => {(location='https://sso2.educamos.com/Autenticacion/Acceder?ReturnUrl=%2fissue%2fwsfed%3fwa%3dwsignin1.0%26wtrealm%3dhttps%253a%252f%252fdonbosco-salesianos-villamurieldecerrato.educamos.com%252f%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252f%26wct%3d2017-03-16T07%253a36%253a30Z&wa=wsignin1.0&wtrealm=https%3a%2f%2fdonbosco-salesianos-villamurieldecerrato.educamos.com%2f&wctx=rm%3d0%26id%3dpassive%26ru%3d%252f&wct=2017-03-16T07%3a36%3a30Z')};
+    const esoClickd = () => {irESO = (window.location.href='/estudios/eso')};
+    const fpbClickd = () => {irFPB = (window.location.href='/estudios/mantenimiento')};
+    const carClickd = () => {irCAR = (window.location.href='/estudios/carroceria')};
+    const telClickd = () => {irTEL = (window.location.href='/estudios/telecomunicaciones')};
+    const eleClickd = () => {irELE = (window.location.href='/estudios/electromecanica')};
+    const asirClickd = () => {irASIR = (window.location.href='/estudios/asir')};
     //--------------------------------------------------------------------
-    const matriClckd = () => {irASIR = (location='/centro/matriculacion')};
-    const secreClckd = () => {irASIR = (location='/centro/documentos-secretaria')};
-    const fpdualClckd = () => {irASIR = (location='/escuela/fp-dual')};
-    const erasmusClckd = () => {irASIR = (location='/escuela/erasmus')};
-    const excelClckd = () => {irASIR = (location='/escuela/excelencia')};
-    const metodoClckd = () => {irASIR = (location='/escuela/metodo')};
-    const docuClckd = () => {irASIR = (location='/escuela/doumentos')};
-    const lemaClckd = () => {irASIR = (location='/pastoral/lema-curso')};
-    const misionClckd = () => {irASIR = (location='/pastoral/mision')};
-    const pastoralClckd = () => {irASIR = (location='/pastoral/pastoral')};
+    const matriClckd = () => {irASIR = (window.location.href='/centro/matriculacion')};
+    const secreClckd = () => {irASIR = (window.location.href='/centro/documentos-secretaria')};
+    const fpdualClckd = () => {irASIR = (window.location.href='/escuela/fp-dual')};
+    const erasmusClckd = () => {irASIR = (window.location.href='/escuela/erasmus')};
+    const excelClckd = () => {irASIR = (window.location.href='/escuela/excelencia')};
+    const metodoClckd = () => {irASIR = (window.location.href='/escuela/metodo')};
+    const docuClckd = () => {irASIR = (window.location.href='/escuela/doumentos')};
+    const lemaClckd = () => {irASIR = (window.location.href='/pastoral/lema-curso')};
+    const misionClckd = () => {irASIR = (window.location.href='/pastoral/mision')};
+    const pastoralClckd = () => {irASIR = (window.location.href='/pastoral/pastoral')};
     //--------------------------------------------------------------------
+    const educamos = () => {window.location.href='https://sso2.educamos.com/Autenticacion/Acceder?ReturnUrl=%2fissue%2fwsfed%3fwa%3dwsignin1.0%26wtrealm%3dhttps%253a%252f%252fdonbosco-salesianos-villamurieldecerrato.educamos.com%252f%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252f%26wct%3d2017-03-16T07%253a36%253a30Z&wa=wsignin1.0&wtrealm=https%3a%2f%2fdonbosco-salesianos-villamurieldecerrato.educamos.com%2f&wctx=rm%3d0%26id%3dpassive%26ru%3d%252f&wct=2017-03-16T07%3a36%3a30Z'};
+    const googleClassroom = () => {window.location.href='https://classroom.google.com/?emr=0'};
+    const msOffice = () => {window.location.href='https://www.office.com/login?es=Click&ru=%2F'};
+    const msTeams = () => {window.location.href='https://teams.microsoft.com/'};
     //Creación de la función que cerrará los submenús
     const xClickd = () => {eShow=false, cShow=false, nShow=false, sShow=false};
 </script>
@@ -121,10 +124,10 @@
                 <div class="contSubnav">
                     <p>SERVICIOS EDUCATIVOS</p>
                     <ul>
-                        <li on:click ={msTeams}>EDUCAMOS</li>
-                        <li>GOOGLE CLASSROOM</li>
-                        <li>MICROSOFT OFFICE 365</li>
-                        <li>MICROSOFT TEAMS</li>
+                        <li on:click ={educamos}>EDUCAMOS</li>
+                        <li on:click ={googleClassroom}>GOOGLE CLASSROOM</li>
+                        <li on:click ={msOffice}>MICROSOFT OFFICE 365</li>
+                        <li on:click ={msTeams}>MICROSOFT TEAMS</li>
                     </ul>
                     <p>OTROS SERVICIOS</p>
                     <ul>
