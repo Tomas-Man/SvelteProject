@@ -1,4 +1,4 @@
-
+<main>
     <div class="container">
     <section class="tituloPrincipal" style="background-image: url('/img/escuela/metodo/idea.jpg')">
         <h1>Nuestro método educativo</h1>
@@ -85,7 +85,7 @@
         <p>Somos un centro salesiano lo que coloca en el centro de nuestro trabajo a la inclusión social de los jóvenes</p>
     </div>
     </div>
-
+</main>
 <style>
     @font-face {
         font-family: "Decima Nova Pro";
