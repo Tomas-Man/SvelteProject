@@ -8,7 +8,6 @@
     <h2 slot="tituloH2">El reconocimiento más alto como centro de excelencia en FP</h2>
 </Titulo>
 <Escuela>
-    <Escuela>
         <p slot="slotp">La Junta de Castilla y León nos ha reconocido como centro de excelencia de alto nivel en su orden de 13 de Octubre de 2020.</p>
         <br>
         <p slot="slotp2">Este reconocimiento supone un espaldarazo a nuerstra labor por intentar hacer de nuestro centro un centro especial y nos motiva a continuar en los años venideros por este camino.</p>
@@ -17,7 +16,6 @@
                 <img src="/img/escuela/excelencia/fp-excelencia.jpg" alt="Excelencia">
             </figure>
         </div>
-    </Escuela>
 </Escuela><!--
 <Escuela>
     <div slot="slotTituloEsc" class="tituloEsc">
