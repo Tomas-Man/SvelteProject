@@ -1,11 +1,13 @@
 <script>
     import Titulo from '../../../lib/titulo.svelte';
-    //import Escuela from '../../../lib/escuela.svelte';
+    import Escuela from '../../../lib/escuela.svelte';
 </script>
 <div class="fondo"></div>
 <Titulo>
-    <h1>Servicio de Erasmus +</h1>
-    <h2>Fomento de la educación Europea</h2>
+    <div class="tituloSlot" slot="tituloText">
+        <h1>Servicio de Erasmus +</h1>
+        <h2>Fomento de la educación Europea</h2>
+    </div>
 </Titulo>
 <!--
 <Escuela>
@@ -23,6 +25,21 @@
 </Escuela>
 -->
     <section class="contenidoEscuela">
+        <Escuela>
+            <div class="contIzq" slot="slotContenidoIzq">
+                <h2></h2>
+                <br>
+                <p></p>
+            </div>
+            <div class="contDcha" slot="slotContenidoDcha">
+                <div class="contImg">
+                    <figure>
+                        <img src="/img/escuela/erasmus/erasmus_SEPIe.jpeg" alt="Erasmus">
+                    </figure>
+                </div>
+            </div>
+        </Escuela>
+        <!--
         <slot name="slotContenidoIzq">
             <div class="contIzq">
                 <h2>¿Qué es Erasmus+?</h2>
@@ -39,6 +56,7 @@
                 </div>
             </div>
         </slot>
+        -->
     </section>
 
 <style>
