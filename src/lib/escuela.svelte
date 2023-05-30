@@ -121,6 +121,7 @@
     }
     *{
         font-family: "Decima Nova Pro", sans-serif;
+        color: #2E2E2E;
     }
     .contEscuela{
         position: relative;
@@ -143,12 +144,10 @@
         font-size: 3em;
         font-weight: lighter;
         text-align: center;
-        color: green;
     }
     p{
         font-size: 1.5em;
         margin-top: 20px;
-        color: green;
     }
     .contDcha{
         position: relative;
