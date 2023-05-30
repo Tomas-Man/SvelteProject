@@ -24,13 +24,13 @@
         color: white;
     }
     h1{
-        margin-top: 1em;
+        margin-top: 1.5em;
         font-size: 3em;
         letter-spacing: .05em;
     }
     h2{
         font-size: 1.5em;
         font-weight: lighter;
-        line-height: 0.5em;
+
     }
 </style>
