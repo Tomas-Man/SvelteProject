@@ -1,6 +1,6 @@
 <main>
     <slot name="slotFondo">
-        <div class="fondo"></div>
+        <div class="fondoO"></div>
     </slot>
     <section class="titulo">
         <div class="tituloFP">
@@ -165,7 +165,7 @@
         font-family: "Decima Nova Pro";
         src: url("/fonts/DecimaNovaPro.otf");
     }
-    .fondo{
+    .fondoO{
          position: fixed;
          top: 0;
          left: 0;
