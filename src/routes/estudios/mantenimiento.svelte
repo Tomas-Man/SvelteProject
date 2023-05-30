@@ -1,10 +1,13 @@
 <script>
     import Ciclos from './telecomunicaciones.svelte';
+    import Titulo from '../../lib/titulo.svelte';
 </script>
+<Titulo>
+    <h1 slot="tituloH1">Formación Profesional Básica en Mantenimiento de Vehículos</h1>
+    <h2 slot="tituloH2">FP Básica</h2>
+</Titulo>
 <Ciclos>
-    <div slot="slotFondo" class="fondo"></div>
-    <h1 slot="slotNombreFP" class="nombreFP">Formación Profesional Básica en Mantenimiento de Vehículos</h1>
-    <h2 slot="slotTipoFP" class="tipoFP">FP Básica</h2>
+    <div class="fondo"></div>
     <img slot="slotImagenPorq" src="/img/ciclos/electromecanica/electromecanica00.jpg" alt="Carrocería">
     <div slot="slotTextoPorq" class="textoPorq">
         <p>Estos estudios te permitirán desarrollar una carrera como especialista en el mantenimiento de vehículos.</p>
@@ -88,15 +91,6 @@
         background-position: center;
         background-repeat: no-repeat;
         z-index: -1;
-    }
-    .nombreFP{
-        font-size: 6em;
-        letter-spacing: .05em;
-    }
-    .tipoFP{
-        font-size: 3em;
-        font-weight: lighter;
-        line-height: 4em;
     }
     .textoPorq{
         font-size: 1.4em;
