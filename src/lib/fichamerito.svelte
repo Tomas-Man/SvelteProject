@@ -1,17 +1,17 @@
 <script>
     let fichaMerito1 = [
         {src: "/img/meritos/tic5.png", alt: "TIC 5", descr: "Máxima certificación en TIC", ruta: ""},
-        {src: "/img/meritos/dual.svg", alt: "FP Dual", descr: "Programa dual escuela/empresa", ruta: ""}
+        {src: "/img/meritos/dual.svg", alt: "FP Dual", descr: "Programa dual escuela/empresa", ruta: "../escuela/fp-dual"}
     ]
     let fichaMerito2 = [
-        {src: "/img/meritos/erasmus-plus.png", alt: "Erasmus Plus", descr: "", ruta: ""},
-        {src: "/img/meritos/excelencia.svg", alt: "Centro de Excelencia de Alto Nivel", descr: "Cerifiación más alta comocentro de excelencia en FP", ruta: ""}
+        {src: "/img/meritos/erasmus-plus.png", alt: "Erasmus Plus", descr: "", ruta: "../escuela/erasmus"},
+        {src: "/img/meritos/excelencia.svg", alt: "Centro de Excelencia de Alto Nivel", descr: "Cerifiación más alta comocentro de excelencia en FP", ruta: "../escuela/excelencia"}
     ]
 </script>
 <div class="contFichaMerito">
     {#each fichaMerito1 as fichaM1}
         <div class="filaFichasM">
-            <div class="fichaMerito" on:click={() => {(location=fichaM1.ruta)}}>
+            <div class="fichaMerito" on:click={() => {window.location.href=fichaM1.ruta}}>
               <div class="imgM">
                   <img src={fichaM1.src} alt={fichaM1.alt}>
               </div>
@@ -26,7 +26,7 @@
 <div class="contFichaMerito">
     {#each fichaMerito2 as fichaM2}
         <div class="filaFichasM">
-            <div class="fichaMerito" on:click={() => {(location=fichaM2.ruta)}}>
+            <div class="fichaMerito" on:click={() => {(window.location.href=fichaM2.ruta)}}>
               <div class="imgM">
                   <img src={fichaM2.src} alt={fichaM2.alt}>
               </div>
