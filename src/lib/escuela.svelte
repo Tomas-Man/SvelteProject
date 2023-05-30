@@ -4,7 +4,7 @@
     //import Escuela from '../../../lib/escuela.svelte';
     //import '../../../styles/escuela.css'
 </script>
-<div class="fondo"></div><!--
+<!--
 <Titulo>
 
 </Titulo>
@@ -157,6 +157,7 @@
         font-size: 3em;
         font-weight: lighter;
         text-align: center;
+        color: green;
     }
     p{
         font-size: 1.5em;
