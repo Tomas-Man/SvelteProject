@@ -1,20 +1,16 @@
 
 <slot name="slotContEscuela">
     <section class="contenidoEscuela">
-        <slot name="slotContenidoIzq">
             <div class="contIzq">
                 <h2></h2>
                 <br>
                 <p></p>
             </div>
-        </slot>
-        <slot name="slotContenidoDcha">
             <div class="contDcha">
                 <div class="contImg">
                     <figure></figure>
                 </div>
             </div>
-        </slot>
     </section>
 </slot>
 <style>

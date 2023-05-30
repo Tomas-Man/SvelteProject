@@ -11,12 +11,12 @@
 </Titulo>
 <Escuela>
     <section class="contenidoEscuela" slot="slotContEscuela">
-    <div class="contIzq" slot="slotContenidoIzq">
+    <div class="contIzq">
         <h2>¿Qué es Erasmus+?</h2>
         <br>
         <p>El <a href="http://sepie.es/">Servicio Español para la Internacionalización de la Educación</a> nos concede para este curso el programa<a href="https://erasmus-plus.ec.europa.eu/es">ErasmusPlus</a>, el programa de la Unión Europea para apoyar la educación, la formación, la juventud y el deporte en Europa.</p>
     </div>
-    <div class="contDcha" slot="slotContDcha">
+    <div class="contDcha">
         <div class="contImg">
             <figure>
                 <img src="/img/escuela/erasmus/erasmus_SEPIe.jpeg" alt="Erasmus">
