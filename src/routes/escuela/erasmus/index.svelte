@@ -1,12 +1,12 @@
 <script>
-    import Titulo from '../../../lib/titulo.svelte';
+    //import Titulo from '../../../lib/titulo.svelte';
     import Escuela from '../../../lib/escuela.svelte';
 </script>
-<div class="fondo"></div>
+<div class="fondo"></div><!--
 <Titulo>
     <h1>Servicio de Erasmus +</h1>
     <h2>Fomento de la educación Europea</h2>
-</Titulo>
+</Titulo>-->
 <Escuela>
     <div class="contIzq" slot="slotContenidoIzq">
         <h2>¿Qué es Erasmus+?</h2>
