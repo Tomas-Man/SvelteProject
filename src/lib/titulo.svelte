@@ -24,12 +24,12 @@
         color: white;
     }
     h1{
-        line-height: 3em;
+        line-height: 1.5em;
         font-size: 3em;
         letter-spacing: .05em;
     }
     h2{
-        font-size: 3em;
+        font-size: 1.5em;
         font-weight: lighter;
         line-height: 4em;
     }
