@@ -1,13 +1,16 @@
 <script>
-    //import Titulo from '../../../lib/titulo.svelte';
+    import Titulo from '../../../lib/titulo.svelte';
     import Escuela from '../../../lib/escuela.svelte';
 </script>
-<div class="fondo"></div><!--
+<div class="fondo"></div>
 <Titulo>
-    <h1>Servicio de Erasmus +</h1>
-    <h2>Fomento de la educación Europea</h2>
-</Titulo>-->
+    <div class="tituloSlot" slot="tituloText">
+        <h1>Servicio de Erasmus +</h1>
+        <h2>Fomento de la educación Europea</h2>
+    </div>
+</Titulo>
 <Escuela>
+    <section class="contenidoEscuela">
     <div class="contIzq" slot="slotContenidoIzq">
         <h2>¿Qué es Erasmus+?</h2>
         <br>
@@ -20,6 +23,7 @@
             </figure>
         </div>
     </div>
+    </section>
 </Escuela>
 <!--
     <section class="contenidoEscuela">
@@ -60,7 +64,7 @@
         background-position: center;
         background-repeat: no-repeat;
         z-index: -1;
-    }
+    }/*
     .contIzq{
         position: relative;
         top: 0;
@@ -77,14 +81,14 @@
     .contIzq p{
         font-size: 1.5em;
         margin-top: 20px;
-    }
+    }*/
     .contIzq a{
         color: #4a8089;
     }
     .contIzq a:hover{
         text-decoration: none;
         color: #75b3b7;
-    }
+    }/*
     .contDcha{
         position: relative;
         top: 0;
@@ -94,7 +98,7 @@
     .contImg{
         position: relative;
         top: 0;
-    }
+    }*/
     .contImg img{
         width: calc(50vw - 80px);
     }
