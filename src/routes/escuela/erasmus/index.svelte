@@ -87,7 +87,7 @@
         height: 100%;
         background-color: #d9d9d9;
         display: flex;
-    }
+    }/*
     .contIzq{
         position: relative;
         top: 0;
@@ -95,7 +95,7 @@
         width: calc(50% - 200px);
         height: 100%;
         margin: 100px 100px 120px;
-    }/*
+    }
     .contIzq h2{
         font-size: 3em;
         font-weight: lighter;
@@ -104,25 +104,25 @@
     .contIzq p{
         font-size: 1.5em;
         margin-top: 20px;
-    }*/
+    }
     .contIzq a{
         color: #4a8089;
-    }/*
+    }
     .contIzq a:hover{
         text-decoration: none;
         color: #75b3b7;
-    }*/
+    }
     .contDcha{
         position: relative;
         top: 0;
         left: 0;
         margin: 40px 40px 40px 0;
-    }
+    }*//*
     .contImg{
         position: relative;
         top: 0;
     }
     .contImg img{
         width: calc(50vw - 80px);
-    }
+    }*/
 </style>
