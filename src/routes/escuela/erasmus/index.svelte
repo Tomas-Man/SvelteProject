@@ -10,6 +10,7 @@
     </div>
 </Titulo>
 <Escuela>
+    <section class="contenidoEscuela" slot="slotContEscuela">
     <div class="contIzq" slot="slotContenidoIzq">
         <h2>¿Qué es Erasmus+?</h2>
         <br>
@@ -22,6 +23,7 @@
             </figure>
         </div>
     </div>
+    </section>
 </Escuela>
 <!--
     <section class="contenidoEscuela">

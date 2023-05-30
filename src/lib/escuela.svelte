@@ -1,5 +1,5 @@
 
-
+<slot name="slotContEscuela">
     <section class="contenidoEscuela">
         <slot name="slotContenidoIzq">
             <div class="contIzq">
@@ -16,7 +16,7 @@
             </div>
         </slot>
     </section>
-
+</slot>
 <style>
     @font-face {
         font-family: "Decima Nova Pro";
