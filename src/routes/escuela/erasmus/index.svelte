@@ -58,7 +58,7 @@
         background-position: center;
         background-repeat: no-repeat;
         z-index: -1;
-    }/*
+    }
     .contIzq{
         position: relative;
         top: 0;
@@ -75,14 +75,14 @@
     .contIzq p{
         font-size: 1.5em;
         margin-top: 20px;
-    }*/
+    }
     .contIzq a{
         color: #4a8089;
     }
     .contIzq a:hover{
         text-decoration: none;
         color: #75b3b7;
-    }/*
+    }
     .contDcha{
         position: relative;
         top: 0;
@@ -92,7 +92,7 @@
     .contImg{
         position: relative;
         top: 0;
-    }*/
+    }
     .contImg img{
         width: calc(50vw - 80px);
     }
