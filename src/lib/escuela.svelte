@@ -1,10 +1,10 @@
-
+<!--
 <script>
     //import Titulo from '../../../lib/titulo.svelte';
     //import Escuela from '../../../lib/escuela.svelte';
     //import '../../../styles/escuela.css'
 </script>
-<!--
+
 <Titulo>
 
 </Titulo>
@@ -99,20 +99,22 @@
     }
 </style>
 -->
-        <slot name="slotContenidoIzq">
-            <div class="contIzq">
+<section class="contEscuela">
+        <div class="contIzq">
+            <slot name="contIzq">
                 <h2>Pruba</h2>
                 <br>
                 <p>Prueba</p>
-            </div>
-        </slot>
-        <slot name="slotContenidoDcha">
-            <div class="contDcha">
+            </slot>
+        </div>
+        <div class="contDcha">
+            <slot class="contDcha">
                 <div class="contImg">
                     <figure><img src="" alt=""></figure>
                 </div>
-            </div>
-        </slot>
+            </slot>
+        </div>
+</section>
 <style>
     @font-face {
         font-family: "Decima Nova Pro";
@@ -132,8 +134,8 @@
         background-position: center;
         background-repeat: no-repeat;
         z-index: -1;
-    }
-    .contenidoEscuela{
+    }*/
+    .contEscuela{
         position: relative;
         top: 0;
         left: 0;
@@ -141,7 +143,7 @@
         height: 100%;
         background-color: #d9d9d9;
         display: flex;
-    }*/
+    }
     .contIzq{
         position: relative;
         top: 0;
@@ -166,11 +168,11 @@
         left: 0;
         margin: 40px 40px 40px 0;
     }
-    .contImg{
+    .contDcha>div{
         position: relative;
         top: 0;
-    }
+    }/*
     .contImg img{
         width: calc(50vw - 80px);
-    }
+    }*/
 </style>
