@@ -4,10 +4,10 @@
 </script>
 <div class="fondo"></div>
 <Titulo>
-    <div>
+
         <h1 slot="tituloH1">Administración de Sistemas Informáticos en Red</h1>
         <h2 slot="tituloH2">FP de Grado Superior</h2>
-    </div>
+
 </Titulo>
 <Ciclos>
     <!--<h1 slot="slotNombreFP" class="nombreFP">Administración de Sistemas Informáticos en Red</h1>
