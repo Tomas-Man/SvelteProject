@@ -1,6 +1,6 @@
 <script>
     let fichaMerito1 = [
-        {src: "/img/meritos/tic5.png", alt: "TIC 5", descr: "Máxima certificación en TIC", ruta: ""},
+        {src: "/img/meritos/tic5.png", alt: "TIC 5", descr: "Máxima certificación en TIC"},
         {src: "/img/meritos/dual.svg", alt: "FP Dual", descr: "Programa dual escuela/empresa", ruta: "../escuela/fp-dual"}
     ]
     let fichaMerito2 = [
