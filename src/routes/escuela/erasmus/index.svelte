@@ -10,20 +10,18 @@
     </div>
 </Titulo>
 <Escuela>
-    <section class="contenidoEscuela" slot="slotContEscuela">
-    <div class="contIzq">
+    <div class="contIzq" slot="slotContenidoIzq">
         <h2>¿Qué es Erasmus+?</h2>
         <br>
         <p>El <a href="http://sepie.es/">Servicio Español para la Internacionalización de la Educación</a> nos concede para este curso el programa<a href="https://erasmus-plus.ec.europa.eu/es">ErasmusPlus</a>, el programa de la Unión Europea para apoyar la educación, la formación, la juventud y el deporte en Europa.</p>
     </div>
-    <div class="contDcha">
+    <div class="contDcha" slot="slotContDcha">
         <div class="contImg">
             <figure>
                 <img src="/img/escuela/erasmus/erasmus_SEPIe.jpeg" alt="Erasmus">
             </figure>
         </div>
     </div>
-    </section>
 </Escuela>
 <!--
     <section class="contenidoEscuela">
@@ -64,7 +62,7 @@
         background-position: center;
         background-repeat: no-repeat;
         z-index: -1;
-    }/*
+    }
     .contIzq{
         position: relative;
         top: 0;
@@ -81,14 +79,14 @@
     .contIzq p{
         font-size: 1.5em;
         margin-top: 20px;
-    }*/
+    }
     .contIzq a{
         color: #4a8089;
     }
     .contIzq a:hover{
         text-decoration: none;
         color: #75b3b7;
-    }/*
+    }
     .contDcha{
         position: relative;
         top: 0;
@@ -98,7 +96,7 @@
     .contImg{
         position: relative;
         top: 0;
-    }*/
+    }
     .contImg img{
         width: calc(50vw - 80px);
     }

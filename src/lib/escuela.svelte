@@ -1,18 +1,22 @@
 
-<slot name="slotContEscuela">
+
     <section class="contenidoEscuela">
+        <slot name="slotContenidoIzq">
             <div class="contIzq">
                 <h2></h2>
                 <br>
                 <p></p>
             </div>
+        </slot>
+        <slot name="slotContenidoDcha">
             <div class="contDcha">
                 <div class="contImg">
                     <figure></figure>
                 </div>
             </div>
+        </slot>
     </section>
-</slot>
+
 <style>
     @font-face {
         font-family: "Decima Nova Pro";
@@ -58,7 +62,6 @@
     .contIzq p{
         font-size: 1.5em;
         margin-top: 20px;
-        color: green;
     }
     .contDcha{
         position: relative;
