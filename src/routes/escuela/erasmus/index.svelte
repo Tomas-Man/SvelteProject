@@ -17,9 +17,9 @@
     </div>
     <div class="contDcha" slot="slotContDcha">
         <div class="contImg">
-            <figure>
+
                 <img src="/img/escuela/erasmus/erasmus_SEPIe.jpeg" alt="Erasmus">
-            </figure>
+
         </div>
     </div>
 </Escuela>
@@ -97,7 +97,7 @@
         position: relative;
         top: 0;
     }
-    .contImg img{
+    img{
         width: calc(50vw - 80px);
     }
 </style>
