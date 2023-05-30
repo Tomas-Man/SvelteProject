@@ -1,7 +1,7 @@
 <script>
     import Titulo from '../../../lib/titulo.svelte';
     import Escuela from '../../../lib/escuela.svelte';
-    //import '../../../styles/escuela.css'
+    import '../../../styles/escuela.css'
 </script>
 <div class="fondo"></div>
 <Titulo>
@@ -41,7 +41,7 @@
             </div>
         </slot>
     </section>-->
-
+<!--
 <style>
     @font-face {
         font-family: "Decima Nova Pro";
@@ -100,3 +100,4 @@
         width: calc(50vw - 80px);
     }
 </style>
+-->
