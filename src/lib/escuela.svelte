@@ -153,12 +153,12 @@
         height: 100%;
         margin: 100px 100px 120px;
     }
-    .contIzq h2{
+    h2{
         font-size: 3em;
         font-weight: lighter;
         text-align: center;
     }
-    .contIzq p{
+    p{
         font-size: 1.5em;
         margin-top: 20px;
     }
