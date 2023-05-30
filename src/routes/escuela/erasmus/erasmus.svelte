@@ -13,7 +13,7 @@
         <br>
         <p>El <a href="http://sepie.es/">Servicio Español para la Internacionalización de la Educación</a> nos concede para este curso el programa<a href="https://erasmus-plus.ec.europa.eu/es">ErasmusPlus</a>, el programa de la Unión Europea para apoyar la educación, la formación, la juventud y el deporte en Europa.</p>
     </div>
-    <div class="conDcha" slot="slotContDcha">
+    <div class="contDcha" slot="slotContDcha">
         <div class="excelenciaImg">
             <img src="/img/escuela/excelencia/FP_excelencia.jpeg" alt="Excelencia">
         </div>
@@ -59,5 +59,36 @@
     .contIzq a:hover{
         text-decoration: none;
         color: #75b3b7;
+    }
+    .contIzq{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: calc(50% - 200px);
+        height: 100%;
+        margin: 100px 100px 120px;
+    }
+    h2{
+        font-size: 3em;
+        font-weight: lighter;
+        text-align: center;
+        color: green;
+    }
+    p{
+        font-size: 1.5em;
+        margin-top: 20px;
+    }
+    .contDcha{
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 40px 40px 40px 0;
+    }/*
+    .contImg{
+        position: relative;
+        top: 0;
+    }*/
+    .contImg img{
+        width: calc(50vw - 80px);
     }
 </style>
