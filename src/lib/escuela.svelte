@@ -99,7 +99,6 @@
     }
 </style>
 -->
-
         <slot name="slotContenidoIzq">
             <div class="contIzq">
                 <h2>Pruba</h2>
@@ -114,8 +113,6 @@
                 </div>
             </div>
         </slot>
-
-
 <style>
     @font-face {
         font-family: "Decima Nova Pro";

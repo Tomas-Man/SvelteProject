@@ -1,11 +1,20 @@
+<script>
+    import Titulo from '../../lib/titulo.svelte';
+</script>
 <main>
     <div class="fondo"></div>
+    <Titulo>
+        <h1 slot="tituloH1">Educación Secundaria</h1>
+        <h2 slot="tituloH2">ESO</h2>
+    </Titulo>
+    <!--
     <section class="titulo">
         <div class="tituloeso">
             <h1>Educación Secundaria</h1>
             <h2>ESO</h2>
         </div>
     </section>
+    -->
     <section class="resumenESO">
         <div class="imgResESO">
             <img src="/img/estudios/eso.jpg" alt="ESO">
@@ -123,7 +132,7 @@
         background-position: center;
         background-repeat: no-repeat;
     }
-    .titulo{
+    /*.titulo{
         position: relative;
         top: 0;
         left: 0;
@@ -142,7 +151,7 @@
     }
     .tituloeso h2{
         font-size: 3em;
-    }
+    }*/
     .resumenESO{
         position: relative;
         top: 0;

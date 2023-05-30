@@ -4,11 +4,10 @@
 </script>
 <div class="fondo"></div>
 <Titulo>
-    <section class="tituloSlot" slot="tituloText">
-        <h1>Servicio de Erasmus +</h1>
-        <h2>Fomento de la educación Europea</h2>
-    </section>
+    <h1 slot="tituloH1">Servicio de Erasmus +</h1>
+    <h2 slot="tituloH2">Fomento de la educación Europea</h2>
 </Titulo>
+
 <!--
 <Escuela>
     <div class="contIzq" slot="slotContenidoIzq">
