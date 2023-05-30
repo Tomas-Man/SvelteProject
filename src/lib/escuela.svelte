@@ -106,11 +106,13 @@
                 <p><slot name="slotp">Prueba</slot></p>
         </div>
         <div class="contDcha">
-            <slot class="contDcha">
+
                 <div class="contImg">
-                    <figure><img src="" alt=""></figure>
+                    <slot class="contDcha">
+                        <figure><slot name="contImg"><img src="" alt=""></slot></figure>
+                    </slot>
                 </div>
-            </slot>
+
         </div>
 </section>
 <style>
@@ -157,7 +159,7 @@
         color: green;
     }
     p{
-        font-size: 2em;
+        font-size: 1.5em;
         margin-top: 20px;
         color: green;
     }
