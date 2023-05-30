@@ -5,6 +5,13 @@
 
 </section>
 <style>
+    @font-face {
+        font-family: "Decima Nova Pro";
+        src: url("/fonts/DecimaNovaPro.otf");
+    }
+    *{
+        font-family: "Decima Nova Pro", sans-serif;
+    }
     .titulo{
         position: relative;
         top: 0;
@@ -14,12 +21,11 @@
         text-align: center;
         display: grid;
         align-items: center;
-        color: white;
+        color: blue;
     }
     h1{
         font-size: 6em;
         letter-spacing: .05em;
-        color: pink;
     }
     h2{
         font-size: 3em;
