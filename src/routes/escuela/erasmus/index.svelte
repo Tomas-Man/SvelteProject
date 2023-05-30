@@ -1,6 +1,7 @@
 <script>
     import Titulo from '../../../lib/titulo.svelte';
     import Escuela from '../../../lib/escuela.svelte';
+    //import '../../../styles/escuela.css'
 </script>
 <div class="fondo"></div>
 <Titulo>
@@ -17,9 +18,7 @@
     </div>
     <div class="contDcha" slot="slotContDcha">
         <div class="contImg">
-
                 <img src="/img/escuela/erasmus/erasmus_SEPIe.jpeg" alt="Erasmus">
-
         </div>
     </div>
 </Escuela>
