@@ -61,6 +61,15 @@
         background-repeat: no-repeat;
         z-index: -1;
     }
+    .contenidoEscuela{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #d9d9d9;
+        display: flex;
+    }
     .contIzq{
         position: relative;
         top: 0;
