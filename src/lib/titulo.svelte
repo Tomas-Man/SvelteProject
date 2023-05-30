@@ -30,6 +30,6 @@
     h2{
         font-size: 1.5em;
         font-weight: lighter;
-        line-height: 1em;
+        line-height: 0.5em;
     }
 </style>
