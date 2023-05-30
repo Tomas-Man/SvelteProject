@@ -38,7 +38,6 @@
             line-height: 15vh;
     }
     h1{
-        margin-top: 1.5em;
         font-size: 3em;
         letter-spacing: .05em;
     }
