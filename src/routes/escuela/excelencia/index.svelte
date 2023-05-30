@@ -48,4 +48,9 @@
         background-repeat: no-repeat;
         z-index: -1;
     }
+    figure img{
+        width: calc(50vw - 300px);
+        margin-left: 100px;
+        border-radius: 17px;
+    }
 </style>
