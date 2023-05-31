@@ -2,14 +2,18 @@ import { c as create_ssr_component, b as createEventDispatcher, a as add_attribu
 import "siema";
 var portada_svelte_svelte_type_style_lang = "";
 const css$8 = {
-  code: ".tabNews.svelte-f52e85.svelte-f52e85{position:absolute;top:30px;right:50px;width:500px;height:200px;border:1px solid white}.tabNews.svelte-f52e85 h2.svelte-f52e85{background-color:white;color:rgba(0,0,0,0.5);text-align:center;height:1.5em;line-height:1.5em;font-family:'Decima Nova Pro', sans-serif}.lema.svelte-f52e85.svelte-f52e85{position:absolute;top:320px;left:75px;font-family:'Decima Nova Pro', sans-serif;color:#FFF;letter-spacing:1px}.lema.svelte-f52e85 h1.svelte-f52e85{padding:0 0 30px;font-size:4em;font-weight:300}.lema.svelte-f52e85 h2.svelte-f52e85{font-size:2em;font-weight:300}",
+  code: ".tabNews.svelte-1itrcsb.svelte-1itrcsb{position:absolute;top:30px;right:50px;width:500px;height:200px;border:1px solid white;overflow:hidden;white-space:nowrap}.tabNews.svelte-1itrcsb h2.svelte-1itrcsb{background-color:white;color:rgba(0,0,0,0.5);text-align:center;height:1.5em;line-height:1.5em;font-family:'Decima Nova Pro', sans-serif;font-weight:lighter}.tabNews.svelte-1itrcsb p.svelte-1itrcsb{text-overflow:ellipsis;font-size:1.7em;color:#FFFFFF7C;padding:3px 5px}p.svelte-1itrcsb.svelte-1itrcsb:hover,p.svelte-1itrcsb:hover a.svelte-1itrcsb{color:white}p.svelte-1itrcsb a.svelte-1itrcsb{text-decoration:none;color:#FFFFFF7C;;}.lema.svelte-1itrcsb.svelte-1itrcsb{position:absolute;top:320px;left:75px;font-family:'Decima Nova Pro', sans-serif;color:#FFF;letter-spacing:1px}.lema.svelte-1itrcsb h1.svelte-1itrcsb{padding:0 0 30px;font-size:4em;font-weight:300}.lema.svelte-1itrcsb h2.svelte-1itrcsb{font-size:2em;font-weight:300}",
   map: null
 };
 const Portada = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css$8);
-  return `<div class="${"tabNews svelte-f52e85"}"><h2 class="${"svelte-f52e85"}">\xDALTIMAS NOTICIAS</h2></div>
-<div class="${"lema svelte-f52e85"}"><h1 class="${"svelte-f52e85"}">Excelencia adaptada <br>a cada estudiante</h1>
-    <h2 class="${"svelte-f52e85"}">En b\xFAsqueda permanente de nuevos caminos que permitan el \xE9xito educativo</h2>
+  return `<div class="${"tabNews svelte-1itrcsb"}"><h2 class="${"svelte-1itrcsb"}">\xDALTIMAS NOTICIAS</h2>
+    <p class="${"svelte-1itrcsb"}"><a href="${"/noticias/2022/listados-fp-2022"}" class="${"svelte-1itrcsb"}">Listados con las admisiones en ciclos de FP</a></p>
+    <p class="${"svelte-1itrcsb"}">Periodo de admisiones ESO</p>
+    <p class="${"svelte-1itrcsb"}">XXXIX Peregrinaci\xF3n de Palencia a Villamu...</p>
+    <p class="${"svelte-1itrcsb"}">Jornadas de Innovaci\xF3n empresarial</p></div>
+<div class="${"lema svelte-1itrcsb"}"><h1 class="${"svelte-1itrcsb"}">Excelencia adaptada <br>a cada estudiante</h1>
+    <h2 class="${"svelte-1itrcsb"}">En b\xFAsqueda permanente de nuevos caminos que permitan el \xE9xito educativo</h2>
 </div>`;
 });
 var carousel_svelte_svelte_type_style_lang = "";
@@ -112,7 +116,7 @@ const Carousel = create_ssr_component(($$result, $$props, $$bindings, slots) => 
 });
 var carruselnoticias_svelte_svelte_type_style_lang = "";
 const css$6 = {
-  code: `@font-face{font-family:"Decima Nova Pro", sans-serif;src:url('/fonts/DecimaNovaPro.otf')}.carrusel.svelte-1eq7uvi.svelte-1eq7uvi{width:280px;height:70vh;background-color:rgb(255,255,255);opacity:0.7;border-radius:10px;margin-left:10%;transition:opacity 1s}.carrusel.svelte-1eq7uvi.svelte-1eq7uvi:hover{opacity:1;cursor:pointer}.fotoC.svelte-1eq7uvi.svelte-1eq7uvi{position:relative;top:10px;width:calc(100% - 20px);height:calc(50% - 20px);margin:10px}.fotoC.svelte-1eq7uvi img.svelte-1eq7uvi{image-resolution:normal;width:100%;height:100%;border-radius:10px 10px 0 0}.contResumen.svelte-1eq7uvi.svelte-1eq7uvi{position:relative;top:0;left:0;width:100%;height:100%}.tituloN.svelte-1eq7uvi.svelte-1eq7uvi{position:relative;top:10px;margin:0 10px;height:100px}.tituloN.svelte-1eq7uvi h2.svelte-1eq7uvi{font-size:1.5em;font-weight:bolder}.noticiaResumen.svelte-1eq7uvi.svelte-1eq7uvi{position:relative;top:20px;left:5%;width:90%;height:20%;text-align:left}.noticiaResumen.svelte-1eq7uvi>p.svelte-1eq7uvi{color:black}.irNoticia.svelte-1eq7uvi.svelte-1eq7uvi{position:relative;top:30px;left:15%;text-align:center;width:70%;height:10%;background-color:#51626f;border-radius:10px;line-height:1em}.irNoticia.svelte-1eq7uvi>p.svelte-1eq7uvi{font-size:1.3em;line-height:3em;color:white}.flechaIzq.svelte-1eq7uvi.svelte-1eq7uvi{position:relative;top:0;left:-100px;width:70px;display:inline-block;margin-top:0;opacity:0.5;transition:opacity 1s}.flechaDcha.svelte-1eq7uvi.svelte-1eq7uvi{position:relative;top:0;left:60px;width:70px;display:inline-block;margin-top:0;opacity:0.5;transition:opacity 1s}.flechaIzq.svelte-1eq7uvi.svelte-1eq7uvi:hover,.flechaDcha.svelte-1eq7uvi.svelte-1eq7uvi:hover{opacity:1;cursor:pointer}.flechaIzq.svelte-1eq7uvi>img.svelte-1eq7uvi{width:100%;fill:#dc001b}`,
+  code: `@font-face{font-family:"Decima Nova Pro", sans-serif;src:url('/fonts/DecimaNovaPro.otf')}.carrusel.svelte-1tey8qb.svelte-1tey8qb{width:280px;height:85vh;background-color:rgb(255,255,255);opacity:0.7;border-radius:10px;margin-left:10%;transition:opacity 1s}.carrusel.svelte-1tey8qb.svelte-1tey8qb:hover{opacity:1;cursor:pointer}.fotoC.svelte-1tey8qb.svelte-1tey8qb{position:relative;top:10px;width:calc(100% - 20px);height:calc(50% - 20px);margin:10px}.fotoC.svelte-1tey8qb img.svelte-1tey8qb{image-resolution:normal;width:100%;height:100%;border-radius:10px 10px 0 0}.contResumen.svelte-1tey8qb.svelte-1tey8qb{position:relative;top:0;left:0;width:100%;height:100%}.tituloN.svelte-1tey8qb.svelte-1tey8qb{position:relative;top:10px;margin:0 10px;height:100px}.tituloN.svelte-1tey8qb h2.svelte-1tey8qb{font-size:1.5em;font-weight:bolder}.noticiaResumen.svelte-1tey8qb.svelte-1tey8qb{position:relative;top:20px;left:5%;width:90%;height:20%;text-align:left}.noticiaResumen.svelte-1tey8qb>p.svelte-1tey8qb{color:black}.irNoticia.svelte-1tey8qb.svelte-1tey8qb{position:relative;top:30px;left:15%;text-align:center;width:70%;height:10%;background-color:#51626f;border-radius:10px;line-height:1em}.irNoticia.svelte-1tey8qb>p.svelte-1tey8qb{font-size:1.3em;line-height:3em;color:white}.flechaIzq.svelte-1tey8qb.svelte-1tey8qb{position:relative;top:0;left:-100px;width:70px;display:inline-block;margin-top:0;opacity:0.5;transition:opacity 1s}.flechaDcha.svelte-1tey8qb.svelte-1tey8qb{position:relative;top:0;left:60px;width:70px;display:inline-block;margin-top:0;opacity:0.5;transition:opacity 1s}.flechaIzq.svelte-1tey8qb.svelte-1tey8qb:hover,.flechaDcha.svelte-1tey8qb.svelte-1tey8qb:hover{opacity:1;cursor:pointer}.flechaIzq.svelte-1tey8qb>img.svelte-1tey8qb{width:100%;fill:#dc001b}`,
   map: null
 };
 const Carruselnoticias = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -121,7 +125,7 @@ const Carruselnoticias = create_ssr_component(($$result, $$props, $$bindings, sl
       path: "/img/noticias/admision.jpg",
       alt: "admision.jpg",
       id: "imageN1",
-      ruta: "../estudios/eso",
+      ruta: "../noticias/2022/listados-fp-2022",
       titulo: "Listados con las admisiones en ciclos de FP",
       resumen: "Acceso a las admisiones (a fecha de 21 de julio) en los Ciclos Formativos de Formaci\xF3n Profesional"
     },
@@ -129,7 +133,7 @@ const Carruselnoticias = create_ssr_component(($$result, $$props, $$bindings, sl
       path: "/img/noticias/admisiones-ESO.jpeg",
       alt: "admisiones-ESO.jpeg",
       id: "imageN2",
-      ruta: "../privacidad",
+      ruta: "",
       titulo: "Periodo de admisiones ESO",
       resumen: "Abierto el periodo de admisiones para la ESO. Del 18 de marzo al 6 de abril, en la secretar\xEDa del Centro Don Bosco de 9:30h a 13:30h. Tel\xE9fono: 979777270"
     },
@@ -137,7 +141,7 @@ const Carruselnoticias = create_ssr_component(($$result, $$props, $$bindings, sl
       path: "/img/noticias/cartel-1-mayo.jpeg",
       alt: "noticiaImg3",
       id: "imageN3",
-      ruta: "../noticias/2022/1-de-mayo",
+      ruta: "",
       titulo: "XXXIX Peregrinaci\xF3n de Palencia a Villamuriel",
       resumen: "Despu\xE9s de estos dos a\xF1os de pandemia retomamos con muchocari\xF1o el Homenaje a Mar\xEDa Auxiliadora el s\xE1bado 30 de abril y laXXXIX Fiesta-peregrinaci\xF3n el 1 de mayo"
     },
@@ -170,19 +174,19 @@ const Carruselnoticias = create_ssr_component(($$result, $$props, $$bindings, sl
   return `
 
 
-${validate_component(Carousel, "Carousel").$$render($$result, { autoplay: "3000" }, {}, {
+${validate_component(Carousel, "Carousel").$$render($$result, { autoplay: "4000" }, {}, {
     "right-control": () => {
-      return `<div class="${"flechaDcha svelte-1eq7uvi"}" slot="${"right-control"}"><img src="${"/img/right-arrow-svgrepo-com-white.svg"}" alt="${"noticia siguiente"}"></div>`;
+      return `<div class="${"flechaDcha svelte-1tey8qb"}" slot="${"right-control"}"><img src="${"/img/right-arrow-svgrepo-com-white.svg"}" alt="${"noticia siguiente"}"></div>`;
     },
     "left-control": () => {
-      return `<div class="${"flechaIzq svelte-1eq7uvi"}" slot="${"left-control"}"><img src="${"/img/left-arrow-svgrepo-com-white.svg"}" alt="${"noticia anterior"}" class="${"svelte-1eq7uvi"}"></div>`;
+      return `<div class="${"flechaIzq svelte-1tey8qb"}" slot="${"left-control"}"><img src="${"/img/left-arrow-svgrepo-com-white.svg"}" alt="${"noticia anterior"}" class="${"svelte-1tey8qb"}"></div>`;
     },
     default: () => {
       return `${each(imgN, (imageN) => {
-        return `<div class="${"carrusel svelte-1eq7uvi"}"><div class="${"fotoC svelte-1eq7uvi"}"><img${add_attribute("src", imageN.path, 0)}${add_attribute("alt", imageN.alt, 0)} class="${"svelte-1eq7uvi"}"></div>
-            <div class="${"contResumen svelte-1eq7uvi"}"><div class="${"tituloN svelte-1eq7uvi"}"><h2 class="${"svelte-1eq7uvi"}">${escape(imageN.titulo)}</h2></div>
-                <div class="${"noticiaResumen svelte-1eq7uvi"}"><p class="${"svelte-1eq7uvi"}">${escape(imageN.resumen)}</p></div>
-                <div class="${"irNoticia svelte-1eq7uvi"}"><p class="${"svelte-1eq7uvi"}">ir a la noticia</p>
+        return `<div class="${"carrusel svelte-1tey8qb"}"><div class="${"fotoC svelte-1tey8qb"}"><img${add_attribute("src", imageN.path, 0)}${add_attribute("alt", imageN.alt, 0)} class="${"svelte-1tey8qb"}"></div>
+            <div class="${"contResumen svelte-1tey8qb"}"><div class="${"tituloN svelte-1tey8qb"}"><h2 class="${"svelte-1tey8qb"}">${escape(imageN.titulo)}</h2></div>
+                <div class="${"noticiaResumen svelte-1tey8qb"}"><p class="${"svelte-1tey8qb"}">${escape(imageN.resumen)}</p></div>
+                <div class="${"irNoticia svelte-1tey8qb"}"><p class="${"svelte-1tey8qb"}">ir a la noticia</p>
                 </div></div>
         </div>`;
       })}`;
@@ -348,14 +352,13 @@ const Fichamerito = create_ssr_component(($$result, $$props, $$bindings, slots) 
     {
       src: "/img/meritos/tic5.png",
       alt: "TIC 5",
-      descr: "M\xE1xima certificaci\xF3n en TIC",
-      ruta: ""
+      descr: "M\xE1xima certificaci\xF3n en TIC"
     },
     {
       src: "/img/meritos/dual.svg",
       alt: "FP Dual",
       descr: "Programa dual escuela/empresa",
-      ruta: ""
+      ruta: "../escuela/fp-dual"
     }
   ];
   let fichaMerito2 = [
@@ -363,13 +366,13 @@ const Fichamerito = create_ssr_component(($$result, $$props, $$bindings, slots) 
       src: "/img/meritos/erasmus-plus.png",
       alt: "Erasmus Plus",
       descr: "",
-      ruta: ""
+      ruta: "../escuela/erasmus"
     },
     {
       src: "/img/meritos/excelencia.svg",
       alt: "Centro de Excelencia de Alto Nivel",
       descr: "Cerifiaci\xF3n m\xE1s alta comocentro de excelencia en FP",
-      ruta: ""
+      ruta: "../escuela/excelencia"
     }
   ];
   $$result.css.add(css$1);

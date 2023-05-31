@@ -1,6 +1,6 @@
-import * as module from '../entries/pages/pastoral/lema-curso.svelte.js';
+import * as module from '../entries/pages/noticias/index.svelte.js';
 
 export { module };
-export const entry = 'pages/pastoral/lema-curso.svelte-c4e2bd96.js';
-export const js = ["pages/pastoral/lema-curso.svelte-c4e2bd96.js","chunks/index-1795299a.js"];
-export const css = ["assets/pages/pastoral/lema-curso.svelte-449fd755.css"];
+export const entry = 'pages/noticias/index.svelte-f7118a31.js';
+export const js = ["pages/noticias/index.svelte-f7118a31.js","chunks/index-1795299a.js"];
+export const css = [];

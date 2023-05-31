@@ -18,7 +18,7 @@
       "_index-ff6ac367.js"
     ],
     "css": [
-      "assets/entries/pages/__layout.svelte-9aefed2d.css"
+      "assets/entries/pages/__layout.svelte-a7fc4cc3.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
@@ -35,7 +35,8 @@
     "isEntry": true,
     "imports": [
       "_index-ff6ac367.js",
-      "src/routes/centro/matriculacion/index.svelte"
+      "src/routes/centro/matriculacion/index.svelte",
+      "_titulo-a7a08935.js"
     ],
     "css": [
       "assets/entries/pages/centro/documentos-secretaria/index.svelte-9f415c2e.css"
@@ -46,10 +47,11 @@
     "src": "src/routes/centro/matriculacion/index.svelte",
     "isEntry": true,
     "imports": [
-      "_index-ff6ac367.js"
+      "_index-ff6ac367.js",
+      "_titulo-a7a08935.js"
     ],
     "css": [
-      "assets/entries/pages/centro/matriculacion/index.svelte-32e358f2.css"
+      "assets/entries/pages/centro/matriculacion/index.svelte-1617d8cd.css"
     ]
   },
   "src/routes/escuela/erasmus/erasmus.svelte": {
@@ -58,7 +60,11 @@
     "isEntry": true,
     "imports": [
       "_index-ff6ac367.js",
-      "src/routes/escuela/erasmus/index.svelte"
+      "_escuela-cab92d7d.js",
+      "_titulo-a7a08935.js"
+    ],
+    "css": [
+      "assets/entries/pages/escuela/erasmus/erasmus.svelte-d37c849a.css"
     ]
   },
   "src/routes/escuela/erasmus/index.svelte": {
@@ -66,10 +72,12 @@
     "src": "src/routes/escuela/erasmus/index.svelte",
     "isEntry": true,
     "imports": [
-      "_index-ff6ac367.js"
+      "_index-ff6ac367.js",
+      "_titulo-a7a08935.js",
+      "_escuela-cab92d7d.js"
     ],
     "css": [
-      "assets/entries/pages/escuela/erasmus/index.svelte-83882458.css"
+      "assets/entries/pages/escuela/erasmus/index.svelte-7211e601.css"
     ]
   },
   "src/routes/escuela/excelencia/index.svelte": {
@@ -78,10 +86,11 @@
     "isEntry": true,
     "imports": [
       "_index-ff6ac367.js",
-      "src/routes/escuela/erasmus/index.svelte"
+      "_titulo-a7a08935.js",
+      "_escuela-cab92d7d.js"
     ],
     "css": [
-      "assets/entries/pages/escuela/excelencia/index.svelte-8aeeedbe.css"
+      "assets/entries/pages/escuela/excelencia/index.svelte-e2b2851a.css"
     ]
   },
   "src/routes/escuela/fp-dual/index.svelte": {
@@ -89,10 +98,11 @@
     "src": "src/routes/escuela/fp-dual/index.svelte",
     "isEntry": true,
     "imports": [
-      "_index-ff6ac367.js"
+      "_index-ff6ac367.js",
+      "_titulo-a7a08935.js"
     ],
     "css": [
-      "assets/entries/pages/escuela/fp-dual/index.svelte-85e22b4f.css"
+      "assets/entries/pages/escuela/fp-dual/index.svelte-eecdfb15.css"
     ]
   },
   "src/routes/escuela/metodo/index.svelte": {
@@ -112,21 +122,11 @@
     "isEntry": true,
     "imports": [
       "_index-ff6ac367.js",
-      "src/routes/estudios/telecomunicaciones.svelte"
+      "_estudios-b81bb893.js",
+      "_titulo-a7a08935.js"
     ],
     "css": [
-      "assets/entries/pages/estudios/asir.svelte-8fed4292.css"
-    ]
-  },
-  "src/routes/estudios/telecomunicaciones.svelte": {
-    "file": "entries/pages/estudios/telecomunicaciones.svelte.js",
-    "src": "src/routes/estudios/telecomunicaciones.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-ff6ac367.js"
-    ],
-    "css": [
-      "assets/entries/pages/estudios/telecomunicaciones.svelte-88e5a64a.css"
+      "assets/entries/pages/estudios/asir.svelte-1df5b752.css"
     ]
   },
   "src/routes/estudios/carroceria.svelte": {
@@ -135,10 +135,11 @@
     "isEntry": true,
     "imports": [
       "_index-ff6ac367.js",
-      "src/routes/estudios/telecomunicaciones.svelte"
+      "_estudios-b81bb893.js",
+      "_titulo-a7a08935.js"
     ],
     "css": [
-      "assets/entries/pages/estudios/carroceria.svelte-a42a898f.css"
+      "assets/entries/pages/estudios/carroceria.svelte-be549d08.css"
     ]
   },
   "src/routes/estudios/electromecanica.svelte": {
@@ -147,10 +148,11 @@
     "isEntry": true,
     "imports": [
       "_index-ff6ac367.js",
-      "src/routes/estudios/telecomunicaciones.svelte"
+      "_estudios-b81bb893.js",
+      "_titulo-a7a08935.js"
     ],
     "css": [
-      "assets/entries/pages/estudios/electromecanica.svelte-d8213d07.css"
+      "assets/entries/pages/estudios/electromecanica.svelte-a202d722.css"
     ]
   },
   "src/routes/estudios/eso.svelte": {
@@ -158,10 +160,11 @@
     "src": "src/routes/estudios/eso.svelte",
     "isEntry": true,
     "imports": [
-      "_index-ff6ac367.js"
+      "_index-ff6ac367.js",
+      "_titulo-a7a08935.js"
     ],
     "css": [
-      "assets/entries/pages/estudios/eso.svelte-8b3393e0.css"
+      "assets/entries/pages/estudios/eso.svelte-5d8dadaa.css"
     ]
   },
   "src/routes/estudios/mantenimiento.svelte": {
@@ -170,10 +173,23 @@
     "isEntry": true,
     "imports": [
       "_index-ff6ac367.js",
-      "src/routes/estudios/telecomunicaciones.svelte"
+      "_estudios-b81bb893.js",
+      "_titulo-a7a08935.js"
     ],
     "css": [
-      "assets/entries/pages/estudios/electromecanica.svelte-d8213d07.css"
+      "assets/entries/pages/estudios/electromecanica.svelte-a202d722.css"
+    ]
+  },
+  "src/routes/estudios/telecomunicaciones.svelte": {
+    "file": "entries/pages/estudios/telecomunicaciones.svelte.js",
+    "src": "src/routes/estudios/telecomunicaciones.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-ff6ac367.js",
+      "_titulo-a7a08935.js"
+    ],
+    "css": [
+      "assets/entries/pages/estudios/telecomunicaciones.svelte-0dd2e774.css"
     ]
   },
   "src/routes/index.svelte": {
@@ -184,7 +200,19 @@
       "_index-ff6ac367.js"
     ],
     "css": [
-      "assets/entries/pages/index.svelte-aaeb7619.css"
+      "assets/entries/pages/index.svelte-7258589f.css"
+    ]
+  },
+  "src/routes/noticias/2022/listados-fp-2022/index.svelte": {
+    "file": "entries/pages/noticias/2022/listados-fp-2022/index.svelte.js",
+    "src": "src/routes/noticias/2022/listados-fp-2022/index.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-ff6ac367.js",
+      "_escuela-cab92d7d.js"
+    ],
+    "css": [
+      "assets/entries/pages/noticias/2022/listados-fp-2022/index.svelte-326f0c13.css"
     ]
   },
   "src/routes/noticias/index.svelte": {
@@ -236,11 +264,38 @@
       "_index-ff6ac367.js"
     ],
     "css": [
-      "assets/entries/pages/privacidad/index.svelte-fe8e2282.css"
+      "assets/entries/pages/privacidad/index.svelte-5065107a.css"
     ]
   },
   "_index-ff6ac367.js": {
     "file": "chunks/index-ff6ac367.js"
+  },
+  "_titulo-a7a08935.js": {
+    "file": "chunks/titulo-a7a08935.js",
+    "imports": [
+      "_index-ff6ac367.js"
+    ],
+    "css": [
+      "assets/titulo-16bb9831.css"
+    ]
+  },
+  "_escuela-cab92d7d.js": {
+    "file": "chunks/escuela-cab92d7d.js",
+    "imports": [
+      "_index-ff6ac367.js"
+    ],
+    "css": [
+      "assets/escuela-18684993.css"
+    ]
+  },
+  "_estudios-b81bb893.js": {
+    "file": "chunks/estudios-b81bb893.js",
+    "imports": [
+      "_index-ff6ac367.js"
+    ],
+    "css": [
+      "assets/estudios-78093a1b.css"
+    ]
   },
   ".svelte-kit/build/hooks.js": {
     "file": "chunks/hooks-1c45ba0b.js",

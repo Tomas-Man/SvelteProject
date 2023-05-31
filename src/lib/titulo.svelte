@@ -37,6 +37,7 @@
     h1 {
         font-size: 2.7em;
         letter-spacing: .05em;
+        color: pink;
     }
 
     h2 {
