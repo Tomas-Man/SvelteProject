@@ -1,18 +1,12 @@
+<script>
+    import Titulo from '../../lib/titulo.svelte'
+</script>
 <main>
-    <slot name="slotFondo">
-        <div class="fondoO"></div>
-    </slot>
-    <section class="titulo">
-        <div class="tituloFP">
-            <!-- con estos "slots" podremos hacer que éste código funcione como plantilla, y sólo cambiaremos el contenido que hay en el slot -->
-            <slot name="slotNombreFP">
-                <h1>Instalaciones de Telecomunicaciones</h1>
-            </slot>
-            <slot name="slotTipoFP">
-                <h2>FP de Grado Medio</h2>
-            </slot>
-        </div>
-    </section>
+    <Titulo>
+        <h1 slot="tituloH1">Instalaciones de Telecomunicaciones</h1>
+        <h2 slot="tituloH2">FP de Grado Medio</h2>
+    </Titulo>
+    <div class="fondo"></div>
     <section class="porque">
         <div class="imagenPq">
             <figure>
@@ -165,7 +159,7 @@
         font-family: "Decima Nova Pro";
         src: url("/fonts/DecimaNovaPro.otf");
     }
-    .fondoO{
+    .fondo{
          position: fixed;
          top: 0;
          left: 0;
@@ -179,26 +173,6 @@
     }
     *{
         font-family: "Decima Nova Pro", sans-serif;
-    }
-    .titulo{
-        position: relative;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 60vh;
-        text-align: center;
-        display: grid;
-        align-items: center;
-        color: white;
-    }
-    .titulo h1{
-        font-size: 6em;
-        letter-spacing: .05em;
-    }
-    .titulo h2{
-        font-size: 3em;
-        font-weight: lighter;
-        line-height: 4em;
     }
     .porque{
         position: relative;
