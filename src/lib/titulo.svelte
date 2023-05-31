@@ -27,9 +27,9 @@
             line-height: 15vh;
     }
     h1{
-        font-size: 3em;
+        font-size: 2.7em;
         letter-spacing: .05em;
-            color: deeppink;
+        font-weight: normal;
     }
     h2{
         font-size: 1.5em;
