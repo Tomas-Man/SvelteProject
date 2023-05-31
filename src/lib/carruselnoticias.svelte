@@ -17,7 +17,7 @@
     ];
 </script>
 <!-- Con esto creamos el carrusel y sus componentes -->
-<Carousel autoplay="3000">
+<Carousel autoplay="4000">
     {#each imgN as imageN}
         <div class="carrusel" on:click={() => {(location=imageN.ruta)}}>
             <div class="fotoC">
@@ -46,7 +46,7 @@
     }
     .carrusel{
         width: 280px;
-        height: 70vh;
+        height: 80vh;
         background-color: rgb(255,255,255);
         opacity: 0.7;
         border-radius: 10px;
