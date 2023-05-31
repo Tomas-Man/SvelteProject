@@ -41,6 +41,7 @@
     const googleClassroom = () => {window.location.href='https://classroom.google.com/?emr=0'};
     const msOffice = () => {window.location.href='https://www.office.com/login?es=Click&ru=%2F'};
     const msTeams = () => {window.location.href='https://teams.microsoft.com/'};
+    const sugerencias = () => {window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSdUXOK-3Jdzzq0KaF2su2i-6E8nhK4b68k0tqSceIiw38x1_g/viewform'};
     //Creación de la función que cerrará los submenús
     const xClickd = () => {eShow=false, cShow=false, nShow=false, sShow=false};
 </script>
@@ -131,8 +132,7 @@
                     </ul>
                     <p>OTROS SERVICIOS</p>
                     <ul>
-                        <li>SUGERENCIAS</li>
-                        <li>AGENCIA DE COLOCACIÓN</li>
+                        <li on:click ={sugerencias}>SUGERENCIAS</li>
                         <li>RECEPCIÓN DE CURRÍCULOS</li>
                     </ul>
                 </div>
