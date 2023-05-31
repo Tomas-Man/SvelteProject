@@ -104,6 +104,13 @@
         font-size: 1.4em;
     }
 
+    .txtFP h2,.docuInfo h2 {
+        font-size: 3em;
+        font-weight: lighter;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
     .logoFP {
         position: relative;
         width: 50%;
