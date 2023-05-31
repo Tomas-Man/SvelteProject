@@ -2,7 +2,7 @@
     <h2>ÚLTIMAS NOTICIAS</h2>
     <p><a href="../routes/noticias/2022/listados-fp-2022">Listados con las admisiones en ciclos de FP</a></p>
     <p>Periodo de admisiones ESO</p>
-    <p>XXXIX Peregrinación de Palencia a Villamuriel</p>
+    <p>XXXIX Peregrinación de Palencia a Villamu...</p>
     <p>Jornadas de Innovación empresarial</p>
 </div>
 <div class="lema">
@@ -31,8 +31,14 @@
     .tabNews p{
         text-overflow: ellipsis;
         font-size: 1.7em;
-        color: white;
+        color: rgba(255, 255, 255, 0.98);
         padding: 3px 5px;
+    }
+    p:hover{
+        color: white;
+    }
+    p a{
+        text-decoration: none;
     }
     .lema{
         position: absolute;
