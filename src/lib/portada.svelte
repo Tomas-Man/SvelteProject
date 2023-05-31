@@ -31,15 +31,15 @@
     .tabNews p{
         text-overflow: ellipsis;
         font-size: 1.7em;
-        color: rgba(0,0,0,0.5);
+        color: #2E2E2EE6;
         padding: 3px 5px;
     }
-    p:hover{
+    p:hover, p:hover a{
         color: white;
     }
     p a{
         text-decoration: none;
-        color: rgba(0,0,0,0.5);
+        color: #2E2E2EE6;;
     }
     .lema{
         position: absolute;
