@@ -158,7 +158,7 @@
                     <p>NUESTRA ESCUELA</p>
                     <ul>
                         <li on:click={metodoClckd}>NUESTRO MÉTODO EDUCATIVO</li>
-                        <li on:click={docuClckd}>DOCUMENTOS</li>
+                        <li on:click={secreClckd}>DOCUMENTOS</li>
                     </ul>
                     <p>NUESTROS VALORES</p>
                     <ul>
