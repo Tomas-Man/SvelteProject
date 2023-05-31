@@ -46,7 +46,7 @@
     }
     .carrusel{
         width: 280px;
-        height: 85vh;
+        height: 85vh;/* 70vh */
         background-color: rgb(255,255,255);
         opacity: 0.7;
         border-radius: 10px;
