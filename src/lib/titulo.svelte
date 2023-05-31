@@ -30,8 +30,8 @@
         font-size: 3em;
         letter-spacing: .05em;
     }
-    h2{
+    .contTitulo H2{
         font-size: 1.5em;
-        font-weight: 200;
+        font-weight: lighter;
     }
 </style>
