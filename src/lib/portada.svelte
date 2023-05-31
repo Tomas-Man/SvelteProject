@@ -30,8 +30,9 @@
     .tabNews p{
         overflow: hidden;
         white-space: nowrap;
-        font-size: 1.5em;
+        font-size: 1.7em;
         color: white;
+        padding: 5px;
     }
     .lema{
         position: absolute;
