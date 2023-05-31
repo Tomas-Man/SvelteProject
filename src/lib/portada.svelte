@@ -27,11 +27,12 @@
         height: 1.5em;
         line-height: 1.5em;
         font-family: 'Decima Nova Pro', sans-serif;
+        font-weight: lighter;
     }
     .tabNews p{
         text-overflow: ellipsis;
         font-size: 1.7em;
-        color: #2E2E2EE6;
+        color: #FFFFFF7C;
         padding: 3px 5px;
     }
     p:hover, p:hover a{
@@ -39,7 +40,7 @@
     }
     p a{
         text-decoration: none;
-        color: #2E2E2EE6;;
+        color: #FFFFFF7C;;
     }
     .lema{
         position: absolute;
