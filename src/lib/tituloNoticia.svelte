@@ -29,9 +29,9 @@
 
     .contTitulo {
         position: relative;
-        top: 15vh;
+        top: 7vh;
         text-align: center;
-        line-height: 15vh;
+        line-height: 7vh;
     }
 
     h1 {
