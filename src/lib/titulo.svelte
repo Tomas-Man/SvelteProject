@@ -33,6 +33,5 @@
     .contTitulo h2{
         font-size: 1.5em;
         font-weight: lighter;
-            color: blue;
     }
 </style>
