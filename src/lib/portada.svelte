@@ -31,7 +31,7 @@
     .tabNews p{
         text-overflow: ellipsis;
         font-size: 1.7em;
-        color: rgba(255, 255, 255, 0.98);
+        color: rgba(0,0,0,0.5);
         padding: 3px 5px;
     }
     p:hover{
@@ -39,6 +39,7 @@
     }
     p a{
         text-decoration: none;
+        color: rgba(0,0,0,0.5);
     }
     .lema{
         position: absolute;
