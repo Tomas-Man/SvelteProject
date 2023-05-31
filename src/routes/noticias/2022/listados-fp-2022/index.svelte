@@ -4,7 +4,7 @@
 </script>
 <div class="fondo"></div>
 <Titulo>
-    <h1 slot="tituloH1">Listados con las admisiones en clicos de FP</h1>
+    <h1 slot="tituloH1">Listados con las admisiones en ciclos de FP</h1>
     <h2 slot="tituloH2">Curso 2022/2023</h2>
 </Titulo>
 <Contenido>

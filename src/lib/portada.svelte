@@ -1,5 +1,9 @@
 <div class="tabNews">
     <h2>ÚLTIMAS NOTICIAS</h2>
+    <p>Listados con las admisiones en ciclos de FP</p>
+    <p></p>
+    <p></p>
+    <p></p>
 </div>
 <div class="lema">
     <h1>Excelencia adaptada <br>a cada estudiante</h1>
@@ -21,6 +25,9 @@
         height: 1.5em;
         line-height: 1.5em;
         font-family: 'Decima Nova Pro', sans-serif;
+    }
+    .tabNews p{
+        text-overflow: ellipsis;
     }
     .lema{
         position: absolute;
