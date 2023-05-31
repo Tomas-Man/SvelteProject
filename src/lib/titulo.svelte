@@ -27,12 +27,11 @@
             line-height: 15vh;
     }
     h1{
-        font-size: 3em;
+        font-size: 2.7em;
         letter-spacing: .05em;
     }
-    .contTitulo h2{
+    h2{
         font-size: 1.5em;
         font-weight: lighter;
-            color: floralwhite;
     }
 </style>

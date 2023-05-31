@@ -92,6 +92,9 @@
         background-repeat: no-repeat;
         z-index: -1;
     }
+    h2{
+        font-weight: lighter;
+    }
     .textoPorq{
         font-size: 1.4em;
     }
