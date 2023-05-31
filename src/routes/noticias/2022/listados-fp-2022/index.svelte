@@ -15,6 +15,18 @@
 
 </Contenido>
 <style>
+    .fondo{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-image: url("/img/centro/documentos-fondo.jpg");
+        background-size: cover;
+        background-position: left;
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
     h2{
         font-weight: lighter;
     }

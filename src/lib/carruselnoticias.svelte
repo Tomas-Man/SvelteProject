@@ -4,9 +4,9 @@
     const imgN = [
         {path: "/img/noticias/admision.jpg", alt: "admision.jpg", id: "imageN1", ruta: "../noticias/2022/listados-fp-2022", titulo: "Listados con las admisiones en ciclos de FP",
         resumen: 'Acceso a las admisiones (a fecha de 21 de julio) en los Ciclos Formativos de Formación Profesional'},
-        {path: "/img/noticias/admisiones-ESO.jpeg", alt: "admisiones-ESO.jpeg", id: "imageN2", ruta: "../privacidad", titulo: "Periodo de admisiones ESO",
+        {path: "/img/noticias/admisiones-ESO.jpeg", alt: "admisiones-ESO.jpeg", id: "imageN2", ruta: "", titulo: "Periodo de admisiones ESO",
         resumen: 'Abierto el periodo de admisiones para la ESO. Del 18 de marzo al 6 de abril, en la secretaría del Centro Don Bosco de 9:30h a 13:30h. Teléfono: 979777270'},
-        {path: "/img/noticias/cartel-1-mayo.jpeg", alt: "noticiaImg3", id: "imageN3", ruta: "../noticias/2022/1-de-mayo", titulo: "XXXIX Peregrinación de Palencia a Villamuriel",
+        {path: "/img/noticias/cartel-1-mayo.jpeg", alt: "noticiaImg3", id: "imageN3", ruta: "", titulo: "XXXIX Peregrinación de Palencia a Villamuriel",
         resumen: 'Después de estos dos años de pandemia retomamos con muchocariño el Homenaje a María Auxiliadora el sábado 30 de abril y laXXXIX Fiesta-peregrinación el 1 de mayo'},
         {path: "/img/noticias/cartel-jornadas-innovacion.jpg", alt: "noticiaImg4", id: "imageN4", ruta: "", titulo: "Jornadas de Innovación empresarial",
         resumen: 'Los días 25 y 26 de mayo hemos celebrado unas Jornadas Formativas de Innovación Empresarial para nuestros alumnos de Formación Profesional'},
