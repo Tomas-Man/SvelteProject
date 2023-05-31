@@ -9,10 +9,10 @@
 </Titulo>
 <Contenido>
     <p slot="slotp">Tenemos disponibles los listados con las admisiones (a fecha de 21 de Julio de 2022) en los ciclos de formación profesional</p>
-    <div slot="contDcha">
+
         <h3 slot="1h3">Documento con la admisión en Ciclos Formativos de Grado Básico</h3>
         <h3 slot="2h3">Documento con la admisión en Ciclos Formativos de Grado Medio y Superior</h3>
-    </div>
+
 </Contenido>
 <style>
     h2{
