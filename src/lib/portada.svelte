@@ -1,9 +1,9 @@
 <div class="tabNews">
     <h2>ÚLTIMAS NOTICIAS</h2>
     <p>Listados con las admisiones en ciclos de FP</p>
-    <p></p>
-    <p></p>
-    <p></p>
+    <p>Periodo de admisiones ESO</p>
+    <p>XXXIX Peregrinación de Palencia a Villamuriel</p>
+    <p>Jornadas de Innovación empresarial</p>
 </div>
 <div class="lema">
     <h1>Excelencia adaptada <br>a cada estudiante</h1>
@@ -28,6 +28,8 @@
     }
     .tabNews p{
         text-overflow: ellipsis;
+        font-size: 2em;
+        color: white;
     }
     .lema{
         position: absolute;
