@@ -30,7 +30,7 @@
         font-size: 3em;
         letter-spacing: .05em;
     }
-    .contTitulo H2{
+    .contTitulo h2{
         font-size: 1.5em;
         font-weight: lighter;
             color: blue;
