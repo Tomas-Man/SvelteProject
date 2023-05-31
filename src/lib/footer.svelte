@@ -1,6 +1,4 @@
 <script>
-    //importar estilos y componente
-    import '../styles/global.css';
     import Form from './formulario.svelte';
 </script>
 <footer>
@@ -42,6 +40,9 @@
     @font-face {
         font-family: "Decima Nova Pro Light";
         src: url("/fonts/DecimaNovaProLight.otf");
+    }
+    *{
+        margin: 0;
     }
     footer{
         font-family: "Decima Nova Pro", sans-serif;
