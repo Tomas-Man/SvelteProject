@@ -2,7 +2,7 @@
 <script>
     import Carousel from './carousel.svelte';
     const imgN = [
-        {path: "/img/noticias/admision.jpg", alt: "admision.jpg", id: "imageN1", ruta: "../estudios/eso", titulo: "Listados con las admisiones en ciclos de FP",
+        {path: "/img/noticias/admision.jpg", alt: "admision.jpg", id: "imageN1", ruta: "../noticias/2022/listados-fp-2022", titulo: "Listados con las admisiones en ciclos de FP",
         resumen: 'Acceso a las admisiones (a fecha de 21 de julio) en los Ciclos Formativos de Formación Profesional'},
         {path: "/img/noticias/admisiones-ESO.jpeg", alt: "admisiones-ESO.jpeg", id: "imageN2", ruta: "../privacidad", titulo: "Periodo de admisiones ESO",
         resumen: 'Abierto el periodo de admisiones para la ESO. Del 18 de marzo al 6 de abril, en la secretaría del Centro Don Bosco de 9:30h a 13:30h. Teléfono: 979777270'},

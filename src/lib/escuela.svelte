@@ -8,6 +8,8 @@
     <div class="contDcha">
         <div class="contImg">
             <slot name="contDcha">
+                <h3><slot name="1h3"></slot></h3>
+                <h3><slot name="2h3"></slot></h3>
                 <figure><slot name="contImg"><img src="" alt=""></slot></figure>
             </slot>
         </div>
@@ -47,6 +49,9 @@
     p{
         font-size: 1.5em;
         margin-top: 20px;
+    }
+    h3{
+        font-size: 2em;
     }
     .contDcha{
         position: relative;
