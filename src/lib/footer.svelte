@@ -62,6 +62,7 @@
         color: #dad4cb;
     }
     a{
+        text-decoration: none;
         color: white;
     }
     a:hover{

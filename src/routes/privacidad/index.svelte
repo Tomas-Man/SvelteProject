@@ -90,6 +90,11 @@
     }
     main p>a{
         color: #4a8089;
+        text-decoration: none;
+    }
+    main p>a:hover {
+        color: #65a0a9;
+        text-decoration: none;
     }
     main p{
         text-align: justify;
