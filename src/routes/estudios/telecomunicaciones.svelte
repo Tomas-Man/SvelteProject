@@ -171,6 +171,9 @@
          background-repeat: no-repeat;
          z-index: -1;
     }
+    h2{
+        font-weight: lighter;
+    }
     *{
         font-family: "Decima Nova Pro", sans-serif;
     }

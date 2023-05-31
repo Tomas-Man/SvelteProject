@@ -21,19 +21,6 @@
     *{
         font-family: "Decima Nova Pro", sans-serif;
     }
-    /*.titulo{
-        position: relative;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 25vh;
-        display: grid;
-        place-items: center;
-        color: white;
-    }
-    .titulo h1{
-        font-size: 4em;
-    }*/
     .content{
         position: relative;
         top: 0;

@@ -11,7 +11,9 @@
     <div class="contIzq" slot="slotContenidoIzq">
         <h2>¿Qué es Erasmus+?</h2>
         <br>
-        <p>El <a href="http://sepie.es/">Servicio Español para la Internacionalización de la Educación</a> nos concede para este curso el programa<a href="https://erasmus-plus.ec.europa.eu/es">ErasmusPlus</a>, el programa de la Unión Europea para apoyar la educación, la formación, la juventud y el deporte en Europa.</p>
+        <p>El <a href="http://sepie.es/">Servicio Español para la Internacionalización de la Educación</a> nos concede
+            para este curso el programa<a href="https://erasmus-plus.ec.europa.eu/es">ErasmusPlus</a>, el programa de la
+            Unión Europea para apoyar la educación, la formación, la juventud y el deporte en Europa.</p>
     </div>
     <div class="contDcha" slot="slotContDcha">
         <div class="excelenciaImg">
@@ -19,29 +21,8 @@
         </div>
     </div>
 </Escuela>
-<!--
-<Escuela>
-    <div slot="slotFondo" class="fondo"></div>
-    <div slot="slotTituloEsc" class="tituloEsc">
-        <h1>Servicio Erasmus+</h1>
-        <h2>Fomento de la educación en Europa</h2>
-    </div>
-    <div slot="slotContenidoIzq" class="contIzq">
-        <h2>¿Qué es Erasmus+?</h2>
-        <br>
-        <p>El <a href="http://sepie.es/">Servicio Español para la Internacionalización de la Educación</a> nos concede para este curso el programa<a href="https://erasmus-plus.ec.europa.eu/es">ErasmusPlus</a>, el programa de la Unión Europea para apoyar la educación, la formación, la juventud y el deporte en Europa.</p>
-    </div>
-    <div slot="slotContenidoDcha" class="contDcha">
-        <div class="excelenciaImg">
-            <figure>
-                <img src="/img/escuela/excelencia/FP_excelencia.jpeg" alt="Excelencia">
-            </figure>
-        </div>
-    </div>
-</Escuela>
--->
 <style>
-    .fondo{
+    .fondo {
         position: fixed;
         top: 0;
         left: 0;
@@ -53,14 +34,21 @@
         background-repeat: no-repeat;
         z-index: -1;
     }
-    .contIzq a{
+
+    h2 {
+        font-weight: lighter;
+    }
+
+    .contIzq a {
         color: #4a8089;
     }
-    .contIzq a:hover{
+
+    .contIzq a:hover {
         text-decoration: none;
         color: #75b3b7;
     }
-    .contIzq{
+
+    .contIzq {
         position: relative;
         top: 0;
         left: 0;
@@ -68,27 +56,27 @@
         height: 100%;
         margin: 100px 100px 120px;
     }
-    h2{
+
+    h2 {
         font-size: 3em;
         font-weight: lighter;
         text-align: center;
         color: green;
     }
-    p{
+
+    p {
         font-size: 1.5em;
         margin-top: 20px;
     }
-    .contDcha{
+
+    .contDcha {
         position: relative;
         top: 0;
         left: 0;
         margin: 40px 40px 40px 0;
-    }/*
-    .contImg{
-        position: relative;
-        top: 0;
-    }*/
-    .contImg img{
+    }
+
+    .contImg img {
         width: calc(50vw - 80px);
     }
 </style>

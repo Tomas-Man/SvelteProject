@@ -8,12 +8,14 @@
     <h2 slot="tituloH2">FP de Grado Medio</h2>
 </Titulo>
 <Ciclos>
-        <img slot="slotImagenPorq" src="/img/ciclos/carroceria/carroceria00.jpg" alt="Carrocería">
-            <div slot="slotTextoPorq" class="textoPorq">
-                <p>Estos estudios te permitirán desarrollar una carrera como especialista en el mantenimiento de vehículos.</p>
-                <br>
-                <p>Aprenderás los fundamentos de una profesión muy práctica con alta demanda que te permitirá adquirir las destrezas y técnicas que permitan una salida como profesional en trabajos de chapa, transformaciones de carrocerías, vehículos pesados, construcción y reparación de elementos de fibra y pintura.</p>
-            </div>
+    <img slot="slotImagenPorq" src="/img/ciclos/carroceria/carroceria00.jpg" alt="Carrocería">
+    <div slot="slotTextoPorq" class="textoPorq">
+        <p>Estos estudios te permitirán desarrollar una carrera como especialista en el mantenimiento de vehículos.</p>
+        <br>
+        <p>Aprenderás los fundamentos de una profesión muy práctica con alta demanda que te permitirá adquirir las
+            destrezas y técnicas que permitan una salida como profesional en trabajos de chapa, transformaciones de
+            carrocerías, vehículos pesados, construcción y reparación de elementos de fibra y pintura.</p>
+    </div>
     <div slot="slotIconosRamas" class="iconosRamas">
         <div class="iconoRama">
             <img src="/img/ciclos/carroceria/reparacion.svg" alt="Reparación de vehículos">
@@ -66,10 +68,14 @@
         font-family: "Decima Nova Pro";
         src: url("/fonts/DecimaNovaPro.otf");
     }
-    *{
+
+    * {
         font-family: "Decima Nova Pro", sans-serif;
     }
-    .fondo{
+    h2{
+        font-weight: lighter;
+    }
+    .fondo {
         position: fixed;
         top: 0;
         left: 0;
@@ -84,12 +90,13 @@
     .textoPorq {
         font-size: 1.4em;
     }
-    .iconosRamas{
+    .iconosRamas {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .iconoRama{
+
+    .iconoRama {
         position: relative;
         margin: 120px 40px 40px;
         min-width: 210px;
@@ -102,7 +109,7 @@
         display: grid;
         place-items: center;
     }
-    .iconoRama img{
+    .iconoRama img {
         position: relative;
         width: 40%;
         margin: 20px 20px 0;
@@ -110,16 +117,16 @@
     .iconoRama p {
         margin: 0 10px
     }
-    .lista{
+    .lista {
         font-size: 1.5em;
         line-height: 1.5em;
         list-style: none;
     }
-    .lista li{
+    .lista li {
         text-indent: -1.5em;
         margin-right: 1.5em;
     }
-    .lista li::before{
+    .lista li::before {
         content: "";
         display: inline-block;
         height: 1em;
@@ -129,25 +136,25 @@
         background-image: url(/img/ciclos/puntolista.svg);
         background-size: contain;
     }
-    figure{
+    figure {
         display: inline-block;
         width: 23.5%;
         margin: 0.5em;
     }
-    figure img{
+    figure img {
         width: 100%;
     }
-    .materiasLista{
+    .materiasLista {
         font-size: 1.5em;
         line-height: 1.7em;
         height: 100%;
     }
-    .materiasLista li{
+    .materiasLista li {
         text-indent: -1.5em;
         margin-right: 1.5em;
         list-style: none;
     }
-    .materiasLista li::before{
+    .materiasLista li::before {
         content: "";
         display: inline-block;
         height: 1em;

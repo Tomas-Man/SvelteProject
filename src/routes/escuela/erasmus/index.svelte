@@ -25,6 +25,10 @@
         src: url("/fonts/DecimaNovaPro.otf");
     }
 
+    h2 {
+        font-weight: lighter;
+    }
+
     * {
         font-family: "Decima Nova Pro", sans-serif;
     }
