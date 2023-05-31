@@ -1,6 +1,6 @@
 <div class="tabNews">
     <h2>ÚLTIMAS NOTICIAS</h2>
-    <p><a href="../routes/noticias/2022/listados-fp-2022">Listados con las admisiones en ciclos de FP</a></p>
+    <p><a href="/noticias/2022/listados-fp-2022">Listados con las admisiones en ciclos de FP</a></p>
     <p>Periodo de admisiones ESO</p>
     <p>XXXIX Peregrinación de Palencia a Villamu...</p>
     <p>Jornadas de Innovación empresarial</p>
