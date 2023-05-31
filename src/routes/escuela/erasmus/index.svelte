@@ -48,6 +48,7 @@
 
     p a {
         color: #4a8089;
+        text-decoration: none;
     }
 
     p a:hover {
