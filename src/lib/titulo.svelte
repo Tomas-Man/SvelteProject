@@ -28,7 +28,7 @@
     }
     h1{
         font-size: 2.5em;
-        letter-spacing: .05em;
+        letter-spacing: .005em;
         font-weight: normal;
     }
     h2{
