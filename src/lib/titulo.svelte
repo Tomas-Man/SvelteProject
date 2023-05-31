@@ -27,12 +27,12 @@
             line-height: 15vh;
     }
     h1{
-        font-size: 2em;
-        letter-spacing: .005em;
+        font-size: 1.5em;
+        letter-spacing: .0005em;
         font-weight: normal;
     }
     h2{
-        font-size: 1.5em;
+        font-size: 1em;
         font-weight: lighter;
     }
 </style>
