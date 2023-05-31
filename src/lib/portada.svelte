@@ -28,7 +28,7 @@
     }
     .tabNews p{
         text-overflow: ellipsis;
-        font-size: 2em;
+        font-size: 1em;
         color: white;
     }
     .lema{
