@@ -1,23 +1,21 @@
 <main>
     <section class="porque">
         <div class="imagenPq">
-            <figure>
-                <slot name="slotImagenPorq">
-                    <img src="/img/ciclos/teleco/teleco00.jpg" alt="Telecomunicaciones">
-                </slot>
-            </figure>
+            <slot name="imagenPorq">
+                <figure>
+                    <slot name="contImg"><img src="" alt=""></slot>
+                </figure>
+            </slot>
         </div>
         <div class="textoPq">
-            <h2></h2>
-            <slot name="slotTextoPorq">
+            <h2><slot name="textoPqH2"></slot></h2>
                 <div>
-                    <p></p>
+                    <p><slot name="textoPqp1"></slot></p>
                     <br>
-                    <p></p>
+                    <p><slot name="textoPqp2"></slot></p>
                     <br>
-                    <p></p>
+                    <p><slot name="textoPqp3"></slot></p>
                 </div>
-            </slot>
         </div>
     </section>
     <section class="ramasProf">

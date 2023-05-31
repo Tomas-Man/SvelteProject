@@ -7,60 +7,29 @@
     <h1 slot="tituloH1">Servicio de Erasmus +</h1>
     <h2 slot="tituloH2">Fomento de la educación Europea</h2>
 </Titulo>
-
-<!--
 <Escuela>
-    <div class="contIzq" slot="slotContenidoIzq">
-        <h2>¿Qué es Erasmus+?</h2>
-        <br>
-        <p>El <a href="http://sepie.es/">Servicio Español para la Internacionalización de la Educación</a> nos concede para este curso el programa<a href="https://erasmus-plus.ec.europa.eu/es">ErasmusPlus</a>, el programa de la Unión Europea para apoyar la educación, la formación, la juventud y el deporte en Europa.</p>
-    </div>
-    <div class="contDcha" slot="slotContDcha">
-        <div class="contImg">
-            <figure></figure>
+    <h2 slot="slotH2">¿Qué es Erasmus+?</h2>
+    <br>
+    <p slot="slotp">El <a href="http://sepie.es/">Servicio Español para la Internacionalización de la Educación</a> nos
+        concede para este curso el programa <a href="https://erasmus-plus.ec.europa.eu/es">ErasmusPlus</a>, el programa
+        de la Unión Europea para apoyar la educación, la formación, la juventud y el deporte en Europa.</p>
+    <div slot="contDcha">
+        <figure>
             <img src="/img/escuela/erasmus/erasmus_SEPIe.jpeg" alt="Erasmus">
-        </div>
+        </figure>
     </div>
 </Escuela>
--->
-        <Escuela>
-                <h2 slot="slotH2">¿Qué es Erasmus+?</h2>
-                <br>
-                <p slot="slotp">El <a href="http://sepie.es/">Servicio Español para la Internacionalización de la Educación</a> nos concede para este curso el programa <a href="https://erasmus-plus.ec.europa.eu/es">ErasmusPlus</a>, el programa de la Unión Europea para apoyar la educación, la formación, la juventud y el deporte en Europa.</p>
-            <div slot="contDcha">
-                    <figure>
-                        <img src="/img/escuela/erasmus/erasmus_SEPIe.jpeg" alt="Erasmus">
-                    </figure>
-            </div>
-        </Escuela>
-        <!--
-        <slot name="slotContenidoIzq">
-            <div class="contIzq">
-                <h2>¿Qué es Erasmus+?</h2>
-                <br>
-                <p>El <a href="http://sepie.es/">Servicio Español para la Internacionalización de la Educación</a> nos concede para este curso el programa <a href="https://erasmus-plus.ec.europa.eu/es">ErasmusPlus</a>, el programa de la Unión Europea para apoyar la educación, la formación, la juventud y el deporte en Europa.</p>
-            </div>
-        </slot>
-        <slot name="slotContenidoDcha">
-            <div class="contDcha">
-                <div class="contImg">
-                    <figure>
-                        <img src="/img/escuela/erasmus/erasmus_SEPIe.jpeg" alt="Erasmus">
-                    </figure>
-                </div>
-            </div>
-        </slot>
-        -->
-
 <style>
     @font-face {
         font-family: "Decima Nova Pro";
         src: url("/fonts/DecimaNovaPro.otf");
     }
-    *{
+
+    * {
         font-family: "Decima Nova Pro", sans-serif;
     }
-    .fondo{
+
+    .fondo {
         position: fixed;
         top: 0;
         left: 0;
@@ -71,51 +40,56 @@
         background-position: center;
         background-repeat: no-repeat;
         z-index: -1;
-    }/*
-    .contenidoEscuela{
-        position: relative;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: #d9d9d9;
-        display: flex;
     }
-    .contIzq{
-        position: relative;
-        top: 0;
-        left: 0;
-        width: calc(50% - 200px);
-        height: 100%;
-        margin: 100px 100px 120px;
-    }
-    .contIzq h2{
-        font-size: 3em;
-        font-weight: lighter;
-        text-align: center;
-    }
-    .contIzq p{
-        font-size: 1.5em;
-        margin-top: 20px;
-    }*/
-    .contIzq a{
+
+    /*
+        .contenidoEscuela{
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #d9d9d9;
+            display: flex;
+        }
+        .contIzq{
+            position: relative;
+            top: 0;
+            left: 0;
+            width: calc(50% - 200px);
+            height: 100%;
+            margin: 100px 100px 120px;
+        }
+        .contIzq h2{
+            font-size: 3em;
+            font-weight: lighter;
+            text-align: center;
+        }
+        .contIzq p{
+            font-size: 1.5em;
+            margin-top: 20px;
+        }*/
+    .contIzq a {
         color: #4a8089;
     }
-    .contIzq a:hover{
+
+    .contIzq a:hover {
         text-decoration: none;
         color: #75b3b7;
-    }/*
-    .contDcha{
-        position: relative;
-        top: 0;
-        left: 0;
-        margin: 40px 40px 40px 0;
-    }*//*
-    .contImg{
-        position: relative;
-        top: 0;
-    }*/
-    figure img{
+    }
+
+    /*
+        .contDcha{
+            position: relative;
+            top: 0;
+            left: 0;
+            margin: 40px 40px 40px 0;
+        }*//*
+        .contImg{
+            position: relative;
+            top: 0;
+        }*/
+    figure img {
         width: calc(50vw - 80px);
     }
 </style>
