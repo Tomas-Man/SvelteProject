@@ -16,7 +16,7 @@
         <br>
         <p>Se recorren, durante los dos años de duración del ciclo, el funcionamiento de las redes, tanto locales como de área global (especialmente Internet), el diseño, manejo y administración de sistemas de bases de datos, la administración de sistemas operativos de servidor, virtualización de sistemas, desarrollo e implementación de aplicaciones web, seguridad de sistemas, gestión y administración de servicios de red, etc.</p>
     </div>
-    <div slot="slotIconosRamas" class="iconosRamas">
+    <div slot="slotIconosRamas">
         <div class="iconoRama">
             <img src="/img/ciclos/asir/sistemas.svg" alt="Administración de Sistemas">
             <p>Administración de Sistemas</p>
@@ -99,19 +99,10 @@
         background-position: center;
         background-repeat: no-repeat;
         z-index: -1;
-    }/*
-    .nombreFP{
-        font-size: 6em;
-        letter-spacing: .05em;
     }
-    .tipoFP{
-        font-size: 3em;
-        font-weight: lighter;
-        line-height: 4em;
-    }*/
     .textoPorq {
         font-size: 1.4em;
-    }
+    }/*
     .iconosRamas{
         display: flex;
         justify-content: center;
@@ -137,12 +128,11 @@
     }
     .iconoRama p {
         margin: 0 10px
-    }
+    }*/
     .lista{
         font-size: 1.5em;
         line-height: 1.5em;
         list-style: none;
-        color: pink;
     }
     .lista li{
         text-indent: -1.5em;
