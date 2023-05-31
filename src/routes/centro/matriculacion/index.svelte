@@ -22,7 +22,7 @@
         font-family: "Decima Nova Pro", sans-serif;
     }
     h1{
-        font-size: 1em;
+        font-size: 1.5em;
     }
     .content{
         position: relative;
