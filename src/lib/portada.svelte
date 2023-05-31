@@ -1,6 +1,6 @@
 <div class="tabNews">
     <h2>ÚLTIMAS NOTICIAS</h2>
-    <p>Listados con las admisiones en ciclos de FP</p>
+    <p><a href="../routes/noticias/2022/listados-fp-2022">Listados con las admisiones en ciclos de FP</a></p>
     <p>Periodo de admisiones ESO</p>
     <p>XXXIX Peregrinación de Palencia a Villamuriel</p>
     <p>Jornadas de Innovación empresarial</p>
@@ -17,7 +17,8 @@
         width: 500px;
         height: 200px;
         border: 1px solid white;
-        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
     }
     .tabNews h2{
         background-color: white;
@@ -28,11 +29,10 @@
         font-family: 'Decima Nova Pro', sans-serif;
     }
     .tabNews p{
-        overflow: hidden;
-        white-space: nowrap;
+        text-overflow: ellipsis;
         font-size: 1.7em;
         color: white;
-        padding: 5px;
+        padding: 3px 5px;
     }
     .lema{
         position: absolute;
