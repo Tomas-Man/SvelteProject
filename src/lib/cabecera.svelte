@@ -1,49 +1,99 @@
 <script>
-    //importar estilos
-    import '../styles/global.css';
     //creación de variables para la barra de navegación
-    let eShow=false;
-    let cShow=false;
-    let nShow=false;
-    let sShow=false;
-    let irESO=false;
-    let irFPB=false;
-    let irTEL=false;
-    let irCAR=false;
-    let irELE=false;
-    let irASIR=false;
+    let eShow = false;
+    let cShow = false;
+    let nShow = false;
+    let sShow = false;
+    let irESO = false;
+    let irFPB = false;
+    let irTEL = false;
+    let irCAR = false;
+    let irELE = false;
+    let irASIR = false;
     //creación de función para que cambie el estado de los submenús
-    const estuClickd = () => {eShow = !eShow, cShow=false, nShow=false, sShow=false};
-    const centClickd = () => {cShow = !cShow, eShow=false, nShow=false, sShow=false};
-    const notClickd = () => {nShow= !nShow, cShow=false, eShow=false, sShow=false};
-    const servClickd = () => {sShow = !sShow, cShow=false, nShow=false, eShow=false};
+    const estuClickd = () => {
+        eShow = !eShow, cShow = false, nShow = false, sShow = false
+    };
+    const centClickd = () => {
+        cShow = !cShow, eShow = false, nShow = false, sShow = false
+    };
+    const notClickd = () => {
+        nShow = !nShow, cShow = false, eShow = false, sShow = false
+    };
+    const servClickd = () => {
+        sShow = !sShow, cShow = false, nShow = false, eShow = false
+    };
     //Creación de función para que redireccione el <li> entero y no sólo el texto que contiene
 
-    const esoClickd = () => {irESO = (window.location.href='/estudios/eso')};
-    const fpbClickd = () => {irFPB = (window.location.href='/estudios/mantenimiento')};
-    const carClickd = () => {irCAR = (window.location.href='/estudios/carroceria')};
-    const telClickd = () => {irTEL = (window.location.href='/estudios/telecomunicaciones')};
-    const eleClickd = () => {irELE = (window.location.href='/estudios/electromecanica')};
-    const asirClickd = () => {irASIR = (window.location.href='/estudios/asir')};
+    const esoClickd = () => {
+        irESO = (window.location.href = '/estudios/eso')
+    };
+    const fpbClickd = () => {
+        irFPB = (window.location.href = '/estudios/mantenimiento')
+    };
+    const carClickd = () => {
+        irCAR = (window.location.href = '/estudios/carroceria')
+    };
+    const telClickd = () => {
+        irTEL = (window.location.href = '/estudios/telecomunicaciones')
+    };
+    const eleClickd = () => {
+        irELE = (window.location.href = '/estudios/electromecanica')
+    };
+    const asirClickd = () => {
+        irASIR = (window.location.href = '/estudios/asir')
+    };
     //--------------------------------------------------------------------
-    const matriClckd = () => {irASIR = (window.location.href='/centro/matriculacion')};
-    const secreClckd = () => {irASIR = (window.location.href='/centro/documentos-secretaria')};
-    const fpdualClckd = () => {irASIR = (window.location.href='/escuela/fp-dual')};
-    const erasmusClckd = () => {irASIR = (window.location.href='/escuela/erasmus')};
-    const excelClckd = () => {irASIR = (window.location.href='/escuela/excelencia')};
-    const metodoClckd = () => {irASIR = (window.location.href='/escuela/metodo')};
-    const docuClckd = () => {irASIR = (window.location.href='/escuela/doumentos')};
-    const lemaClckd = () => {irASIR = (window.location.href='/pastoral/lema-curso')};
-    const misionClckd = () => {irASIR = (window.location.href='/pastoral/mision')};
-    const pastoralClckd = () => {irASIR = (window.location.href='/pastoral/pastoral')};
+    const matriClckd = () => {
+        irASIR = (window.location.href = '/centro/matriculacion')
+    };
+    const secreClckd = () => {
+        irASIR = (window.location.href = '/centro/documentos-secretaria')
+    };
+    const fpdualClckd = () => {
+        irASIR = (window.location.href = '/escuela/fp-dual')
+    };
+    const erasmusClckd = () => {
+        irASIR = (window.location.href = '/escuela/erasmus')
+    };
+    const excelClckd = () => {
+        irASIR = (window.location.href = '/escuela/excelencia')
+    };
+    const metodoClckd = () => {
+        irASIR = (window.location.href = '/escuela/metodo')
+    };
+    const docuClckd = () => {
+        irASIR = (window.location.href = '/escuela/doumentos')
+    };
+    const lemaClckd = () => {
+        irASIR = (window.location.href = '/pastoral/lema-curso')
+    };
+    const misionClckd = () => {
+        irASIR = (window.location.href = '/pastoral/mision')
+    };
+    const pastoralClckd = () => {
+        irASIR = (window.location.href = '/pastoral/pastoral')
+    };
     //--------------------------------------------------------------------
-    const educamos = () => {window.location.href='https://sso2.educamos.com/Autenticacion/Acceder?ReturnUrl=%2fissue%2fwsfed%3fwa%3dwsignin1.0%26wtrealm%3dhttps%253a%252f%252fdonbosco-salesianos-villamurieldecerrato.educamos.com%252f%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252f%26wct%3d2017-03-16T07%253a36%253a30Z&wa=wsignin1.0&wtrealm=https%3a%2f%2fdonbosco-salesianos-villamurieldecerrato.educamos.com%2f&wctx=rm%3d0%26id%3dpassive%26ru%3d%252f&wct=2017-03-16T07%3a36%3a30Z'};
-    const googleClassroom = () => {window.location.href='https://classroom.google.com/?emr=0'};
-    const msOffice = () => {window.location.href='https://www.office.com/login?es=Click&ru=%2F'};
-    const msTeams = () => {window.location.href='https://teams.microsoft.com/'};
-    const sugerencias = () => {window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSdUXOK-3Jdzzq0KaF2su2i-6E8nhK4b68k0tqSceIiw38x1_g/viewform'};
+    const educamos = () => {
+        window.location.href = 'https://sso2.educamos.com/Autenticacion/Acceder?ReturnUrl=%2fissue%2fwsfed%3fwa%3dwsignin1.0%26wtrealm%3dhttps%253a%252f%252fdonbosco-salesianos-villamurieldecerrato.educamos.com%252f%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252f%26wct%3d2017-03-16T07%253a36%253a30Z&wa=wsignin1.0&wtrealm=https%3a%2f%2fdonbosco-salesianos-villamurieldecerrato.educamos.com%2f&wctx=rm%3d0%26id%3dpassive%26ru%3d%252f&wct=2017-03-16T07%3a36%3a30Z'
+    };
+    const googleClassroom = () => {
+        window.location.href = 'https://classroom.google.com/?emr=0'
+    };
+    const msOffice = () => {
+        window.location.href = 'https://www.office.com/login?es=Click&ru=%2F'
+    };
+    const msTeams = () => {
+        window.location.href = 'https://teams.microsoft.com/'
+    };
+    const sugerencias = () => {
+        window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSdUXOK-3Jdzzq0KaF2su2i-6E8nhK4b68k0tqSceIiw38x1_g/viewform'
+    };
     //Creación de la función que cerrará los submenús
-    const xClickd = () => {eShow=false, cShow=false, nShow=false, sShow=false};
+    const xClickd = () => {
+        eShow = false, cShow = false, nShow = false, sShow = false
+    };
 </script>
 <!-- Creación de lo que sería el HTML -->
 <header class="cabecera">
@@ -54,10 +104,10 @@
         <nav id="navCabecera">
             <ul>
                 <!-- Uso de las funciones creadas anteriormente en un evento "on:click" -->
-                <li on:click = {estuClickd}>ESTUDIOS</li>
-                <li on:click = {centClickd}>CENTRO</li>
-                <li on:click = {servClickd}>SERVICIOS</li>
-                <li on:click = {notClickd}>NOTICIAS</li>
+                <li on:click={estuClickd}>ESTUDIOS</li>
+                <li on:click={centClickd}>CENTRO</li>
+                <li on:click={servClickd}>SERVICIOS</li>
+                <li on:click={notClickd}>NOTICIAS</li>
             </ul>
         </nav>
         <!-- Creación de las condiciones -->
@@ -88,7 +138,7 @@
                         <li on:click={asirClickd}>ADMINISTRACIÓN DE SISTEMAS INFORMÁTICOS EN RED</li>
                     </ul>
                 </div>
-                <img on:click = {xClickd} src="/img/markx.png" alt="Cerrar" class="cerrar">
+                <img on:click={xClickd} src="/img/markx.png" alt="Cerrar" class="cerrar">
             </div>
         {/if}
         {#if cShow}
@@ -125,18 +175,18 @@
                 <div class="contSubnav">
                     <p>SERVICIOS EDUCATIVOS</p>
                     <ul>
-                        <li on:click ={educamos}>EDUCAMOS</li>
-                        <li on:click ={googleClassroom}>GOOGLE CLASSROOM</li>
-                        <li on:click ={msOffice}>MICROSOFT OFFICE 365</li>
-                        <li on:click ={msTeams}>MICROSOFT TEAMS</li>
+                        <li on:click={educamos}>EDUCAMOS</li>
+                        <li on:click={googleClassroom}>GOOGLE CLASSROOM</li>
+                        <li on:click={msOffice}>MICROSOFT OFFICE 365</li>
+                        <li on:click={msTeams}>MICROSOFT TEAMS</li>
                     </ul>
                     <p>OTROS SERVICIOS</p>
                     <ul>
-                        <li on:click ={sugerencias}>SUGERENCIAS</li>
+                        <li on:click={sugerencias}>SUGERENCIAS</li>
                         <li>RECEPCIÓN DE CURRÍCULOS</li>
                     </ul>
                 </div>
-                <img on:click ="{xClickd}" src="/img/markx.png" alt="cerrar" class="cerrar">
+                <img on:click="{xClickd}" src="/img/markx.png" alt="cerrar" class="cerrar">
             </div>
         {/if}
         {#if nShow}
@@ -146,7 +196,7 @@
                         <li id="liCorto">VER NOTICIAS</li>
                     </ul>
                 </div>
-                <img on:click = {xClickd} src="/img/markx.png" alt="Cerrar" class="cerrar">
+                <img on:click={xClickd} src="/img/markx.png" alt="Cerrar" class="cerrar">
             </div>
         {/if}
     </div>
@@ -156,8 +206,13 @@
         font-family: "Decima Nova Pro";
         src: url("/fonts/DecimaNovaPro.otf");
     }
-    .cabecera{
-        position:sticky;
+
+    * {
+        margin: 0;
+    }
+
+    .cabecera {
+        position: sticky;
         margin: 0;
         top: 0;
         left: 0;
@@ -167,7 +222,8 @@
         font-family: 'Decima Nova Pro', sans-serif;
         z-index: 20;
     }
-    .contCabecera{
+
+    .contCabecera {
         position: relative;
         display: flex;
         justify-content: space-between;
@@ -175,13 +231,15 @@
         height: 100%;
         background-color: white;
     }
-    #logoCabecera{
-        display:block;
+
+    #logoCabecera {
+        display: block;
         padding: 10px 8px 8px;
         width: 580px;
         min-width: 550px;
     }
-    #navCabecera{
+
+    #navCabecera {
         margin: 0;
         padding: 0;
         position: relative;
@@ -193,11 +251,13 @@
         font-size: 20px;
 
     }
-    #navCabecera ul{
+
+    #navCabecera ul {
         margin: 0;
         padding: 0;
     }
-    .subnavCabecera{
+
+    .subnavCabecera {
         display: block;
         position: fixed;
         background-color: white;
@@ -209,27 +269,32 @@
         padding-top: 10px;
         border-radius: 0 0 7px 7px;
     }
-    .contSubnav{
+
+    .contSubnav {
         position: relative;
         top: 0;
         left: 0;
         height: auto;
         padding-bottom: 20px;
     }
-    .contSubnav p{
+
+    .contSubnav p {
         border-bottom: 1px solid #dc001b;
         margin: 20px 20px 15px 20px;
         color: darkgrey;
     }
-    .contSubnav>p:first-of-type{
+
+    .contSubnav > p:first-of-type {
         border-bottom: 1px solid #dc001b;
         margin-right: 70px;
     }
-    #liCorto{
+
+    #liCorto {
         margin: .75em 75px 0 0;
 
     }
-    .contSubnav>ul>li{
+
+    .contSubnav > ul > li {
         margin: 2px 20px 2px 0;
         list-style: none;
         height: 1.5em;
@@ -237,6 +302,7 @@
         border-radius: 7px;
         padding: 5px 0 5px 8px;
     }
+
     .cerrar {
         position: absolute;
         display: block;
@@ -244,9 +310,11 @@
         right: 0;
         margin: 10px 15px;
     }
-    .cerrar:hover{
+
+    .cerrar:hover {
         cursor: pointer;
     }
+
     #navCabecera li {
         display: inline-block;
         padding: 4px 6px;
@@ -254,13 +322,15 @@
         transition: color 100ms;
         border-radius: 7px;
     }
-    #navCabecera li:hover,.contSubnav>ul>li:hover{
+
+    #navCabecera li:hover, .contSubnav > ul > li:hover {
         background-color: #dc001b;
         transition: 100ms;
         color: white;
         cursor: pointer;
     }
-    a{
+
+    a {
         text-decoration: none;
         color: black;
     }
