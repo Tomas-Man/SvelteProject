@@ -8,19 +8,14 @@
     <h2 slot="tituloH2">FP de Grado Superior</h2>
 </Titulo>
 <Ciclos>
-    <div slot="imagePorq">
-        <figure>
-            <img src="/img/ciclos/asir/asir00.jpg" alt="Administración de Sistemas Informáticos en Red">
-        </figure>
+    <img slot="slotImagenPorq" src="/img/ciclos/asir/asir00.jpg" alt="Administración de Sistemas Informáticos en Red">
+    <div slot="slotTextoPorq" class="textoPorq">
+        <p>La alta demanda de profesionales en las tecnologías relacionadas con la gestión de computadoras, redes, bases de datos y sistemas operativos, así como el desarrollo y administración de aplicaciones de todo tipo, hace de estos estudios, unos de los más solicitados a nivel laboral.</p>
+        <br>
+        <p>El ciclo permite conseguir las capacidades y habilidades que se requieren a un técnico superior en administración de sistemas, redes y tecnologías relacionadas con Internet.</p>
+        <br>
+        <p>Se recorren, durante los dos años de duración del ciclo, el funcionamiento de las redes, tanto locales como de área global (especialmente Internet), el diseño, manejo y administración de sistemas de bases de datos, la administración de sistemas operativos de servidor, virtualización de sistemas, desarrollo e implementación de aplicaciones web, seguridad de sistemas, gestión y administración de servicios de red, etc.</p>
     </div>
-    <!--<div slot="slotTextoPorq" class="textoPorq">-->
-        <h2 slot="textoPqH2"></h2>
-        <p slot="textoPqp1">La alta demanda de profesionales en las tecnologías relacionadas con la gestión de computadoras, redes, bases de datos y sistemas operativos, así como el desarrollo y administración de aplicaciones de todo tipo, hace de estos estudios, unos de los más solicitados a nivel laboral.</p>
-        <br>
-        <p slot="textoPqp2">El ciclo permite conseguir las capacidades y habilidades que se requieren a un técnico superior en administración de sistemas, redes y tecnologías relacionadas con Internet.</p>
-        <br>
-        <p slot="textoPqp3">Se recorren, durante los dos años de duración del ciclo, el funcionamiento de las redes, tanto locales como de área global (especialmente Internet), el diseño, manejo y administración de sistemas de bases de datos, la administración de sistemas operativos de servidor, virtualización de sistemas, desarrollo e implementación de aplicaciones web, seguridad de sistemas, gestión y administración de servicios de red, etc.</p>
-    <!--</div>-->
     <div slot="slotIconosRamas" class="iconosRamas">
         <div class="iconoRama">
             <img src="/img/ciclos/asir/sistemas.svg" alt="Administración de Sistemas">
@@ -104,10 +99,10 @@
         background-position: center;
         background-repeat: no-repeat;
         z-index: -1;
-    }/*
+    }
     .textoPorq {
         font-size: 1.4em;
-    }*/
+    }
     .iconosRamas{
         display: flex;
         justify-content: center;

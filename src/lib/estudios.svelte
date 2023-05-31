@@ -1,21 +1,23 @@
 <main>
     <section class="porque">
         <div class="imagenPq">
-            <slot name="imagenPorq">
-                <figure>
-                    <slot name="contImg"><img src="" alt=""></slot>
-                </figure>
-            </slot>
+            <figure>
+                <slot name="slotImagenPorq">
+                    <img src="/img/ciclos/teleco/teleco00.jpg" alt="Telecomunicaciones">
+                </slot>
+            </figure>
         </div>
         <div class="textoPq">
-            <h2><slot name="textoPqH2"></slot></h2>
+            <h2>¿Por qué estudiar este ciclo?</h2>
+            <slot name="slotTextoPorq">
                 <div>
-                    <p><slot name="textoPqp1"></slot></p>
+                    <p>Los estudios de telecomunicaciones permiten formarse en un área de alta demanda laboral. Se trata de una formación para personal muy polifacético capaz de cubrir las necesidades de un gran número de puestos de trabajo relacionados con la tecnología.</p>
                     <br>
-                    <p><slot name="textoPqp2"></slot></p>
+                    <p>El ciclo permite conseguir las capacidades y habilidades que se requieren a un técnico en instalaciones de telecomunicaciones.</p>
                     <br>
-                    <p><slot name="textoPqp3"></slot></p>
+                    <p>En los dos años de duración del ciclo aprenderás lo relativo a:</p>
                 </div>
+            </slot>
         </div>
     </section>
     <section class="ramasProf">
@@ -24,20 +26,20 @@
             <slot name="slotIconosRamas">
                 <div class="iconosRamas">
                     <div class="iconoRama">
-                        <img src="" alt="">
-                        <p></p>
+                        <img src="/img/ciclos/teleco/sistemasinformaticos.png" alt="Sistemas y Equipos Informáticos">
+                        <p>Sistemas y Equipos Informáticos</p>
                     </div>
                     <div class="iconoRama">
-                        <img src="" alt="">
-                        <p></p>
+                        <img src="/img/ciclos/teleco/domotica.png" alt="Domótica">
+                        <p>Domótica</p>
                     </div>
                     <div class="iconoRama">
-                        <img src="" alt="">
-                        <p></p>
+                        <img src="/img/ciclos/teleco/sistemasaudio.png" alt="Sistemas de audio y video">
+                        <p>Sistemas de audio y video</p>
                     </div>
                     <div class="iconoRama">
-                        <img src="" alt="Infraestructuras de telecomunicaciones">
-                        <p></p>
+                        <img src="/img/ciclos/teleco/infraestructurastelco.png" alt="Infraestructuras de telecomunicaciones">
+                        <p>Infraestructuras de telecomunicaciones</p>
                     </div>
                 </div>
             </slot>
@@ -152,7 +154,6 @@
     *{
         font-family: "Decima Nova Pro", sans-serif;
     }
-
     .porque{
         position: relative;
         top: 0;
