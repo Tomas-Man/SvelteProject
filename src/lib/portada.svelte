@@ -17,6 +17,7 @@
         width: 500px;
         height: 200px;
         border: 1px solid white;
+        text-overflow: ellipsis;
     }
     .tabNews h2{
         background-color: white;
@@ -27,8 +28,9 @@
         font-family: 'Decima Nova Pro', sans-serif;
     }
     .tabNews p{
-        text-overflow: ellipsis;
-        font-size: 1em;
+        overflow: hidden;
+        white-space: nowrap;
+        font-size: 1.5em;
         color: white;
     }
     .lema{
