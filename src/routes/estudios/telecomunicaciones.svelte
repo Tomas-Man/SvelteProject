@@ -4,7 +4,7 @@
 <main>
     <Titulo>
         <h1 slot="tituloH1">Instalaciones de Telecomunicaciones</h1>
-        <h2 slot="tituloH2">FP de Grado Medio</h2>
+        <h2 slot="tituloH2" class="tituloH2">FP de Grado Medio</h2>
     </Titulo>
     <div class="fondo"></div>
     <section class="porque">
@@ -173,6 +173,9 @@
     }
     *{
         font-family: "Decima Nova Pro", sans-serif;
+    }
+    .tituloH2{
+        font-weight: lighter;
     }
     .porque{
         position: relative;
